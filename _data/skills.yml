@@ -1,0 +1,29 @@
+languages:
+  - skill: Javascript (ES6)
+  - skill: HTML
+  - skill: CSS/Less/Sass
+  - skill: PHP
+  - skill: C++/CLI
+  - skill: R
+  - skill: Python
+
+frameworks:
+  - skill: Meteor
+  - skill: Vue
+  - skill: React
+  - skill: Jekyll
+  - skill: Express
+  
+tools: 
+  - skill: Git/Github/Bitbucket
+  - skill: Bash
+  - skill: MongoDB
+  - skill: MySQL
+  - skill: Docker
+  - skill: Meteor Up
+  - skill: Azure/AWS
+
+design:
+  - skill: Sketch
+  - skill: Prototyping
+  - skill: User Testing
