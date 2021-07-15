@@ -1,29 +1,34 @@
 languages:
-  - skill: Javascript (ES6)
-  - skill: HTML
-  - skill: CSS/Less/Sass
-  - skill: PHP
-  - skill: C++/CLI
-  - skill: R
-  - skill: Python
+  - name: Javascript (ES6)
+  - name: HTML
+  - name: CSS/Less/Sass
+  - name: PHP
+  - name: C++/CLI
+  - name: R
+  - name: Python
 
 frameworks:
-  - skill: Meteor
-  - skill: Vue
-  - skill: React
-  - skill: Jekyll
-  - skill: Express
+  - name: Meteor
+    link: https://www.meteor.com
+  - name: Blaze
+    link: http://blazejs.org
+  - name: Vue
+    link: https://vuejs.org
+  - name: React
+    link: https://reactjs.org
+  - name: Jekyll
+    link: https://jekyllrb.com
   
 tools: 
-  - skill: Git/Github/Bitbucket
-  - skill: Bash
-  - skill: MongoDB
-  - skill: MySQL
-  - skill: Docker
-  - skill: Meteor Up
-  - skill: Azure/AWS
+  - name: Git
+  - name: Bash
+  - name: MongoDB
+  - name: MySQL
+  - name: Meteor Up
+    link: http://meteor-up.com
+  - name: Azure/AWS
 
 design:
-  - skill: Sketch
-  - skill: Prototyping
-  - skill: User Testing
+  - name: Sketch
+  - name: Prototyping
+  - name: User Testing
