@@ -1,6 +1,6 @@
 <li>
     {% if include.item.link %}
-    <a href="{{include.item.link}}" target="_blank">{{include.item.name}}</a>
+    <a href="{{include.item.link}}" target="_blank" rel="noreferrer">{{include.item.name}}</a>
     {% else %}
     <span>{{include.item.name}}</span>
     {% endif %}
