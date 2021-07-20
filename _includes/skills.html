@@ -1,34 +1,39 @@
-<h2>Skills</h2>
+<div class="section__title text-right">
+    <div class="title_text_back">02</div>
+    <h2>Skills</h2>
+</div>
 
-<section>
-    <h3>Languages</h3>
-    <ul>
-        {% for item in site.data.skills.languages %}
-        {% include skill_item.html item=item %}
-        {% endfor %}
-    </ul>
-</section>
-<section>
-    <h3>Frameworks</h3>
-    <ul>
-        {% for item in site.data.skills.frameworks %}
-        {% include skill_item.html item=item %}
-        {% endfor %}
-    </ul>
-</section>
-<section>
-    <h3>Tools</h3>
-    <ul>
-        {% for item in site.data.skills.tools %}
-        {% include skill_item.html item=item %}
-        {% endfor %}
-    </ul>
-</section>
-<section>
-    <h3>Design</h3>
-    <ul>
-        {% for item in site.data.skills.design %}
-        {% include skill_item.html item=item %}
-        {% endfor %}
-    </ul>
-</section>
+<div class="section__content">
+    <div>
+        <h3>Languages</h3>
+        <ul>
+            {% for item in site.data.skills.languages %}
+            {% include skill_item.html item=item %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div>
+        <h3>Frameworks</h3>
+        <ul>
+            {% for item in site.data.skills.frameworks %}
+            {% include skill_item.html item=item %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div>
+        <h3>Tools</h3>
+        <ul>
+            {% for item in site.data.skills.tools %}
+            {% include skill_item.html item=item %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div>
+        <h3>Design</h3>
+        <ul>
+            {% for item in site.data.skills.design %}
+            {% include skill_item.html item=item %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>

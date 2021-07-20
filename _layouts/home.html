@@ -28,18 +28,21 @@ layout: default
 
 
             <h1>
-                <span class="intro__content-el intro__content-el--welcome">Hi, my name is</span><br />
-                <span class="intro__content-el intro__content-el--name big-heading">Luís Marques.</span>
+                <span class="intro__content--hello">Hi, I'm</span>
+                <span class="intro__content--name big-heading">Luís Marques.</span>
             </h1>
             <h2>
-                <span class="intro__content-el intro__content-el--title big-heading">I build things for the web.</span>
+                <!-- <span class="intro__content--title big-heading">I bring tools from the future.</span> -->
+                <span class="intro__content--title big-heading">I build tools for the future.</span>
             </h2>
-            <p class="intro__content-el intro__content-el--description">
+            <p class="intro__content--description">
                 I'm a software developer specializing in building and designing exceptional digital
                 experiences. Currently, I'm focused in managing IT operations at <a href="https://golens.com/"
-                    target="_blank" rel="noreferrer">Golens</a>, offering an accessible experience and fluent
-                interaction.
+                    target="_blank" rel="noreferrer">Golens</a>.
             </p>
+
+            <a href="mailto:euluismarques@gmail.com" class="intro__content--email-link">Get In Touch</a>
+
 
 
 
@@ -61,7 +64,11 @@ layout: default
     </section>
     <!-- END SECTION: Intro -->
 
-    <section class="section">
+    <section id="about" class="section grid-wrap">
+        {% include about.html %}
+    </section>
+
+    <section id="skills" class="section grid-wrap">
         {% include skills.html %}
     </section>
 
