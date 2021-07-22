@@ -72,6 +72,10 @@ layout: default
         {% include skills.html %}
     </section>
 
+    <section id="experience" class="section grid-wrap">
+        {% include experience.html %}
+    </section>
+
     <ul>
         {% for post in site.posts %}
         <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>

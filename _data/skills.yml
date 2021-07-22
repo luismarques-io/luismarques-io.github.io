@@ -1,9 +1,9 @@
 languages:
   - name: Javascript (ES6)
   - name: HTML
-  - name: CSS/Less/Sass
+  - name: CSS/Sass/Less
   - name: PHP
-  - name: C++/CLI
+  - name: C++/C#
   - name: R
   - name: Python
 
@@ -18,12 +18,12 @@ frameworks:
     link: https://reactjs.org
   - name: Jekyll
     link: https://jekyllrb.com
-  
-tools: 
+
+tools:
   - name: Git
   - name: Bash
   - name: MongoDB
-  - name: MySQL
+  - name: SQL
   - name: Meteor Up
     link: http://meteor-up.com
   - name: Azure/AWS
@@ -32,3 +32,6 @@ design:
   - name: Sketch
   - name: Prototyping
   - name: User Testing
+    link: http://brainanswer.pt
+  - name: Eye Tracking
+    link: http://brainanswer.pt

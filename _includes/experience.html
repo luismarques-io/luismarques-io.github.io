@@ -1,0 +1,33 @@
+<div class="section__title text-center">
+    <div class="section__title__textback">
+        <span class="textback__rotate__left">0</span><span class="textback__rotate__right">3</span>
+    </div>
+    <h2>Experience</h2>
+</div>
+
+<div class="section__content">
+    <div class="jobs">
+        {% for item in site.data.experience %}
+        <div class="job">
+            <div class="job__title__company">
+                <span class="job__title">{{item.title}}</span>
+                <span class="job__company">
+                    {% if item.url %}
+                    <a href="{{item.url}}" target="_blank" rel="noreferrer">@ {{item.company}}</a>
+                    {% else %}
+                    <span>@ {{item.company}}</span>
+                    {% endif %}
+                </span>
+            </div>
+            <div class="job__range">{{item.range}}</div>
+            <div>
+                <ul>
+                    {% for description in item.description %}
+                    <li>{{description}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

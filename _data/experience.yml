@@ -1,0 +1,42 @@
+- company: Golens
+  url: https://www.golens.com/
+  range: Nov 2020 - Present
+  title: IT Specialist / UX Designer
+  description:
+    - Designed and developed the neuroscience platform to study human behavior.
+    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
+
+- company: BrainAnswer
+  url: https://brainanswer.pt/
+  range: Aug 2015 - Oct 2020
+  title: Lead Software Dev / UX Designer
+
+- company: GameTrade
+  url: https://brainanswer.pt/
+  range: Aug 2015 - Oct 2020
+  title: Full Stack Software Dev / UX Designer
+
+- company: Vectis
+  url: https://www.facebook.com/VectisOfficial
+  range: Feb 2013 - Apr 2025
+  title: Full Stack Software Dev / UX Designer
+
+- company: Routrip
+  range: Dec 2013 - Nov 2014
+  title: Full Stack Software Dev / UX Designer
+
+- company: GiftList
+  range: Feb 2013 - Dec 2013
+  title: Full Stack Software Dev / UX Designer
+
+- company: Freelance
+  range: Jul 2012 - Feb 2013
+  title: Web Designer / UX Designer
+
+- company: SMS Server
+  range: Apr 2010 - Oct 2011
+  title: Software Dev
+
+- company: PaperPile
+  range: Sep 2009 - Apr 2010
+  title: Software Dev
