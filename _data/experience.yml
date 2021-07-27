@@ -19,6 +19,15 @@
     - Plugin for proprietary technology
     - Backoffice to manage operations in proprietary technology
     - Demo website
+  tech:
+    - Meteor
+    - Blaze
+    - MongoDB
+    - PHP
+    - R
+    - Python
+    - C++
+    - C#
 
 - company: GameTrade
   url: https://gametrade.pt/

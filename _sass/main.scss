@@ -94,30 +94,6 @@ li > a {
 	color: var(--blue);
 }
 
-// p > a:hover, p > a:focus, p > a:active,
-// li > a:hover, li > a:focus, li > a:active {
-//     color: var(--blue);
-//     outline: 0px;
-// }
-
-// p > a::after,
-// li > a::after {
-//     content: "";
-//     display: block;
-//     width: 0px;
-//     height: 1px;
-//     position: relative;
-//     bottom: 0;
-//     background-color: var(--blue);
-//     transition: var(--transition);
-//     // opacity: 0.4;
-// }
-
-// p > a:hover::after, p > a:focus::after, p > a:active::after,
-// li > a:hover::after, li > a:focus::after, li > a:active::after {
-//     width: 100%;
-// }
-
 /* Based on https://tympanus.net/Development/LineHoverStyles/ */
 
 .link {
@@ -373,6 +349,9 @@ li > a {
 
 #experience {
 	background: var(--lightest-blue);
+	background: linear-gradient(45deg, #ebfbff, #e7ebff);
+	padding: 240px 0px 160px 0px;
+	margin-top: -60px;
 }
 #experience .section__title__textback {
 	color: #fff;
@@ -396,7 +375,7 @@ li > a {
 	padding: 14px 28px;
 	// width: 100%;
 	width: 180px;
-	border-left: 2px solid #ddd;
+	border-left: 2px solid rgba(0, 0, 0, 0.1);
 	font-size: var(--fz-sm);
 	font-family: var(--font-mono);
 	cursor: pointer;
@@ -459,7 +438,7 @@ li > a {
 
 .job__range {
 	margin: 0 0 20px;
-	color: #999;
+	color: rgba(0, 0, 0, 0.3);
 	font-size: var(--fz-sm);
 	font-family: var(--font-mono);
 	font-weight: 600;
@@ -487,6 +466,17 @@ li > a {
 .job__description li {
 	padding: 0 0 12px;
 	font-size: var(--fz-md);
+}
+
+.job__technologies {
+}
+.job__technologies span {
+	padding: 2px 6px;
+	background: var(--blue);
+	color: #fff;
+	border-radius: 20px;
+	font-size: var(--fz-xxs);
+	font-weight: 600;
 }
 
 .scrollreveal {
@@ -544,4 +534,50 @@ li > a {
 .scrollreveal.scrollreveal__active.scrollreveal__delay2,
 .scrollreveal.scrollreveal__active .scrollreveal__delay2 {
 	transition-delay: 2s;
+}
+
+// Page divider 1
+
+.custom-shape-divider-top-1627424741 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-1627424741 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 106px;
+}
+
+.custom-shape-divider-top-1627424741 .shape-fill {
+	fill: #ffffff;
+}
+
+// Page divider 2
+
+.custom-shape-divider-bottom-1627425036 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627425036 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 106px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1627425036 .shape-fill {
+	fill: #ffffff;
 }

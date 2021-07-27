@@ -33,12 +33,17 @@
                 </span>
             </h3>
             <p class="job__range">{{item.range}}</p>
-            <div>
-                <ul class="job__description">
+            <div class="job__description">
+                <ul>
                     {% for description in item.description %}
                     <li>- {{description}}</li>
                     {% endfor %}
                 </ul>
+            </div>
+            <div class="job__technologies" style="display: none;">
+                {% for tech in item.tech %}
+                <span>{{tech}}</span>
+                {% endfor %}
             </div>
         </div>
         {% endfor %}
