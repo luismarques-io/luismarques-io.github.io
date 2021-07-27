@@ -1,5 +1,5 @@
 languages:
-  - name: Javascript (ES6)
+  - name: Javascript
   - name: HTML
   - name: CSS/Sass/Less
   - name: PHP
@@ -16,8 +16,6 @@ frameworks:
     link: https://vuejs.org
   - name: React
     link: https://reactjs.org
-  - name: Jekyll
-    link: https://jekyllrb.com
 
 tools:
   - name: Git
@@ -32,6 +30,6 @@ design:
   - name: Sketch
   - name: Prototyping
   - name: User Testing
-    link: http://brainanswer.pt
+    link: http://brainanswer.pt/#portfolio
   - name: Eye Tracking
-    link: http://brainanswer.pt
+    link: http://brainanswer.pt/#portfolio
