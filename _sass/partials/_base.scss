@@ -1,0 +1,168 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+::selection {
+	background: var(--light-blue);
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: var(--color-text);
+	font-family: var(--font-sans);
+
+	font-size: var(--fz-lg);
+	line-height: 1.5;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: var(--blue);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+p > a,
+li > a {
+	display: inline-block;
+	text-decoration: none;
+	text-decoration-skip-ink: auto;
+	position: relative;
+	transition: var(--transition);
+	color: var(--blue);
+}
+
+/* Based on https://tympanus.net/Development/LineHoverStyles/ */
+
+.link {
+	z-index: 1;
+	position: relative;
+}
+
+.link::before,
+.link::after {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: currentColor;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: -1;
+}
+
+.link::before {
+	content: "";
+	height: 100%;
+	border-bottom: 1px solid currentColor;
+	/* show by default */
+}
+
+.link--metis::before {
+	background: transparent;
+	transform-origin: 100% 50%;
+	transform: scale3d(0, 1, 1);
+	transition: transform 0.3s, background 0.3s;
+}
+
+.link--metis:hover::before {
+	background: var(--lightest-blue);
+	transform-origin: 0% 50%;
+	transform: scale3d(1, 1, 1);
+	transition: transform 0.3s, background 0.6s;
+}
+
+.grid-wrap {
+	max-width: 900px;
+	margin: auto;
+}
+.grid-wrap-sm {
+	max-width: 700px;
+	margin: auto;
+}
+
+.big-heading {
+	margin: 0px;
+	font-size: var(--fz-big-heading);
+}
+
+
+.section {
+	// display: flex;
+	// justify-content: center;
+
+	padding: 160px 0px;
+}
+
+.section__title {
+	font-family: var(--font-mono);
+	color: var(--blue);
+	//text-shadow: 10px 10px #eee;
+	line-height: 1;
+	position: relative;
+}
+
+.section__title h2 {
+	position: relative;
+	font-size: 1.7em;
+}
+
+.section__title .section__title__textback {
+	transform: scale(1);
+	position: absolute;
+	bottom: -20px;
+	left: -6px;
+	font-size: 11em;
+	//line-height: 0.75;
+	color: var(--lightest-blue);
+	font-weight: 900;
+}
+
+.section__title.text-right {
+	text-align: right;
+}
+
+.section__title.text-right .section__title__textback {
+	left: auto;
+	right: -6px;
+}
+.section__title.text-center {
+	text-align: center;
+}
+.section__title.text-center .section__title__textback {
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.textback__rotate__left,
+.textback__rotate__right {
+	display: inline-block;
+}
+.textback__rotate__left {
+	transform: rotate(-6deg);
+}
+.textback__rotate__right {
+	transform: rotate(6deg);
+}
+
+.section__content {
+	position: relative;
+}
