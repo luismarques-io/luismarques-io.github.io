@@ -10,12 +10,12 @@ languages:
 frameworks:
   - name: Meteor
     link: https://www.meteor.com
-  - name: Blaze
-    link: http://blazejs.org
   - name: Vue
     link: https://vuejs.org
   - name: React
     link: https://reactjs.org
+  - name: Blaze
+    link: http://blazejs.org
 
 tools:
   - name: Git
