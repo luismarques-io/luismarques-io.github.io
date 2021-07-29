@@ -102,11 +102,11 @@ li > a {
 	font-size: var(--fz-big-heading);
 }
 
-
 .section {
 	// display: flex;
 	// justify-content: center;
 
+	position: relative;
 	padding: 160px 0px;
 }
 

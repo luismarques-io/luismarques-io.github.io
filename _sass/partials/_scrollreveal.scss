@@ -2,7 +2,6 @@
 	position: relative;
 	//opacity: 0.1;
 	opacity: 0;
-	// transition: all 1.5s ease;
 	transform: translate(0, 40px);
 }
 
@@ -11,13 +10,15 @@
 	transition: all 1s ease;
 	transform: translate(0, 0);
 }
-
+.scrollreveal__fromtop,
+.scrollreveal__frombottom,
 .scrollreveal__fromleft,
 .scrollreveal__fromright {
-	// transition: all 1.5s ease;
 	opacity: 0;
 }
 
+.scrollreveal__active .scrollreveal__fromtop,
+.scrollreveal__active .scrollreveal__frombottom,
 .scrollreveal__active .scrollreveal__fromleft,
 .scrollreveal__active .scrollreveal__fromright {
 	transition: all 1s ease;
@@ -25,21 +26,48 @@
 }
 
 .scrollreveal__fromleft {
-	transform: translate(-50%, 0);
-}
-
-.scrollreveal__active .scrollreveal__fromleft {
-	transform: translate(0, 0);
+	transform: translate(-40px, 0);
 }
 
 .scrollreveal__fromright {
+	transform: translate(40px, 0);
+}
+
+.scrollreveal__fromtop {
+	transform: translate(0, -40px);
+}
+
+.scrollreveal__frombottom {
+	transform: translate(0, 40px);
+}
+
+.scrollreveal__fromleft.scrollreveal__long {
+	transform: translate(-50%, 0);
+}
+
+.scrollreveal__fromright.scrollreveal__long {
 	transform: translate(50%, 0);
 }
 
+.scrollreveal__fromtop.scrollreveal__long {
+	transform: translate(0, -50%);
+}
+
+.scrollreveal__frombottom.scrollreveal__long {
+	transform: translate(0, 50%);
+}
+
+.scrollreveal__active .scrollreveal__fromtop,
+.scrollreveal__active .scrollreveal__frombottom,
+.scrollreveal__active .scrollreveal__fromleft,
 .scrollreveal__active .scrollreveal__fromright {
 	transform: translate(0, 0);
 }
 
+.scrollreveal.scrollreveal__active.scrollreveal__delay025,
+.scrollreveal.scrollreveal__active .scrollreveal__delay025 {
+	transition-delay: 0.25s;
+}
 .scrollreveal.scrollreveal__active.scrollreveal__delay05,
 .scrollreveal.scrollreveal__active .scrollreveal__delay05 {
 	transition-delay: 0.5s;
