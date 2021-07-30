@@ -20,7 +20,7 @@
 
 .about__profile__image img {
 	//box-shadow: -20px 20px 60px -30px rgba(0, 0, 0, 0.3), -70px 70px 0 -30px #eee;
-	box-shadow: -70px 70px 0 -30px #eee;
+	box-shadow: -70px 70px 0 -30px var(--lightest-blue);
 }
 
 .image-wrapper {
