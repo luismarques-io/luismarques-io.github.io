@@ -73,6 +73,11 @@
 	transition-delay: 0.5s;
 }
 
+.scrollreveal.scrollreveal__active.scrollreveal__delay075,
+.scrollreveal.scrollreveal__active .scrollreveal__delay075 {
+	transition-delay: 0.75s;
+}
+
 .scrollreveal.scrollreveal__active.scrollreveal__delay1,
 .scrollreveal.scrollreveal__active .scrollreveal__delay1 {
 	transition-delay: 1s;

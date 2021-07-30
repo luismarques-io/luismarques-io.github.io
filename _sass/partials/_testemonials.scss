@@ -1,3 +1,11 @@
+#testemonials {
+	background: var(--lightest-blue);
+	background: linear-gradient(136deg, #edebff, #ddffe9);
+	margin-top: -60px;
+
+	padding: 160px 0px 220px 0px;
+}
+
 #testemonials .inner {
 	display: grid;
 	grid-template-columns: 2fr 2fr 2fr;
@@ -11,7 +19,26 @@
 	}
 }
 
+#testemonials .inner {
+	//margin-top: -40px;
+}
+#testemonials .inner::before {
+	content: "";
+	background-color: #fff;
+	position: absolute;
+	top: -40%;
+	//top: -100px;
+	left: -10%;
+	width: 120%;
+	height: 180%;
+	//transform: rotate(4deg);
+	//transform: rotate(-1deg) skew(15deg, 5deg) translate(0px, 10px);
+	transform: rotate(-1deg) skew(6deg, 5deg) translate(0px, 10px);
+	box-shadow: 30px 30px 0 -10px rgba(255, 255, 255, 0.6);
+}
+
 .testemonial {
+	position: relative;
 	font-size: var(--fz-sm);
 	&__person {
 		display: flex;
