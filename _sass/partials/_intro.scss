@@ -9,6 +9,9 @@
 	margin: 0 auto;
 }
 
+.intro__content {
+	width: var(--grid-width);
+}
 .intro__content--hello {
 	display: block;
 	color: var(--blue);
