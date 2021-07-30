@@ -8,10 +8,12 @@
 <div class="section__content">
     <div>
         {% for item in site.data.publications %}
-        <span class="award__title">{{item.title}}</span>
-        <span class="award__date">{{item.date}}</span>
-        <p class="award__description">{{item.description}}</p>
-        <a href="{{item.url}}" class="link link--metis" target="_blank">See publication</a>
+        <div class="publication">
+            <span class="publication__title">{{item.title}}</span>
+            <span class="publication__date">{{item.date}}</span>
+            <p class="publication__description">{{item.description}}</p>
+            <a href="{{item.url}}" class="link link--metis" target="_blank">See publication</a>
+        </div>
         {% endfor %}
     </div>
 </div>

@@ -1,17 +1,19 @@
-<div class="section__title text-right">
-    <div class="section__title__textback">
+<div class="section__title">
+    <!-- <div class="section__title__textback">
         <span class="textback__rotate__right">06</span>
-    </div>
+    </div> -->
     <h2>Awards</h2>
 </div>
 
 <div class="section__content">
     <div>
         {% for item in site.data.awards %}
-        <span class="award__title">{{item.title}}</span>
-        <span class="award__date">{{item.date}}</span>
-        <span class="award__issuer">{{item.issuer}}</span>
-        <p class="award__description">{{item.description}}</p>
+        <div class="award">
+            <span class="award__title">{{item.title}}</span>
+            <span class="award__date">{{item.date}}</span>
+            <!-- <span class="award__issuer">{{item.issuer}}</span> -->
+            <p class="award__description">{{item.description}}</p>
+        </div>
         {% endfor %}
     </div>
 </div>
