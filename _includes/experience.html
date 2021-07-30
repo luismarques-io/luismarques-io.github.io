@@ -36,7 +36,7 @@
             <div class="job__description">
                 <ul>
                     {% for description in item.description %}
-                    <li>- {{description}}</li>
+                    <li><span class="job__description__bullet">▶</span> {{description}}</li>
                     {% endfor %}
                 </ul>
             </div>

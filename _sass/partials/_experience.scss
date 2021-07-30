@@ -89,9 +89,9 @@
 
 .job__range {
 	margin: 0 0 20px;
-	color: rgba(0, 0, 0, 0.3);
+	color: var(--color-text-secondary);
 	font-size: var(--fz-sm);
-	font-family: var(--font-mono);
+	//font-family: var(--font-mono);
 	font-weight: 600;
 }
 
@@ -99,6 +99,14 @@
 	opacity: 0;
 	transition: 0.3s all;
 	transform: translate(-8px, 0);
+}
+
+.job__description__bullet {
+    padding: 0 5px 0 0;
+    color: var(--blue);
+    font-size: 12px;
+    position: relative;
+    top: -1px;
 }
 
 .job__content.active .job__description li {
