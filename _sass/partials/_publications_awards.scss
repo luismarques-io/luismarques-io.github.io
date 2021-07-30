@@ -1,0 +1,11 @@
+#pub_awards .inner {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	gap: 50px;
+}
+
+@media (max-width: 768px) {
+	#pub_awards .inner {
+		display: block;
+	}
+}

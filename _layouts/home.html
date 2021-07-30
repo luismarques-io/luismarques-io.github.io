@@ -39,21 +39,24 @@ layout: default
         </div>
     </section>
 
-    <section id="projects" class="section">
+    <!-- <section id="projects" class="section">
         <div class="grid-wrap scrollreveal">
             {% include projects.html %}
         </div>
-    </section>
+    </section> -->
 
-    <section id="publications" class="section">
-        <div class="grid-wrap scrollreveal">
-            {% include publications.html %}
-        </div>
-    </section>
 
-    <section id="awards" class="section">
+
+    <section id="pub_awards" class="section">
         <div class="grid-wrap scrollreveal">
-            {% include awards.html %}
+            <div class="inner">
+                <div id="publications">
+                    {% include publications.html %}
+                </div>
+                <div id="awards">
+                    {% include awards.html %}
+                </div>
+            </div>
         </div>
     </section>
 
@@ -63,12 +66,12 @@ layout: default
         </div>
     </section>
 
-    <ul>
+    <!-- <ul>
         {% for post in site.posts %}
         <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
         {% endfor %}
     </ul>
-    <h3><a href="/about">About</a></h3>
+    <h3><a href="/about">About</a></h3> -->
 
 
 </main>

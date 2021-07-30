@@ -6,9 +6,12 @@
 </div>
 
 <div class="section__content">
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium consequuntur exercitationem ipsa veniam
-        tenetur deserunt debitis voluptatibus assumenda doloribus libero eos corporis quo veritatis ipsum, culpa ex
-        reiciendis, unde saepe!
-    </p>
+    <div>
+        {% for item in site.data.publications %}
+        <span class="award__title">{{item.title}}</span>
+        <span class="award__date">{{item.date}}</span>
+        <p class="award__description">{{item.description}}</p>
+        <a href="{{item.url}}" class="link link--metis" target="_blank">See publication</a>
+        {% endfor %}
+    </div>
 </div>
