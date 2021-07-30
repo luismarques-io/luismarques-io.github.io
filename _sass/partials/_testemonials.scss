@@ -1,0 +1,38 @@
+#testemonials .inner {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+	#testemonials .inner {
+		display: block;
+	}
+}
+
+.testemonial {
+	font-size: var(--fz-sm);
+	&__person {
+		display: flex;
+
+		&__photo {
+			img {
+				width: 90px;
+				border-radius: 100%;
+			}
+		}
+
+		&__info {
+			padding: 14px 0 0 16px;
+		}
+	}
+
+	&__name {
+		font-weight: 600;
+	}
+	&__title {
+		color: var(--color-text-secondary);
+		font-size: var(--fz-xxs);
+	}
+}
