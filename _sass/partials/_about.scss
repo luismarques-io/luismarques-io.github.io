@@ -58,15 +58,4 @@
 	max-height: initial;
 }
 
-#about .about__attributes {
-	margin-top: 200px;
-	display: grid;
-	grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-	gap: 50px;
 
-	&__item {
-		img {
-			max-width: 100%;
-		}
-	}
-}

@@ -1,0 +1,12 @@
+#hobbies .hobbies__attributes {
+
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+	gap: 50px;
+
+	&__item {
+		img {
+			max-width: 100%;
+		}
+	}
+}
