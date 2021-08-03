@@ -1,6 +1,6 @@
 languages:
   - name: Javascript
-  - name: HTML
+  - name: HTML/Pug
   - name: CSS/Sass/Less
   - name: PHP
   - name: C++/C#

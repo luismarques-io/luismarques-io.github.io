@@ -8,10 +8,9 @@
     - Architected a multi-server system to manage large inflows of data
     - Built a unified signal processing system capable of running algorithms from multiple programming languages (C++, R, Python, PHP, ImageJ)
     - Created and documented an API for third party integrations
-    # - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups, randomization and repetition
     - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomization
     - Architected and built an app for Windows to record Webcam, Microphone, Eye-trackers, EEG headsets and sensors in a unified system
-    - Implemented a visualization tool, with synchronized videos, signals, forms, powerful statistics and cross-referencing data analysis
+    - Implemented a visualization tool, with synchronized signals, videos, forms, powerful statistics and cross-referencing data analysis
     # - Designed a report creation tool with powerful statistics and cross-referencing data analysis
     # - Worked with video professionals to create guides and tutorials
   tech:
@@ -29,86 +28,62 @@
   range: Aug 2015 - Oct 2020
   title: Full Stack Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    - Shipped the marketplace as an MVP and continued building on community suggestions
+    - Developed the design language and user experience
+    - Designed and built the interactive search feature
+    - Architected an automated database management system that keeps it self-updated, integrating third party APIs
+    - Built an innovative chat with embedded product transactions
+    - Implemented a user transaction feedback system
+    - Created a back-office to manage user badges, reviews, videos
 
 - company: Golens
   url: https://www.golens.com/
   range: Nov 2020 - Present
   title: IT Specialist / UX Designer
   description:
-    -
+    - Managing IT operations, from conception, to fully operational in multiple countries.
 
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
   range: Feb 2013 - Apr 2025
   title: Full Stack Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
 
 - company: Routrip
   range: Dec 2013 - Nov 2014
   title: Full Stack Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
 
 - company: GiftList
   range: Feb 2013 - Dec 2013
   title: Full Stack Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
 
 - company: EyeSee
   range: Jun 2013 - Dec 2013
   title: Front End Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    - Built a jQuery plugin to interact with the proprietary technology on any website
+    - Developed a back-office to manage users, clients and contents of the technology
+    - Designed and implemented a demo website
 
 - company: Freelance
   range: Jul 2012 - Feb 2013
   title: Web Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
 
 - company: SMS Server
   range: Apr 2010 - Oct 2011
   title: Software Dev
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
 
 - company: PaperPile
   range: Sep 2009 - Apr 2010
   title: Software Dev
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    -
