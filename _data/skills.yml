@@ -16,6 +16,7 @@ frameworks:
     link: https://reactjs.org
   - name: Blaze
     link: http://blazejs.org
+  - name: jQuery
 
 tools:
   - name: Git

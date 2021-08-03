@@ -123,6 +123,11 @@ li > a {
 	font-size: 1.7em;
 }
 
+.section__title h2 small{
+    font-size: 15px;
+    color: var(--color-text-secondary);
+}
+
 .section__title .section__title__textback {
 	transform: scale(1);
 	position: absolute;

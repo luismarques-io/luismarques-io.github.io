@@ -102,11 +102,10 @@
 }
 
 .job__description__bullet {
-    padding: 0 5px 0 0;
+    padding: 0 4px 0 0;
     color: var(--blue);
-    font-size: 12px;
-    position: relative;
-    top: -1px;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 .job__content.active .job__description li {

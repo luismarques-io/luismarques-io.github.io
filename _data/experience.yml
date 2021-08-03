@@ -1,24 +1,19 @@
-- company: Golens
-  url: https://www.golens.com/
-  range: Nov 2020 - Present
-  title: IT Specialist / UX Designer
-  description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
-
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
   title: Lead Software Dev / UX Designer
   description:
-    - Designed and developed the neuroscience platform to study human behavior.
-    - Took the challenge to connect different technologies from web interaction to machine learning processing and analysis
-    - Plugin for proprietary technology
-    - Backoffice to manage operations in proprietary technology
-    - Demo website
+    - Lead the neuroscience platform development, testing and launch
+    # - Architected a multi-server system to manage large amounts of data transfer and processing
+    - Architected a multi-server system to manage large inflows of data
+    - Built a unified signal processing system capable of running algorithms from multiple programming languages (C++, R, Python, PHP, ImageJ)
+    - Created and documented an API for third party integrations
+    # - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups, randomization and repetition
+    - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomization
+    - Architected and built an app for Windows to record Webcam, Microphone, Eye-trackers, EEG headsets and sensors in a unified system
+    - Implemented a visualization tool, with synchronized videos, signals, forms, powerful statistics and cross-referencing data analysis
+    # - Designed a report creation tool with powerful statistics and cross-referencing data analysis
+    # - Worked with video professionals to create guides and tutorials
   tech:
     - Meteor
     - Blaze
@@ -39,6 +34,13 @@
     - Plugin for proprietary technology
     - Backoffice to manage operations in proprietary technology
     - Demo website
+
+- company: Golens
+  url: https://www.golens.com/
+  range: Nov 2020 - Present
+  title: IT Specialist / UX Designer
+  description:
+    -
 
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
