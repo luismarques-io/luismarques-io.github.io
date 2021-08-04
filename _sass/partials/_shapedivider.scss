@@ -88,3 +88,27 @@
 .custom-shape-divider-bottom-1627645132 .shape-fill {
 	fill: #ffffff;
 }
+
+// Divider footer
+
+.custom-shape-divider-bottom-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-footer svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 450px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-footer .shape-fill {
+    fill: var(--lightest-blue);
+}
