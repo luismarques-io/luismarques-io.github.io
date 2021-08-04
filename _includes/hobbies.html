@@ -1,22 +1,20 @@
-<div class="section__content hobbies__attributes">
-    <div class="hobbies__attributes__item">
-        <img src="/assets/images/hobbies/Building Global Innovators.png" alt="">
-        <p>Speaker</p>
+<div class="section__title text-left scrollreveal">
+    <div class="section__title__textback">
+        <span class="textback__rotate__left">05</span>
     </div>
-    <div class="hobbies__attributes__item">
-        <img src="/assets/images/hobbies/Swiss Alps.jpeg" alt="">
-        <p>Explorer</p>
+    <h2>Other Interests</h2>
+</div>
+
+<div class="section__content hobbies">
+    {% for item in site.data.hobbies %}
+    <div class="hobbies__item scrollreveal">
+        <div class="hobbies__item__image">
+            <img src="{{item.image}}" alt="{{item.title}}">
+        </div>
+        <div class="hobbies__item__details scrollreveal__frombottom scrollreveal__delay25">
+            <h3>{{item.title}}</h3>
+            <p>{{item.description}}</p>
+        </div>
     </div>
-    <div class="hobbies__attributes__item">
-        <img src="/assets/images/hobbies/ENEI.jpeg" alt="">
-        <p>Teacher</p>
-    </div>
-    <div class="hobbies__attributes__item">
-        <img src="/assets/images/hobbies/Bandit Casino.jpg" alt="">
-        <p>Artist</p>
-    </div>
-    <div class="hobbies__attributes__item">
-        <img src="/assets/images/hobbies/GameTrade.png" alt="">
-        <p>Entrepreneur</p>
-    </div>
+    {% endfor %}
 </div>
