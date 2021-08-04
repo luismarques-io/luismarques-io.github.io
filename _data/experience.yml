@@ -32,14 +32,14 @@
     - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
     - Established and implemented the design language and branding
     - Designed an innovative and interactive homepage widget menu to engage costumers
-    - Optimized the costumer path to minimize steps in order to maximize sales
-    
+    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
+
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
   title: Full Stack Software Dev / UX Designer
   description:
-    - Shipped the marketplace as an MVP and continued building on community suggestions
+    - Built and shipped the marketplace as an MVP, continuing the development based on community suggestions
     - Developed the design language and user experience
     - Designed and built the interactive search feature
     - Architected an automated database management system that keeps it self-updated, integrating third party APIs
