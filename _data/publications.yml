@@ -2,3 +2,7 @@
   date: May 2021
   url: https://www.mdpi.com/1107592
   description: The system couples a cloud-based eHealth platform for collection, management and visualization of physiological and clinical data, with a smartphone-based ubiquitous system for acquiring COVID-19 symptomatic measurements (pulse oximetry, temperature, heart rate and respiration).
+# - title: "Patent Proposal: Short Message Service Proxy"
+#   date: Aug 2011
+#   url: /assets/docs/SMSP-ubi-allab-inventionreport.pdf
+#   description: This invention has the codename of “SMSP” with the meaning of “Short Message Service Proxy” and as the name indicates, the idea behind it is forwarding SMS but in a different way.

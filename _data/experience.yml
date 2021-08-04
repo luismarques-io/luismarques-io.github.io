@@ -23,9 +23,20 @@
     - C++
     - C#
 
+- company: Golens
+  url: https://www.golens.com/
+  range: Nov 2020 - Present
+  title: IT Specialist / UX Designer
+  description:
+    - Lead the operation from conception to a multi-country expansion
+    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
+    - Established and implemented the design language and branding
+    - Designed an innovative and interactive homepage widget menu to engage costumers
+    - Optimized the costumer path to minimize steps in order to maximize sales
+    
 - company: GameTrade
   url: https://gametrade.pt/
-  range: Aug 2015 - Oct 2020
+  range: Apr 2014 - Nov 2016
   title: Full Stack Software Dev / UX Designer
   description:
     - Shipped the marketplace as an MVP and continued building on community suggestions
@@ -36,33 +47,26 @@
     - Implemented a user transaction feedback system
     - Created a back-office to manage user badges, reviews, videos
 
-- company: Golens
-  url: https://www.golens.com/
-  range: Nov 2020 - Present
-  title: IT Specialist / UX Designer
-  description:
-    - Managing IT operations, from conception, to fully operational in multiple countries.
-
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
-  range: Feb 2013 - Apr 2025
-  title: Full Stack Software Dev / UX Designer
+  range: Feb 2013 - Apr 2015
+  title: Software Developer / UX Designer
   description:
-    -
+    - Built uniquely innovative website and e-commerce experiences
+    - Co-created a Web-Documentary with 3D navigation to raise awareness for the ecology in Portugal
+    - Collaborated with a diverse team organizing workshops and events
+    - Interfaced with clients in a regular basis, providing technological expertise and knowledge
 
 - company: Routrip
   range: Dec 2013 - Nov 2014
   title: Full Stack Software Dev / UX Designer
   description:
-    -
-
-- company: GiftList
-  range: Feb 2013 - Dec 2013
-  title: Full Stack Software Dev / UX Designer
-  description:
-    -
+    - Designed and built a smartphone app using Cordova with integrated QR codes and maps
+    - Implemented a gamified touristic routes interface with points of interest and prizes for completion
+    - Developed a web based app to enable business owners to buy locations and ads on the map
 
 - company: EyeSee
+  url: https://www.linkedin.com/company/eyesee-lda/
   range: Jun 2013 - Dec 2013
   title: Front End Software Dev / UX Designer
   description:
@@ -70,20 +74,25 @@
     - Developed a back-office to manage users, clients and contents of the technology
     - Designed and implemented a demo website
 
-- company: Freelance
-  range: Jul 2012 - Feb 2013
-  title: Web Designer
+- company: GiftList
+  range: Feb 2012 - Jun 2013
+  title: Full Stack Software Dev / UX Designer
   description:
-    -
+    - Developed a framework to synchronize data in real-time from the front-end to the database, using JavaScript and PHP
+    - Built a crowdfunding system to share the costs of a gift to a friend
+    - Implemented a calendar view for event management and visualization
 
 - company: SMS Server
-  range: Apr 2010 - Oct 2011
-  title: Software Dev
+  range: Apr 2011 - Jan 2013
+  title: Software Developer
   description:
-    -
+    - Architected (with a Patent Proposal) and built an SMS Proxy system using servers with GSM Modems to reduce costs sending SMS between operators
+    - Developed a web based back-office to manage bulk send of SMS, with contact groups and servers management
+    - Created a C++ library to manage GSM Modems, with functions to connect, send SMS, receive SMS, send specific commands, etc
+    - Built the back-end connection between the user experience and the servers sending and receiving SMS
 
 - company: PaperPile
-  range: Sep 2009 - Apr 2010
-  title: Software Dev
+  range: Sep 2010 - Apr 2011
+  title: Software Developer
   description:
-    -
+    - Designed, built and shipped the money management web app to track expenses and establish goals

@@ -16,6 +16,8 @@ frameworks:
     link: https://reactjs.org
   - name: Blaze
     link: http://blazejs.org
+  - name: Handlebars
+    link: https://handlebarsjs.com
   - name: jQuery
 
 tools:
