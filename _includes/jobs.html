@@ -9,20 +9,18 @@
 </div>
 
 <div class="section__content">
-    <div class="jobs__tabs">
+    <div class="jobs__tabs" role="tablist" aria-label="Job tabs">
         {% for item in site.data.experience %}
-        <div role="tablist" aria-label="Job tabs" class="jobs__tabs__item">
-            <button id="tab__{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}" role="tab" tabindex="0"
-                aria-selected="true" aria-controls="panel-0" class="jobs__tabs__button"
-                data-tab="{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}">
-                <span>{{item.company}}</span>
-            </button>
-        </div>
+        <button id="tab__{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}" role="tab" tabindex="0"
+            aria-selected="true" aria-controls="panel-0" class="jobs__tabs__button"
+            data-tab="{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}">
+            <span>{{item.company}}</span>
+        </button>
         {% endfor %}
     </div>
     <div class="jobs__list scrollreveal__frombottom scrollreveal__delay025">
         {% for item in site.data.experience %}
-        <div id="tabcontent__{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}" class="job__content">
+        <div id="tabcontent__{{item.company | downcase | remove:' ' | remove:',' | remove:'.'}}" class="job">
             <h3 class="job__title__company">
                 <span class="job__title">{{item.title}}</span>
                 <span class="job__company">

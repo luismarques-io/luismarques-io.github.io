@@ -3,25 +3,23 @@ layout: default
 ---
 
 <main>
-
-
     <section class="intro">
         {% include intro.html %}
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section about">
         <div class="grid-wrap scrollreveal">
             {% include about.html %}
         </div>
     </section>
 
-    <section id="skills" class="section">
+    <section id="skills" class="section skills">
         <div class="grid-wrap scrollreveal">
             {% include skills.html %}
         </div>
     </section>
 
-    <section id="experience" class="section">
+    <section id="experience" class="section jobs">
         <div class="custom-shape-divider-top-1627424741">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
@@ -29,7 +27,7 @@ layout: default
             </svg>
         </div>
         <div class="grid-wrap scrollreveal">
-            {% include experience.html %}
+            {% include jobs.html %}
         </div>
         <div class="custom-shape-divider-bottom-1627425036">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -45,9 +43,7 @@ layout: default
         </div>
     </section> -->
 
-
-
-    <section id="pub_awards" class="section">
+    <section id="pub_awards" class="section pub_awards">
         <div class="grid-wrap scrollreveal">
             <div class="inner">
                 <div id="publications">
@@ -60,7 +56,7 @@ layout: default
         </div>
     </section>
 
-    <section id="testemonials" class="section scrollreveal">
+    <section id="testemonials" class="section testemonials scrollreveal">
         <div class="custom-shape-divider-top-1627644447">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
@@ -78,7 +74,7 @@ layout: default
         </div>
     </section>
 
-    <section id="hobbies" class="section">
+    <section id="hobbies" class="section hobbies">
         <div class="grid-wrap">
             <div>
                 {% include hobbies.html %}
@@ -97,16 +93,4 @@ layout: default
             {% include footer.html %}
         </div>
     </footer>
-
-
-
-
-    <!-- <ul>
-        {% for post in site.posts %}
-        <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
-        {% endfor %}
-    </ul>
-    <h3><a href="/about">About</a></h3> -->
-
-
 </main>

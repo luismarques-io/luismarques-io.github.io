@@ -3,7 +3,7 @@ $(function () {});
 // Tabs - Based on https://codepen.io/mburridge/pen/rNVeaKv
 tabs({
 	buttonSelector: ".jobs__tabs__button",
-	contentSelector: ".job__content",
+	contentSelector: ".job",
 });
 
 function tabs(opt) {

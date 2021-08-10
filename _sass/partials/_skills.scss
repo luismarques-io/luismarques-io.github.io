@@ -1,20 +1,17 @@
-.skills_list {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+.skills {
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		max-width: 640px;
+		margin: auto;
+	}
 
-	max-width: 640px;
-	margin: auto;
-}
-
-.skills__category {
-}
-.skills__category__title {
-}
-.skills__category__item {
-	margin: 3px 0;
-	font-size: 0.9rem;
+	&__category {
+		&__title {
+		}
+		&__item {
+			margin: 3px 0;
+			font-size: 0.9rem;
+		}
+	}
 }
