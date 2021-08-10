@@ -12,102 +12,159 @@
 		position: relative;
 		width: var(--grid-width);
 		text-align: center;
+		padding-bottom: 40px;
 
 		h1 {
 			text-align: center;
-			margin-bottom: 4em;
+			margin-bottom: 3em;
 		}
-	}
-}
 
-.intro__content--hello {
-	display: block;
-	color: var(--color-text-secondary);
-	font-size: var(--fz-lg);
+		&__hello {
+			display: block;
+			color: var(--color-text-secondary);
+			font-size: var(--fz-lg);
 
-	font-weight: 400;
-	margin-bottom: -10px;
-	font-family: "Bellefair";
-}
+			font-weight: 400;
+			margin-bottom: -10px;
+			font-family: "Bellefair";
+		}
 
-.intro__content--name {
-	font-family: "Bellefair";
-	font-family: "EB Garamond";
-	font-family: "Noto Serif JP";
-	font-family: "Cinzel";
-	font-weight: 400;
-	// font-size: var(--fz-big-heading);
-	font-size: clamp(48px, 8vw, 80px);
-}
+		&__name {
+			font-family: "Bellefair";
+			font-family: "EB Garamond";
+			font-family: "Noto Serif JP";
+			font-family: "Cinzel";
+			font-weight: 400;
+			// font-size: var(--fz-big-heading);
+			font-size: clamp(48px, 8vw, 80px);
+		}
 
-.intro__content--title {
-	line-height: 0.4;
-	opacity: 0.6;
-	font-weight: 100;
-	font-size: clamp(38px, 8vw, 60px);
-}
+		&__title {
+			line-height: 0.4;
+			font-weight: 100;
+			font-size: clamp(38px, 8vw, 56px);
+			color: var(--color-text-secondary);
+			//font-family: "Bellefair";
+		}
 
-.intro__content--description {
-	max-width: 700px;
-	margin: 0 auto 2em;
-}
+		&__description {
+			max-width: 700px;
+			margin: 0 auto 2em;
+		}
 
-.intro__content--email-link {
-	position: relative;
-	display: inline-block;
-	padding: 20px 60px;
-	margin: 20px 0 30px;
-	// border: 2px solid var(--blue);
-	//border: 1px solid var(--color-text);
-	//color: var(--color-text);
-	font-size: var(--fz-lg);
-	font-weight: 300;
-	//border-radius: 100px;
-	transition: var(--transition-btn-scale-out);
+		&__email {
+			position: relative;
+			display: inline-block;
+			padding: 20px 60px;
+			margin: 20px 0 30px;
+			font-size: var(--fz-lg);
+			font-weight: 300;
+			transition: var(--transition-btn-scale-out);
+			border-radius: 100px;
+			z-index: 9;
+			box-shadow: 0px 0px 0 1px rgba(0, 139, 214, 0.6),
+				0px 0px 0 0px rgba(0, 139, 214, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.4);
+			transition: 0.6s box-shadow ease-out, 0.7s transform ease-out;
 
-	border-radius: 100px;
+			& + .intro__content__email__overlay {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				backdrop-filter: blur(15px) brightness(98%);
+				transition: 1.1s ease-in;
+				z-index: 8;
+				opacity: 0;
+				visibility: hidden;
+			}
 
-	// box-shadow: 0px 20px 0 -10px var(--lightest-blue);
-	box-shadow: 0px 0px 0 1px rgba(0, 139, 214, 0.6),
-		0px 0px 0 0px rgba(0, 139, 214, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.4);
-	transition: 0.6s box-shadow ease-out, 0.7s transform ease-out;
-	z-index: 9;
+			.text {
+				transition: 0.3s all;
+			}
 
-	//transform: rotate(-3deg);
-	//box-shadow: 10px 8px 0 0 #eee;
-	//box-shadow: 10px 8px 0 0 var(--lightest-blue);
+			.show-on-click,
+			.show-on-hover {
+				overflow: hidden;
+				width: 24px;
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				line-height: 67px;
+				text-align: center;
+				background-color: #fff;
+				border-radius: 100px;
+				visibility: hidden;
+				opacity: 0;
+				transform: scale(0);
+				transition: 0.6s all;
+				transition-delay: 300ms;
+			}
+			.show-on-click {
+				background: var(--green);
+				color: #fff;
+			}
 
-	& + .intro__content__email__link__overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		backdrop-filter: blur(20px) brightness(98%);
+			.tooltip-on-hover {
+				color: var(--color-text);
+				font-family: "Bellefair";
+				font-size: 1.6em;
+				position: absolute;
+				bottom: 150%;
+				width: 300px;
+				left: 50%;
+				margin-left: -150px;
+				visibility: hidden;
+				opacity: 0;
+				transform: translateY(10px);
+				transition: 0.1s all;
+				pointer-events: none;
+			}
 
-		transition: 1.1s ease-in;
-		z-index: 8;
-		opacity: 0;
-		visibility: hidden;
-	}
+			&:hover {
+				background-color: #fff;
+				transform: scale(1.5);
+				transition: 1.8s box-shadow, 0.3s transform;
+				box-shadow: 0px 0px 0 0px rgba(0, 139, 214, 0),
+					0px 26px 0 2000px rgba(223, 244, 255, 0.2),
+					0 20px 40px -20px rgba(0, 0, 0, 0.4);
 
-	&:hover {
-		// box-shadow: 0 10px 40px -30px rgba(0,0,0,.4);
+				& + .intro__content__email__overlay {
+					opacity: 1;
+					visibility: visible;
+					transition: 0.3s all;
+				}
 
-		transform: scale(1.5);
-		transition: 1.8s box-shadow, 0.3s transform;
-		// box-shadow: 0px 26px 0 2000px var(--lightest-blue);
-		box-shadow: 0px 0px 0 0px rgba(0, 139, 214, 0),
-			0px 26px 0 2000px rgba(223, 244, 255, 0.2),
-			0 20px 40px -20px rgba(0, 0, 0, 0.4);
-		//transition: 0.5s all;
-		background-color: #fff;
+				.text {
+					padding: 0 30px;
+				}
 
-		& + .intro__content__email__link__overlay {
-			opacity: 1;
-			visibility: visible;
+				.show-on-hover {
+					visibility: visible;
+					opacity: 1;
+					transform: scale(1);
+					transition: 0.3s all;
+				}
 
-			transition: 0.3s all;
+				.tooltip-on-hover {
+					visibility: visible;
+					opacity: 1;
+					transition: 0.6s all;
+					transition-delay: 200ms;
+					transform: translateY(0px);
+				}
+			}
+
+			&.copied {
+				.show-on-click {
+					visibility: visible;
+					opacity: 1;
+					transform: scale(1);
+					transition: 0.3s all;
+				}
+			}
 		}
 	}
 }
@@ -116,7 +173,7 @@
 	fill: var(--color-text);
 	width: 42px;
 	position: absolute;
-	bottom: 100px;
+	bottom: 60px;
 	left: 50%;
 	margin-left: -21px;
 	animation: updown 2s ease infinite;
@@ -142,5 +199,4 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	//filter: blur(4px);
 }
