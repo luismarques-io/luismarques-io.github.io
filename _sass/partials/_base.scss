@@ -46,6 +46,18 @@ li > a {
 	position: relative;
 	transition: var(--transition);
 	color: var(--blue);
+
+	font-weight: 300;
+	border-bottom: 1px solid rgba(0, 139, 214, 0.7);
+	//box-shadow: 0 10px 14px -10px rgba(0, 139, 214, 0.2);
+
+	&:hover,
+	&:focus,
+	&:active {
+		// box-shadow: 0 10px 14px -10px rgba(75, 100, 114, 0.6);
+		box-shadow: 0 10px 14px -10px rgba(0, 139, 214, 0.7);
+		padding: 0 4px;
+	}
 }
 
 /* Based on https://tympanus.net/Development/LineHoverStyles/ */

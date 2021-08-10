@@ -9,6 +9,7 @@
 	margin: 0 auto;
 
 	&__content {
+		position: relative;
 		width: var(--grid-width);
 		text-align: center;
 
@@ -59,26 +60,56 @@
 	// border: 2px solid var(--blue);
 	//border: 1px solid var(--color-text);
 	//color: var(--color-text);
-	font-size: var(--fz-xxl);
+	font-size: var(--fz-lg);
 	font-weight: 300;
 	//border-radius: 100px;
 	transition: var(--transition-btn-scale-out);
 
 	border-radius: 100px;
 
-	box-shadow: 0px 20px 0 -10px var(--lightest-blue);
+	// box-shadow: 0px 20px 0 -10px var(--lightest-blue);
+	box-shadow: 0px 0px 0 1px rgba(0, 139, 214, 0.6),
+		0px 0px 0 0px rgba(0, 139, 214, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.4);
+	transition: 0.6s box-shadow ease-out, 0.7s transform ease-out;
+	z-index: 9;
 
 	//transform: rotate(-3deg);
 	//box-shadow: 10px 8px 0 0 #eee;
 	//box-shadow: 10px 8px 0 0 var(--lightest-blue);
-}
 
-.intro__content--email-link:hover {
-	// box-shadow: 0 10px 40px -30px rgba(0,0,0,.4);
+	& + .intro__content__email__link__overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		backdrop-filter: blur(20px) brightness(98%);
 
-	transform: rotate(0deg) scale(1.1);
-	transition: var(--transition-btn-scale-in);
-	box-shadow: 0px 26px 0 -20px var(--lightest-blue);
+		transition: 1.1s ease-in;
+		z-index: 8;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&:hover {
+		// box-shadow: 0 10px 40px -30px rgba(0,0,0,.4);
+
+		transform: scale(1.5);
+		transition: 1.8s box-shadow, 0.3s transform;
+		// box-shadow: 0px 26px 0 2000px var(--lightest-blue);
+		box-shadow: 0px 0px 0 0px rgba(0, 139, 214, 0),
+			0px 26px 0 2000px rgba(223, 244, 255, 0.2),
+			0 20px 40px -20px rgba(0, 0, 0, 0.4);
+		//transition: 0.5s all;
+		background-color: #fff;
+
+		& + .intro__content__email__link__overlay {
+			opacity: 1;
+			visibility: visible;
+
+			transition: 0.3s all;
+		}
+	}
 }
 
 .intro__arrow {
