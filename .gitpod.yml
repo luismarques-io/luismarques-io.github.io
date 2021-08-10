@@ -1,6 +1,6 @@
 tasks:
   - init: gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
-  - init: bundle install
+  #- init: bundle install
     command: bundle exec jekyll serve
 
 ports:

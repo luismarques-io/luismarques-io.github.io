@@ -7,30 +7,48 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+
+	&__content {
+		width: var(--grid-width);
+		text-align: center;
+
+		h1 {
+			text-align: center;
+			margin-bottom: 4em;
+		}
+	}
 }
 
-.intro__content {
-	width: var(--grid-width);
-}
 .intro__content--hello {
 	display: block;
-	color: var(--blue);
+	color: var(--color-text-secondary);
 	font-size: var(--fz-lg);
-	font-family: var(--font-mono);
-	font-weight: 600;
+
+	font-weight: 400;
 	margin-bottom: -10px;
+	font-family: "Bellefair";
 }
 
 .intro__content--name {
+	font-family: "Bellefair";
+	font-family: "EB Garamond";
+	font-family: "Noto Serif JP";
+	font-family: "Cinzel";
+	font-weight: 400;
+	// font-size: var(--fz-big-heading);
+	font-size: clamp(48px, 8vw, 80px);
 }
 
 .intro__content--title {
 	line-height: 0.4;
 	opacity: 0.6;
+	font-weight: 100;
+	font-size: clamp(38px, 8vw, 60px);
 }
 
 .intro__content--description {
 	max-width: 700px;
+	margin: 0 auto 2em;
 }
 
 .intro__content--email-link {
@@ -38,21 +56,29 @@
 	display: inline-block;
 	padding: 20px 60px;
 	margin: 20px 0 30px;
-	border: 2px solid var(--blue);
+	// border: 2px solid var(--blue);
+	//border: 1px solid var(--color-text);
+	//color: var(--color-text);
+	font-size: var(--fz-xxl);
+	font-weight: 300;
 	//border-radius: 100px;
 	transition: var(--transition-btn-scale-out);
 
-	transform: rotate(-3deg);
-	box-shadow: 10px 8px 0 0 #eee;
-	box-shadow: 10px 8px 0 0 var(--lightest-blue);
+	border-radius: 100px;
+
+	box-shadow: 0px 20px 0 -10px var(--lightest-blue);
+
+	//transform: rotate(-3deg);
+	//box-shadow: 10px 8px 0 0 #eee;
+	//box-shadow: 10px 8px 0 0 var(--lightest-blue);
 }
 
 .intro__content--email-link:hover {
 	// box-shadow: 0 10px 40px -30px rgba(0,0,0,.4);
+
 	transform: rotate(0deg) scale(1.1);
 	transition: var(--transition-btn-scale-in);
-	box-shadow: 0px 20px 0 -10px #eee;
-	box-shadow: 0px 20px 0 -10px var(--lightest-blue);
+	box-shadow: 0px 26px 0 -20px var(--lightest-blue);
 }
 
 .intro__arrow {
@@ -77,4 +103,13 @@
 	100% {
 		transform: translateY(-100%);
 	}
+}
+
+.background__birds {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	//filter: blur(4px);
 }
