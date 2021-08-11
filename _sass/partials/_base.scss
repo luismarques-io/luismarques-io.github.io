@@ -121,11 +121,11 @@ li > a {
 	// justify-content: center;
 
 	position: relative;
-	padding: 160px 0px;
+	padding: 220px 0px;
 }
 
 .section__title {
-	font-family: var(--font-mono);
+	font-family: var(--font-serif);
 	color: var(--blue);
 	//text-shadow: 10px 10px #eee;
 	line-height: 1;
@@ -134,7 +134,8 @@ li > a {
 
 .section__title h2 {
 	position: relative;
-	font-size: 1.7em;
+	font-size: var(--fz-heading);
+	font-weight: 300;
 }
 
 .section__title h2 small {
@@ -149,7 +150,7 @@ li > a {
 	left: -6px;
 	font-size: 11em;
 	//line-height: 0.75;
-	color: var(--lightest-blue);
+	color: var(--lightest-blue-alpha);
 	font-weight: 900;
 }
 

@@ -18,6 +18,22 @@ $(function () {
 		quantity: 1.0,
 		backgroundAlpha: 0.0,
 	});
+
+	// Globe
+	VANTA.GLOBE({
+		el: ".background__globe",
+		mouseControls: true,
+		touchControls: true,
+		gyroControls: false,
+		minHeight: 200.0,
+		minWidth: 200.0,
+		scale: 1,
+		scaleMobile: 1.0,
+		color: 0x008bd6,
+		color2: 0x835be5,
+		backgroundColor: 0xffffff,
+	});
+
 	// VANTA.HALO({
 	// 	el: ".intro",
 	// 	mouseControls: true,
@@ -72,20 +88,6 @@ $(function () {
 	// 	waveHeight: 12.5,
 	// 	waveSpeed: 0.25,
 	// 	zoom: 0.65,
-	// });
-	// Globe
-	// VANTA.GLOBE({
-	// 	el: ".pub_awards",
-	// 	mouseControls: true,
-	// 	touchControls: true,
-	// 	gyroControls: false,
-	// 	minHeight: 200.0,
-	// 	minWidth: 200.0,
-	// 	scale: 1.0,
-	// 	scaleMobile: 1.0,
-	// 	color: 0x3fffbb,
-	// 	color2: 0xbebebe,
-	// 	backgroundColor: 0xffffff,
 	// });
 });
 
