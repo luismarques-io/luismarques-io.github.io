@@ -1,5 +1,5 @@
 $(function () {
-	// Birds -
+	// Birds - https://www.vantajs.com/#(alignment:20,backgroundAlpha:0,backgroundColor:16777215,birdSize:2,cohesion:23,color1:5515963,color2:53759,colorMode:lerp,gyroControls:!f,minHeight:200,minWidth:200,mouseControls:!t,quantity:1,scale:1,scaleMobile:1,separation:19,speedLimit:5,touchControls:!t,wingSpan:30)
 	VANTA.BIRDS({
 		el: ".background__birds",
 		mouseControls: true,
@@ -10,7 +10,10 @@ $(function () {
 		scale: 1.0,
 		scaleMobile: 1.0,
 		backgroundColor: 0xffffff,
-		color1: 0x542abb,
+		// color1: 0x542abb,
+		// color2: 0xd1ff,
+		color1: 0x744f98,
+		color2: 0x46b6d7,
 		colorMode: "lerp",
 		birdSize: 2, // 1.5,
 		separation: 19.0,
@@ -29,9 +32,11 @@ $(function () {
 		minWidth: 200.0,
 		scale: 1,
 		scaleMobile: 1.0,
-		color: 0x008bd6,
-		color2: 0x835be5,
-		backgroundColor: 0xffffff,
+		color: "#744f98",
+		color2: "#46b6d7",
+		backgroundColor: "#ffffff",
+		size: 0.8,
+		backgroundAlpha: 0.0,
 	});
 
 	// VANTA.HALO({
@@ -57,22 +62,47 @@ $(function () {
 	// 	yOffset: 0.32,
 	// 	size: 3.0,
 	// });
-	// // Fog - https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:15527676,blurFactor:0.9,gyroControls:!f,highlightColor:9216749,lowlightColor:8123903,midtoneColor:16741936,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
-	// VANTA.FOG({
-	// 	el: ".intro",
-	// 	mouseControls: true,
-	// 	touchControls: true,
-	// 	gyroControls: false,
-	// 	minHeight: 200.0,
-	// 	minWidth: 200.0,
-	// 	highlightColor: 0x8ca2ed,
-	// 	midtoneColor: 0xff7630,
-	// 	lowlightColor: 0x7bf5ff,
-	// 	baseColor: 0xeceefc,
-	// 	blurFactor: 0.9,
-	// 	speed: 2.4,
-	// 	zoom: 0.5,
-	// });
+	// Fog - https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:15527676,blurFactor:0.9,gyroControls:!f,highlightColor:9216749,lowlightColor:8123903,midtoneColor:16741936,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
+	VANTA.FOG({
+		el: ".background__fog",
+		mouseControls: true,
+		touchControls: true,
+		gyroControls: false,
+		minHeight: 200.0,
+		minWidth: 200.0,
+		// highlightColor: 0x8ca2ed,
+		// midtoneColor: 0xff7630,
+		// lowlightColor: 0x7bf5ff,
+		// baseColor: 0xeceefc,
+
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:14016508,lowlightColor:8123903,midtoneColor:16242631,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
+		// highlightColor: 0xd5dffc,
+		// midtoneColor: 0xf7d7c7,
+		// lowlightColor: 0x7bf5ff,
+		// baseColor: 0xffffff,
+
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:14016508,lowlightColor:8123903,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
+		// highlightColor: 0xd5dffc,
+		// midtoneColor: 0xffffff,
+		// lowlightColor: 0x7bf5ff,
+		// baseColor: 0xffffff,
+
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:15330559,lowlightColor:8123903,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
+		// highlightColor: 0xe9ecff,
+		// midtoneColor: 0xffffff,
+		// lowlightColor: 0x7bf5ff,
+		// baseColor: 0xffffff,
+
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:15330559,lowlightColor:11529471,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:5,touchControls:!t,zoom:0.5)
+		highlightColor: 0xe9ecff,
+		midtoneColor: 0xffffff,
+		lowlightColor: 0xafecff,
+		baseColor: 0xffffff,
+
+		blurFactor: 0.9,
+		speed: 5,
+		zoom: 0.5,
+	});
 	// Waves - https://www.vantajs.com/?effect=waves#(backgroundAlpha:1,color:11316396,gyroControls:!f,minHeight:200,minWidth:200,mouseControls:!t,scale:1,scaleMobile:1,shininess:150,touchControls:!t,waveHeight:12.5,waveSpeed:0.25,zoom:0.65)
 	// VANTA.WAVES({
 	// 	el: ".skills",
