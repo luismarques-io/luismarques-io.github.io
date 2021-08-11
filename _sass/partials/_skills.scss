@@ -1,17 +1,24 @@
 .skills {
 	&__list {
-		display: flex;
-		justify-content: space-between;
-		max-width: 640px;
-		margin: auto;
+		display: grid;
+		grid-template-columns: 2fr 2fr 2fr;
+		gap: 20px;
 	}
 
 	&__category {
+		text-align: center;
+
 		&__title {
+			font-size: 30px;
+			font-family: var(--font-serif-uppercase);
 		}
 		&__item {
-			margin: 3px 0;
-			font-size: 0.9rem;
+			margin: 6px 0 17px;
+			font-size: var(--fz-xl);
+		}
+
+		&:nth-child(2) {
+			margin-top: 120px;
 		}
 	}
 }

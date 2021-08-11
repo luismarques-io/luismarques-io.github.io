@@ -122,6 +122,14 @@ li > a {
 
 	position: relative;
 	padding: 220px 0px;
+
+	&__darker {
+		background: rgba(78, 157, 255, 0.1);
+
+		.section__title .section__title__textback {
+			color: rgba(255, 255, 255, 0.6);
+		}
+	}
 }
 
 .section__title {
