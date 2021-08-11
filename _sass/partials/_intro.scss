@@ -26,25 +26,21 @@
 
 			font-weight: 400;
 			margin-bottom: -10px;
-			font-family: "Bellefair";
+			font-family: var(--font-serif);
 		}
 
 		&__name {
-			font-family: "Bellefair";
-			font-family: "EB Garamond";
-			font-family: "Noto Serif JP";
-			font-family: "Cinzel";
+			font-family: var(--font-serif-special);
 			font-weight: 400;
-			// font-size: var(--fz-big-heading);
-			font-size: clamp(48px, 8vw, 80px);
+			font-size: var(--fz-heading-xl);
 		}
 
 		&__title {
 			line-height: 0.4;
 			font-weight: 100;
-			font-size: clamp(38px, 8vw, 56px);
+			font-size: var(--fz-heading-lg);
 			color: var(--color-text-secondary);
-			//font-family: "Bellefair";
+			//font-family: var(--font-serif);
 		}
 
 		&__description {
@@ -109,7 +105,7 @@
 
 			.tooltip-on-hover {
 				color: var(--color-text);
-				font-family: "Bellefair";
+				font-family: var(--font-serif);
 				font-size: 1.6em;
 				position: absolute;
 				bottom: 150%;
@@ -167,16 +163,16 @@
 			}
 		}
 	}
-}
 
-.intro__arrow {
-	fill: var(--color-text);
-	width: 42px;
-	position: absolute;
-	bottom: 60px;
-	left: 50%;
-	margin-left: -21px;
-	animation: updown 2s ease infinite;
+	&__arrow {
+		fill: var(--color-text);
+		width: 42px;
+		position: absolute;
+		bottom: 60px;
+		left: 50%;
+		margin-left: -21px;
+		animation: updown 2s ease infinite;
+	}
 }
 
 @keyframes updown {

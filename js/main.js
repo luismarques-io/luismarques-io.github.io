@@ -87,7 +87,10 @@ $(function () {
 	// 	color2: 0xbebebe,
 	// 	backgroundColor: 0xffffff,
 	// });
+});
 
+// Copy to clipboard
+$(function () {
 	$("[data-copy-to-clipboard]").click(function (e) {
 		e.preventDefault();
 		const $btn = $(this);

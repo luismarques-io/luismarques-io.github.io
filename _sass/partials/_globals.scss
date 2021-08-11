@@ -15,11 +15,14 @@
 	--fz-xl: 20px;
 	--fz-xxl: 22px;
 	--fz-heading: 48px;
-	--fz-big-heading: clamp(48px, 8vw, 70px);
+	--fz-heading-lg: clamp(38px, 8vw, 56px);
+	--fz-heading-xl: clamp(48px, 8vw, 80px);
 	--border-radius: 4px;
 	--font-sans: "Encode Sans Semi Expanded", -apple-system, system-ui,
 		sans-serif;
 	--font-mono: "IBM Plex Mono", "Roboto Mono", monospace;
+	--font-serif: "Bellefair";
+	--font-serif-special: "Cinzel";
 	--grid-width: 900px;
 	--grid-sm-width: 700px;
 	--transition-btn-scale-in: all 0.2s;
