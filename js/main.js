@@ -5,8 +5,6 @@ $(function () {
 		mouseControls: true,
 		touchControls: true,
 		gyroControls: false,
-		minHeight: 200.0,
-		minWidth: 200.0,
 		scale: 1.0,
 		scaleMobile: 1.0,
 		backgroundColor: 0xffffff,
@@ -28,8 +26,6 @@ $(function () {
 		mouseControls: true,
 		touchControls: true,
 		gyroControls: false,
-		minHeight: 200.0,
-		minWidth: 200.0,
 		scale: 1,
 		scaleMobile: 1.0,
 		color: "#744f98",
@@ -93,11 +89,17 @@ $(function () {
 		// lowlightColor: 0x7bf5ff,
 		// baseColor: 0xffffff,
 
-		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:15330559,lowlightColor:11529471,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:5,touchControls:!t,zoom:0.5)
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:15330559,lowlightColor:8123903,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
 		highlightColor: 0xe9ecff,
 		midtoneColor: 0xffffff,
-		lowlightColor: 0xafecff,
+		lowlightColor: 0x8bd7f7,
 		baseColor: 0xffffff,
+
+		// https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:16777215,blurFactor:0.9,gyroControls:!f,highlightColor:15330559,lowlightColor:11529471,midtoneColor:16777215,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:5,touchControls:!t,zoom:0.5)
+		// highlightColor: 0xe9ecff,
+		// midtoneColor: 0xffffff,
+		// lowlightColor: 0xafecff,
+		// baseColor: 0xffffff,
 
 		blurFactor: 0.9,
 		speed: 5,
