@@ -38,8 +38,9 @@ a {
 	font-weight: 600;
 }
 
-p > a,
-li > a {
+// p > a,
+// li > a,
+.link {
 	display: inline-block;
 	text-decoration: none;
 	text-decoration-skip-ink: auto;
@@ -64,43 +65,43 @@ li > a {
 
 /* Based on https://tympanus.net/Development/LineHoverStyles/ */
 
-.link {
-	z-index: 1;
-	position: relative;
-}
+// .link {
+// 	z-index: 1;
+// 	position: relative;
+// }
 
-.link::before,
-.link::after {
-	position: absolute;
-	width: 100%;
-	height: 1px;
-	background: currentColor;
-	bottom: 0;
-	left: 0;
-	pointer-events: none;
-	z-index: -1;
-}
+// .link::before,
+// .link::after {
+// 	position: absolute;
+// 	width: 100%;
+// 	height: 1px;
+// 	background: currentColor;
+// 	bottom: 0;
+// 	left: 0;
+// 	pointer-events: none;
+// 	z-index: -1;
+// }
 
-.link::before {
-	content: "";
-	height: 100%;
-	border-bottom: 1px solid currentColor;
-	/* show by default */
-}
+// .link::before {
+// 	content: "";
+// 	height: 100%;
+// 	border-bottom: 1px solid currentColor;
+// 	/* show by default */
+// }
 
-.link--metis::before {
-	background: transparent;
-	transform-origin: 100% 50%;
-	transform: scale3d(0, 1, 1);
-	transition: transform 0.3s, background 0.3s;
-}
+// .link--metis::before {
+// 	background: transparent;
+// 	transform-origin: 100% 50%;
+// 	transform: scale3d(0, 1, 1);
+// 	transition: transform 0.3s, background 0.3s;
+// }
 
-.link--metis:hover::before {
-	background: var(--lightest-blue);
-	transform-origin: 0% 50%;
-	transform: scale3d(1, 1, 1);
-	transition: transform 0.3s, background 0.6s;
-}
+// .link--metis:hover::before {
+// 	background: var(--lightest-blue);
+// 	transform-origin: 0% 50%;
+// 	transform: scale3d(1, 1, 1);
+// 	transition: transform 0.3s, background 0.6s;
+// }
 
 .grid-wrap {
 	max-width: var(--grid-width);
