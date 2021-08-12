@@ -1,40 +1,4 @@
 $(function () {
-	// Birds - https://www.vantajs.com/#(alignment:20,backgroundAlpha:0,backgroundColor:16777215,birdSize:2,cohesion:23,color1:5515963,color2:53759,colorMode:lerp,gyroControls:!f,minHeight:200,minWidth:200,mouseControls:!t,quantity:1,scale:1,scaleMobile:1,separation:19,speedLimit:5,touchControls:!t,wingSpan:30)
-	VANTA.BIRDS({
-		el: ".background__birds",
-		mouseControls: true,
-		touchControls: true,
-		gyroControls: false,
-		scale: 1.0,
-		scaleMobile: 1.0,
-		backgroundColor: 0xffffff,
-		// color1: 0x542abb,
-		// color2: 0xd1ff,
-		color1: 0x744f98,
-		color2: 0x46b6d7,
-		colorMode: "lerp",
-		birdSize: 2, // 1.5,
-		separation: 19.0,
-		cohesion: 23.0,
-		quantity: 1.0,
-		backgroundAlpha: 0.0,
-	});
-
-	// Globe
-	VANTA.GLOBE({
-		el: ".background__globe",
-		mouseControls: true,
-		touchControls: true,
-		gyroControls: false,
-		scale: 1,
-		scaleMobile: 1.0,
-		color: "#744f98",
-		color2: "#46b6d7",
-		backgroundColor: "#ffffff",
-		size: 0.8,
-		backgroundAlpha: 0.0,
-	});
-
 	// Fog - https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:15527676,blurFactor:0.9,gyroControls:!f,highlightColor:9216749,lowlightColor:8123903,midtoneColor:16741936,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
 	VANTA.FOG({
 		el: ".background__fog",
@@ -124,65 +88,6 @@ $(function () {
 	// 	zoom: 0.65,
 	// });
 });
-
-// Copy to clipboard
-$(function () {
-	$("[data-copy-to-clipboard]").click(function (e) {
-		e.preventDefault();
-		const $btn = $(this);
-		copyToClipboard($btn.data("copy-to-clipboard"));
-		$btn.addClass("copied");
-		setTimeout(() => {
-			$btn.removeClass("copied");
-		}, 1000);
-	});
-});
-
-function copyToClipboard(text) {
-	var $temp = $("<input>");
-	$("body").append($temp);
-	$temp.val(text).select();
-	document.execCommand("copy");
-	$temp.remove();
-}
-
-// Tabs - Based on https://codepen.io/mburridge/pen/rNVeaKv
-tabs({
-	buttonSelector: ".jobs__tabs__button",
-	contentSelector: ".job",
-});
-
-function tabs(opt) {
-	// DOM Elements
-	const tabs = document.querySelectorAll(opt.buttonSelector);
-	const tabContents = document.querySelectorAll(opt.contentSelector);
-
-	// Functions
-	const activateTab = (tabnum) => {
-		tabs.forEach((tab) => {
-			tab.classList.remove("active");
-		});
-
-		tabContents.forEach((tabContent) => {
-			tabContent.classList.remove("active");
-		});
-		document.querySelector("#tab__" + tabnum).classList.add("active");
-		document
-			.querySelector("#tabcontent__" + tabnum)
-			.classList.add("active");
-	};
-
-	// Event Listeners
-	tabs.forEach((tab) => {
-		tab.addEventListener("click", () => {
-			activateTab(tab.dataset.tab);
-		});
-	});
-
-	// Select first as default
-	tabs[0].classList.add("active");
-	tabContents[0].classList.add("active");
-}
 
 // JS Scroll Reveal - Based on https://codepen.io/kccnma/pen/MQeXPY
 
