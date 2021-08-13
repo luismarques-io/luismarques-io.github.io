@@ -1,3 +1,20 @@
+$(document).ready(function () {
+	const $wrap = $(".website__loading__enable");
+	// Website Loader
+	setTimeout(() => {
+		$wrap.addClass("website__loading1");
+	}, 100);
+	setTimeout(() => {
+		$wrap.addClass("website__loading2");
+	}, 1500);
+	// setTimeout(() => {
+	// 	$wrap.addClass("website__loading3");
+	// }, 4000);
+	setTimeout(() => {
+		$wrap.addClass("website__loading__complete");
+	}, 2000);
+});
+
 $(function () {
 	// Fog - https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:15527676,blurFactor:0.9,gyroControls:!f,highlightColor:9216749,lowlightColor:8123903,midtoneColor:16741936,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:2.4000000000000004,touchControls:!t,zoom:0.5)
 	VANTA.FOG({

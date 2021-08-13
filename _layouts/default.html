@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="website__loading__enable">
+
 <head>
-    <head>
-        {% include head.html %}
-      </head>
+    {% include head.html %}
 </head>
+
 <body>
-    <!-- {% include navbar.html %} -->
-    {{ content }}
+    <div class="">
+        <div class="background__fog"></div>
+        <div class="background__birds"></div>
+
+        <!-- {% include navbar.html %} -->
+        {{ content }}
+
+        <div class="website__loader">
+            <span class="big-heading">LM</span>
+        </div>
+    </div>
+
     {% include scripts.html %}
 </body>
+
 </html>
