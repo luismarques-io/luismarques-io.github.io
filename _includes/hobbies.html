@@ -9,11 +9,11 @@
     {% for item in site.data.hobbies %}
     <div class="hobbies__item scrollreveal">
         <div class="hobbies__item__image">
-            <img src="{{item.image}}" alt="{{item.title}}">
+            <img src="{{item.image}}" alt="{{item.title}}" class="scrollreveal__frombottom scrollreveal__delay025">
         </div>
-        <div class="hobbies__item__details scrollreveal__frombottom scrollreveal__delay25">
-            <h3>{{item.title}}</h3>
-            <p>{{item.description}}</p>
+        <div class="hobbies__item__details">
+            <h3 class="scrollreveal__frombottom scrollreveal__delay050">{{item.title}}</h3>
+            <p class="scrollreveal__frombottom scrollreveal__delay075">{{item.description}}</p>
         </div>
     </div>
     {% endfor %}
