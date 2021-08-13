@@ -210,4 +210,8 @@ a {
 	background-color: var(--lightest-blue-alpha);
 	margin: 0 auto;
 	transform: rotate(45deg);
+
+	&.light {
+		background-color: rgba(198, 228, 253, 0.4);
+	}
 }

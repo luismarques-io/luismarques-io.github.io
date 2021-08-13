@@ -43,46 +43,61 @@
 		&:nth-child(1) {
 			img {
 				transform: rotate(-5deg);
-				animation: blobChangeShape1 30s ease-in-out infinite;
+				animation: blobChangeShape1 50s ease-in-out infinite;
 			}
-			.hobbies__item__details {
-				animation: blobChangeShape2 26s ease-in-out infinite;
+			.hobbies__item__details h3 {
+				animation: blobChangeShape2 56s ease-in-out infinite;
+			}
+			.hobbies__item__details p {
+				animation: blobChangeShape3 58s ease-in-out infinite;
 			}
 		}
 		&:nth-child(2) {
 			img {
 				transform: rotate(5deg);
-				animation: blobChangeShape2 26s ease-in-out infinite;
+				animation: blobChangeShape2 56s ease-in-out infinite;
 			}
-			.hobbies__item__details {
-				animation: blobChangeShape3 31s ease-in-out infinite;
+			.hobbies__item__details h3 {
+				animation: blobChangeShape3 51s ease-in-out infinite;
+			}
+			.hobbies__item__details p {
+				animation: blobChangeShape1 59s ease-in-out infinite;
 			}
 		}
 		&:nth-child(3) {
 			img {
 				transform: rotate(-4deg);
-				animation: blobChangeShape3 28s ease-in-out infinite;
+				animation: blobChangeShape3 58s ease-in-out infinite;
 			}
-			.hobbies__item__details {
-				animation: blobChangeShape1 25s ease-in-out infinite;
+			.hobbies__item__details h3 {
+				animation: blobChangeShape1 55s ease-in-out infinite;
+			}
+			.hobbies__item__details p {
+				animation: blobChangeShape2 56s ease-in-out infinite;
 			}
 		}
 		&:nth-child(4) {
 			img {
 				transform: rotate(6deg);
-				animation: blobChangeShape1 26s ease-in-out infinite;
+				animation: blobChangeShape1 56s ease-in-out infinite;
 			}
-			.hobbies__item__details {
-				animation: blobChangeShape2 31s ease-in-out infinite;
+			.hobbies__item__details h3 {
+				animation: blobChangeShape2 51s ease-in-out infinite;
+			}
+			.hobbies__item__details p {
+				animation: blobChangeShape3 59s ease-in-out infinite;
 			}
 		}
 		&:nth-child(5) {
 			img {
 				transform: rotate(-4deg);
-				animation: blobChangeShape2 32s ease-in-out infinite;
+				animation: blobChangeShape2 52s ease-in-out infinite;
 			}
-			.hobbies__item__details {
-				animation: blobChangeShape3 29s ease-in-out infinite;
+			.hobbies__item__details h3 {
+				animation: blobChangeShape3 59s ease-in-out infinite;
+			}
+			.hobbies__item__details p {
+				animation: blobChangeShape1 56s ease-in-out infinite;
 			}
 		}
 
@@ -93,14 +108,54 @@
 			padding-bottom: 50px;
 
 			h3 {
-				font-size: 1.7em;
+				// font-size: 1.7em;
+				// font-family: var(--font-mono);
+				font-family: var(--font-serif);
+				font-weight: 300;
+				font-size: var(--fz-heading);
 				margin-bottom: 0;
-				font-family: var(--font-mono);
 			}
 
 			p {
 				margin-top: 0;
 			}
+		}
+	}
+}
+
+.hobbies__blobs {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	//overflow: hidden;
+
+	.blob {
+		position: absolute;
+		// transition: 0.1s all;
+
+		&:nth-child(1) {
+			width: 400px;
+			height: 350px;
+			top: 20px;
+			left: 290px;
+			animation: blobMove1 30s ease infinite;
+		}
+		&:nth-child(2) {
+			width: 120px;
+			height: 150px;
+			top: 10px;
+			left: 90px;
+			animation: blobMove2 26s ease infinite;
+		}
+		&:nth-child(3) {
+			width: 250px;
+			height: 250px;
+			top: -250px;
+			right: -120px;
+			animation: blobMove3 28s ease infinite;
 		}
 	}
 }
