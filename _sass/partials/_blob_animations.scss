@@ -1,4 +1,4 @@
-@keyframes blobmove1 {
+@keyframes blobMove1 {
 	0% {
 		transform: translateY(0) scale(1) rotate(0deg);
 	}
@@ -28,7 +28,7 @@
 	}
 }
 
-@keyframes blobmove2 {
+@keyframes blobMove2 {
 	0% {
 		transform: translateY(0) scale(1) rotate(0deg);
 	}
@@ -58,7 +58,7 @@
 	}
 }
 
-@keyframes blobmove3 {
+@keyframes blobMove3 {
 	0% {
 		transform: translateY(0) scale(1) rotate(0deg);
 	}
@@ -85,5 +85,110 @@
 
 	100% {
 		transform: translateY(0) rotate(0deg);
+	}
+}
+
+@keyframes blobChangeShape1 {
+	0% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 56% 44% 47% 53% / 67% 51% 49% 33%;
+	}
+	20% {
+		transform: translateY(-6px) translateX(-0px) rotate(1deg);
+		border-radius: 48% 52% 67% 33% / 64% 51% 49% 36%;
+	}
+	30% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 57% 43% 40% 60% / 43% 34% 66% 57%;
+	}
+	40% {
+		transform: translateY(-0px) translateX(-10px) rotate(4deg);
+		border-radius: 46% 54% 72% 28% / 56% 47% 53% 44%;
+	}
+	60% {
+		transform: translateY(-10px) translateX(5px) rotate(-2deg);
+		border-radius: 73% 27% 40% 60% / 35% 46% 54% 65%;
+	}
+	80% {
+		transform: translateY(5px) translateX(3px) rotate(2deg);
+		border-radius: 36% 64% 39% 61% / 38% 35% 65% 62%;
+	}
+	90% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 57% 43% 40% 60% / 43% 34% 66% 57%;
+	}
+	100% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 56% 44% 47% 53% / 67% 51% 49% 33%;
+	}
+}
+
+@keyframes blobChangeShape2 {
+	0% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 46% 54% 72% 28% / 56% 47% 53% 44%;
+	}
+	10% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 57% 43% 40% 60% / 43% 34% 66% 57%;
+	}
+	40% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 56% 44% 47% 53% / 67% 51% 49% 33%;
+	}
+	50% {
+		transform: translateY(5px) translateX(3px) rotate(2deg);
+		border-radius: 36% 64% 39% 61% / 38% 35% 65% 62%;
+	}
+	60% {
+		transform: translateY(-0px) translateX(-10px) rotate(4deg);
+		border-radius: 56% 44% 47% 53% / 67% 51% 49% 33%;
+	}
+	70% {
+		transform: translateY(-6px) translateX(-0px) rotate(1deg);
+		border-radius: 48% 52% 67% 33% / 64% 51% 49% 36%;
+	}
+	80% {
+		transform: translateY(-10px) translateX(5px) rotate(-2deg);
+		border-radius: 73% 27% 40% 60% / 35% 46% 54% 65%;
+	}
+	100% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 46% 54% 72% 28% / 56% 47% 53% 44%;
+	}
+}
+
+@keyframes blobChangeShape3 {
+	0% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 36% 64% 39% 61% / 38% 35% 65% 62%;
+	}
+	10% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 57% 43% 40% 60% / 43% 34% 66% 57%;
+	}
+	20% {
+		transform: translateY(3px) translateX(-6px) rotate(-1deg);
+		border-radius: 57% 43% 40% 60% / 43% 34% 66% 57%;
+	}
+	40% {
+		transform: translateY(5px) translateX(3px) rotate(2deg);
+		border-radius: 56% 44% 47% 53% / 67% 51% 49% 33%;
+	}
+	60% {
+		transform: translateY(-6px) translateX(-0px) rotate(1deg);
+		border-radius: 48% 52% 67% 33% / 64% 51% 49% 36%;
+	}
+	80% {
+		transform: translateY(-10px) translateX(5px) rotate(-2deg);
+		border-radius: 73% 27% 40% 60% / 35% 46% 54% 65%;
+	}
+	90% {
+		transform: translateY(-0px) translateX(-10px) rotate(4deg);
+		border-radius: 46% 54% 72% 28% / 56% 47% 53% 44%;
+	}
+	100% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+		border-radius: 36% 64% 39% 61% / 38% 35% 65% 62%;
 	}
 }
