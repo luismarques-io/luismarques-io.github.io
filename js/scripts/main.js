@@ -6,7 +6,7 @@ $(document).ready(function () {
 	}, 100);
 	setTimeout(() => {
 		$wrap.addClass("website__loading2");
-	}, 1500);
+	}, 1000);
 	// setTimeout(() => {
 	// 	$wrap.addClass("website__loading3");
 	// }, 4000);
