@@ -93,13 +93,19 @@ a {
 			display: block;
 			line-height: 100px;
 			font-family: var(--font-serif-uppercase);
+			font-family: var(--font-serif-decorative);
 			font-size: 120px;
 		}
 	}
 
+	.navbar,
 	main {
 		visibility: hidden;
 		opacity: 0;
+	}
+
+	.navbar {
+		display: none;
 	}
 
 	.background__birds,
@@ -117,6 +123,10 @@ a {
 			opacity: 1;
 			transition: 0.6s;
 		}
+
+		.navbar {
+			display: block;
+		}
 	}
 	&.website__loading2 {
 		.website__loader {
@@ -128,10 +138,15 @@ a {
 			visibility: hidden;
 			opacity: 0;
 		}
+
 		main {
 			visibility: visible;
 			opacity: 1;
 			transition: opacity 1s;
+		}
+		.navbar {
+			visibility: visible;
+			opacity: 1;
 		}
 	}
 }

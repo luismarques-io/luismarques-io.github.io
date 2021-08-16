@@ -1,0 +1,107 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 9;
+	transition: all 0.3s ease-in-out;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+	}
+	&__right {
+		ul {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+
+	&__linklogo {
+		display: block;
+		font-family: var(--font-serif-decorative);
+		color: var(--color-text);
+		font-size: 38px;
+		font-weight: 100;
+		padding: 10px 24px;
+	}
+
+	&__link {
+		display: block;
+		font-family: var(--font-sans);
+		font-size: var(--fz-sm);
+		font-weight: 400;
+		padding: 12px 18px;
+		color: var(--color-text);
+		// margin: 5px 10px;
+		margin: 18px 10px;
+		transition: 0.3s all;
+
+		&:hover {
+			color: var(--blue);
+			transition: 0.1s all;
+		}
+
+		&__resume {
+			box-shadow: 0 0 0 1px var(--blue);
+			border-radius: 50px;
+			color: var(--blue);
+			padding: 12px 24px;
+			margin: 18px 10px;
+
+			&:hover {
+				background-color: #fff;
+				transform: scale(1.1);
+				transition: 1.8s box-shadow, 0.3s all;
+				box-shadow: 0px 0px 0 0px rgba(0, 139, 214, 0),
+					0 10px 20px -15px rgba(0, 0, 0, 0.4);
+			}
+		}
+
+		// &__index {
+		// 	font-family: var(--font-serif);
+		// 	color: var(--lightest-blue);
+		// 	transform: rotate(-6deg);
+		// 	display: block;
+		// 	margin: 0 0 -22px 0;
+		// 	font-weight: 700;
+		// 	font-size: 42px;
+		// 	line-height: 1;
+		// }
+		&__index {
+			font-weight: 600;
+			color: var(--lightest-blue);
+			transform: rotate(-6deg);
+			color: var(--blue);
+			line-height: 1;
+
+			&::after {
+				content: ".";
+			}
+		}
+	}
+
+	// Navbar - show / hide navbar on scroll
+	&.scrolled-down {
+		transform: translateY(-100%);
+	}
+	&.scrolled-up {
+		transform: translateY(0);
+	}
+	&.scrolled-top {
+		background-color: transparent;
+		backdrop-filter: blur(0);
+		padding: 10px;
+	}
+	&.scrolled-top-init {
+		.navbar__link:not(.navbar__link__resume) {
+			visibility: hidden;
+			opacity: 0;
+		}
+	}
+}
