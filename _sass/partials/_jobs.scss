@@ -113,8 +113,10 @@
 				font-size: 28px;
 
 				.job__title {
-					font-family: var(--font-serif-uppercase);
-					font-weight: 600;
+					// font-family: var(--font-serif-uppercase);
+					// font-weight: 600;
+					font-family: var(--font-sans);
+					font-weight: 700;
 				}
 
 				.job__company > * {
