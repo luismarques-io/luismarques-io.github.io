@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	el_autohide = document.querySelector(".autohide");
 
 	if (el_autohide) {
-		var last_scroll_top = 0;
+		const last_scroll_top = 0;
 		window.addEventListener("scroll", function () {
 			let scroll_top = window.scrollY;
 			if (scroll_top < last_scroll_top) {
@@ -24,8 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			last_scroll_top = scroll_top;
 		});
-		// window.addEventListener
 	}
-	// if
 });
-// DOMContentLoaded  end
