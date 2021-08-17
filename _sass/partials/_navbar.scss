@@ -41,10 +41,34 @@
 		// margin: 5px 10px;
 		margin: 18px 10px;
 		transition: 0.3s all;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 10px;
+			left: 15px;
+			width: 25px;
+			height: 25px;
+			background-color: var(--lightest-blue);
+			border-radius: 55% 45% 59% 41% / 44% 70% 30% 56%;
+			transform: scale(0.4) rotate(180deg);
+			opacity: 0;
+			transition: 0.7s all ease-in-out;
+		}
 
 		&:hover {
 			color: var(--blue);
 			transition: 0.1s all;
+
+			&:not(.navbar__link__resume) {
+				&::before {
+					background-color: var(--lightest-blue);
+					transform: scale(2) rotate(45deg);
+					opacity: 1;
+					transition: 0.2s all ease-in-out;
+				}
+			}
 		}
 
 		&__resume {
@@ -53,11 +77,12 @@
 			color: var(--blue);
 			padding: 12px 24px;
 			margin: 18px 10px;
+			transition: 0.3s all ease-in-out;
 
 			&:hover {
 				background-color: #fff;
 				transform: scale(1.1);
-				transition: 1.8s box-shadow, 0.3s all;
+				transition: 0.15s all ease-in-out;
 				box-shadow: 0px 0px 0 0px rgba(0, 139, 214, 0),
 					0 10px 20px -15px rgba(0, 0, 0, 0.4);
 			}
@@ -90,6 +115,7 @@
 	&.scrolled-down {
 		transform: translateY(-100%);
 	}
+	&.scrolled-top,
 	&.scrolled-up {
 		transform: translateY(0);
 	}

@@ -17,10 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
 				el_autohide.classList.add("scrolled-top");
 			} else {
 				el_autohide.classList.remove("scrolled-top");
+				setTimeout(() => {
+					el_autohide.classList.remove("scrolled-top-init");
+				}, 500);
 			}
-			setTimeout(() => {
-				el_autohide.classList.remove("scrolled-top-init");
-			}, 500);
+
 			last_scroll_top = scroll_top;
 		});
 		// window.addEventListener

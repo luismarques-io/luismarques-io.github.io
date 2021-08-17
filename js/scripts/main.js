@@ -13,6 +13,9 @@ $(document).ready(function () {
 	setTimeout(() => {
 		$wrap.addClass("website__loading__complete");
 	}, 2000);
+	setTimeout(() => {
+		$wrap.addClass("website__loading__complete2");
+	}, 2250);
 });
 
 $(function () {
