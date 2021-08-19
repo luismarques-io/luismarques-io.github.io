@@ -1,5 +1,4 @@
 $(function () {
-	// Globe
 	VANTA.GLOBE({
 		el: ".background__globe",
 		mouseControls: true,

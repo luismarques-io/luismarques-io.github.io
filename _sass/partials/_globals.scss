@@ -1,12 +1,22 @@
 :root {
+    --black-alpha-1: rgba(0, 0, 0, 0.1);
+    --black-alpha-4: rgba(0, 0, 0, 0.4);
+	--white: #ffffff;
+    --white-alpha-6: rgba(255, 255, 255, 0.6);
 	--blue: #008bd6;
-	--light-blue: #46d2ff;
-	// --lightest-blue: #eef4f7;
-	--lightest-blue: rgba(163, 196, 212, 0.2);
+	--blue-alpha-7: rgba(0, 139, 214, 0.7);
+	--blue-alpha-2: rgba(0, 139, 214, 0.2);
+    --blue-gray-alpha-2: rgba(223, 244, 255, 0.2);
+	--light-blue: #85cfe7;
+	--light-blue-alpha: rgba(78, 157, 255, 0.1);
+	--lightest-blue: #eef4f7;
 	--lightest-blue-alpha: rgba(163, 196, 212, 0.2);
+	--lightest-blue-alpha2: rgba(198, 228, 253, 0.4)
+    --dark-blue: rgb(32, 14, 132); 
+    --dark-blue-alpha: rgba(31, 14, 132, 0.03%); 
 	--green: #60c05d;
 	--purple: #835be5;
-	--white: #ffffff;
+	--purple-alpha: rgba(116, 79, 152, 0.2);
 	--color-text: #21282c;
 	--color-text-secondary: #99a0aa;
 	--fz-xxs: 12px;
@@ -17,9 +27,9 @@
 	--fz-xl: 20px;
 	--fz-xxl: 22px;
 	--fz-heading: 48px;
+	--fz-heading-md: 28px;
 	--fz-heading-lg: clamp(38px, 8vw, 56px);
 	--fz-heading-xl: clamp(48px, 8vw, 80px);
-	--border-radius: 4px;
 	--font-sans: "Encode Sans Semi Expanded", -apple-system, system-ui,
 		sans-serif;
 	--font-mono: "Roboto Mono", monospace;
@@ -28,8 +38,4 @@
 	--font-serif-decorative: "Cinzel Decorative";
 	// --font-sans-heading: "Gotham";
 	--grid-width: 900px;
-	--grid-sm-width: 700px;
-	--transition-btn-scale-in: all 0.2s;
-	--transition-btn-scale-out: all 0.4s;
-	--transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }

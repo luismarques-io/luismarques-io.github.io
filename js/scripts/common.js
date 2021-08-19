@@ -1,10 +1,7 @@
-//
-// Generate blobs
-//
 genRand = (min, max, decimalPlaces = 0) =>
 	(Math.random() * (max - min) + min).toFixed(decimalPlaces) * 1;
 
-// https://codepen.io/LekovicMilos/pen/omVzYv
+// Generate blobs - https://codepen.io/LekovicMilos/pen/omVzYv
 function generateBorderRadiusBlob() {
 	const percentage1 = genRand(25, 75);
 	const percentage2 = genRand(25, 75);
@@ -25,7 +22,6 @@ tabs({
 	contentSelector: ".job",
 });
 */
-
 function tabs(opt) {
 	// DOM Elements
 	const tabs = document.querySelectorAll(opt.buttonSelector);
@@ -56,4 +52,12 @@ function tabs(opt) {
 	// Select first as default
 	tabs[0].classList.add("active");
 	tabContents[0].classList.add("active");
+}
+
+function copyToClipboard(text) {
+	var $temp = $("<input>");
+	$("body").append($temp);
+	$temp.val(text).select();
+	document.execCommand("copy");
+	$temp.remove();
 }

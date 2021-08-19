@@ -1,4 +1,7 @@
 .about {
+	border-bottom: 1px solid var(--purple-alpha);
+	box-shadow: 0 80px 80px -20px var(--dark-blue);
+
 	.inner {
 		display: grid;
 		grid-template-columns: 3fr 2fr;
@@ -7,31 +10,12 @@
 
 	p {
 		text-align: justify;
-	}
 
-	&__profile__right {
-		max-width: 300px;
-
-		.image-wrapper {
-			display: block;
-			position: relative;
-			width: 100%;
-			border-radius: var(--border-radius);
-
-			img {
-				display: block;
-				transition: var(--transition);
-				max-width: 100%;
-				box-shadow: -70px 70px 0 -30px var(--lightest-blue);
-				transform: rotate(11deg);
-				border-radius: 0;
-				position: absolute;
-				left: 20px;
-				top: -30px;
-				width: 480px;
-				max-width: initial;
-				max-height: initial;
-			}
+		&:nth-child(1) {
+			padding-right: 60px;
+		}
+		&:nth-child(2) {
+			padding-right: 30px;
 		}
 	}
 }

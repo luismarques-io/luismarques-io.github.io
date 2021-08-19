@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	el_autohide = document.querySelector(".autohide");
 
 	if (el_autohide) {
-		const last_scroll_top = 0;
+		let last_scroll_top = 0;
 		window.addEventListener("scroll", function () {
 			let scroll_top = window.scrollY;
 			if (scroll_top < last_scroll_top) {
@@ -25,4 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
 			last_scroll_top = scroll_top;
 		});
 	}
+});
+
+$(function () {
+	// Don't hide scrollbar on click
+	$(".navbar__link").on("click", function () {
+		setTimeout(() => {
+			$(".autohide").removeClass("scrolled-down").addClass("scrolled-up");
+		}, 20);
+	});
 });
