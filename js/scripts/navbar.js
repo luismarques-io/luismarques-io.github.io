@@ -28,10 +28,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 $(function () {
-	// Don't hide scrollbar on click
+	// Don't hide navbar on click
 	$(".navbar__link").on("click", function () {
 		setTimeout(() => {
 			$(".autohide").removeClass("scrolled-down").addClass("scrolled-up");
 		}, 20);
+	});
+
+	// Hide mobile nav on click
+	$(".navbar__menu a:not(.navbar__link__resume)").on("click", function () {
+		console.log("here");
+		$("#show-menu").prop("checked", false);
 	});
 });
