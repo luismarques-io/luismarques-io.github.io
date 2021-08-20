@@ -14,6 +14,11 @@
 
 .background__fog {
 	position: fixed;
+
+	// Using image instead of canvas animation for better performance
+	background: url(../../assets/images/bg/bg3-crop-min.png);
+	background-size: cover;
+	//filter: blur(10px); // To keep quality in 4k+ screens
 }
 
 @media only screen and (max-width: 992px) {
@@ -27,5 +32,3 @@
 		display: none;
 	}
 }
-
-
