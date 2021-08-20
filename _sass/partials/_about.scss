@@ -5,7 +5,7 @@
 	.inner {
 		display: grid;
 		grid-template-columns: 3fr 2fr;
-		gap: 50px;
+		// gap: 50px;
 	}
 
 	p {
@@ -23,5 +23,12 @@
 @media (max-width: 768px) {
 	.about .inner {
 		display: block;
+
+		p {
+			&:nth-child(1),
+			&:nth-child(2) {
+				padding-right: 0;
+			}
+		}
 	}
 }

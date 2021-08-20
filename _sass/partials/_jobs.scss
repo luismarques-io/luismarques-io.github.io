@@ -216,3 +216,27 @@
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	.jobs__list {
+		margin: 10px 0 0 0;
+
+		.job__title__company .job__company {
+			display: block;
+			line-height: var(--fz-lg);
+
+			& > * {
+				font-size: var(--fz-lg);
+				font-weight: 600;
+			}
+		}
+
+		.job__description {
+			padding: 20px 0;
+
+			ul {
+				padding-left: 0;
+			}
+		}
+	}
+}

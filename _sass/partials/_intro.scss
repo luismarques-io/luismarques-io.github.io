@@ -187,3 +187,21 @@
 		transform: translateY(-100%);
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.intro__content {
+		padding-bottom: 0;
+
+		h1 {
+			margin-bottom: 0;
+		}
+	}
+
+	.intro__arrow {
+		bottom: 38px;
+	}
+
+	.intro__content__email:hover {
+		transform: scale(1);
+	}
+}

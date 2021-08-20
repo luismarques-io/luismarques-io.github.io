@@ -142,3 +142,13 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.hobbies__item {
+		display: block;
+
+		&__details h3 {
+			margin-top: 10px;
+		}
+	}
+}

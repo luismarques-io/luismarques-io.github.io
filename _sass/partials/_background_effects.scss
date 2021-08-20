@@ -15,3 +15,17 @@
 .background__fog {
 	position: fixed;
 }
+
+@media only screen and (max-width: 992px) {
+	.background__birds {
+		display: none;
+	}
+	// .background__fog {
+	// 	display: none;
+	// }
+	.background__globe {
+		display: none;
+	}
+}
+
+

@@ -4,8 +4,7 @@
 	.inner {
 		position: relative;
 		display: grid;
-		grid-template-columns: 2fr 2fr;
-		gap: 50px;
+		grid-template-columns: 2fr 3fr;
 		width: 100%;
 
 		padding: 80px 0 60px 0;
@@ -32,6 +31,22 @@
 
 			text-transform: uppercase;
 			font-weight: 700;
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.footer .inner {
+		display: block;
+		text-align: center;
+
+		.footer__links {
+			text-align: center;
+			margin-top: 30px;
+
+			a {
+				margin: 0 10px;
+			}
 		}
 	}
 }

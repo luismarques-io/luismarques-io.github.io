@@ -6,7 +6,7 @@
 	height: 70px;
 	backdrop-filter: blur(10px);
 	background-color: var(--white-alpha-6);
-	z-index: 9;
+	z-index: 99;
 	transition: all 0.3s ease-in-out;
 
 	&__content {
@@ -30,7 +30,7 @@
 		color: var(--color-text);
 		font-weight: 100;
 		font-size: 42px;
-		padding: 0px 24px;
+		padding: 0px 14px;
 		line-height: 70px;
 	}
 
@@ -191,7 +191,60 @@
 	}
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Tables / Small devices */
+
+// trigger menu
+input#show-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+// show mobile nav
+input#show-menu:checked ~ .navbar {
+	height: 100%;
+	z-index: 10;
+
+	.navbar__menu {
+		opacity: 1;
+		top: 0;
+		height: 100%;
+
+		li {
+			opacity: 1;
+			transform: translate(0, 0);
+		}
+
+		@for $i from 2 through 10 {
+			li:nth-child(#{$i}) {
+				transition-delay: #{$i * 0.05}s;
+			}
+		}
+	}
+
+	.navbar__menu__btn {
+		.ham-box-inner {
+			transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1)
+				0.12s;
+			transform: rotate(225deg);
+
+			&::before {
+				width: 100%;
+				top: 0px;
+				opacity: 0;
+				transition: var(--ham-before-active);
+			}
+			&::after {
+				width: 100%;
+				bottom: 0px;
+				transform: rotate(-90deg);
+				transition: var(--ham-after-active);
+			}
+		}
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.navbar {
 		&__menu__btn {
@@ -200,15 +253,8 @@
 	}
 }
 @media only screen and (max-width: 992px) {
-	.background__fog,
-	.background__globe,
-	.background__birds {
-		display: none;
-	}
-
 	input#show-menu:checked ~ .navbar {
 		backdrop-filter: blur(10px) !important;
-		background-color: transparent !important;
 	}
 	.navbar {
 		backdrop-filter: blur(10px) !important;
@@ -305,54 +351,13 @@
 	}
 }
 
-// trigger menu
-input#show-menu {
-	position: fixed;
-	top: 0;
-	left: 0;
-	opacity: 0;
-}
-
-// show mobile nav
-input#show-menu:checked ~ .navbar {
-	height: 100%;
-	z-index: 10;
-
-	.navbar__menu {
-		opacity: 1;
-		top: 0;
-		height: 100%;
-
-		li {
-			opacity: 1;
-			transform: translate(0, 0);
-		}
-
-		@for $i from 2 through 10 {
-			li:nth-child(#{$i}) {
-				transition-delay: #{$i * 0.05}s;
-			}
-		}
+@media only screen and (max-width: 600px) {
+	.navbar__link {
+		margin: 10px 10px;
 	}
-
-	.navbar__menu__btn {
-		.ham-box-inner {
-			transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1)
-				0.12s;
-			transform: rotate(225deg);
-
-			&::before {
-				width: 100%;
-				top: 0px;
-				opacity: 0;
-				transition: var(--ham-before-active);
-			}
-			&::after {
-				width: 100%;
-				bottom: 0px;
-				transform: rotate(-90deg);
-				transition: var(--ham-after-active);
-			}
-		}
+	.navbar__link__index {
+		font-size: 1em;
+		animation: none !important;
+		margin: 0;
 	}
 }

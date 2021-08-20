@@ -58,3 +58,14 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.skills__list {
+		display: block;
+	}
+
+	.skills__category,
+	.skills__category:nth-child(2) {
+		margin-top: 80px;
+	}
+}

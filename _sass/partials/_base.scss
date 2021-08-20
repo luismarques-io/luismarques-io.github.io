@@ -68,11 +68,6 @@ a {
 	margin: auto;
 }
 
-.big-heading {
-	margin: 0px;
-	font-size: var(--fz-heading-lg);
-}
-
 .section {
 	position: relative;
 	padding: 220px 0px;
@@ -146,5 +141,28 @@ a {
 
 	&__content {
 		position: relative;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.intro,
+	.section,
+	.footer {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body,
+	html {
+		font-size: var(--fz-md);
+	}
+
+	.intro,
+	.section,
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
