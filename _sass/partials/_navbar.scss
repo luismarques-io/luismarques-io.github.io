@@ -260,7 +260,7 @@ input#show-menu:checked ~ .navbar {
 		backdrop-filter: blur(10px) !important;
 		background-color: var(--white-alpha-6) !important;
 		padding: 0 !important;
-		transform: translateY(0) !important;
+		//transform: translateY(0) !important;
 
 		&__menu {
 			display: flex;
