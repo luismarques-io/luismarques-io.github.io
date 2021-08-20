@@ -1,19 +1,19 @@
 :root {
-    --black-alpha-1: rgba(0, 0, 0, 0.1);
-    --black-alpha-4: rgba(0, 0, 0, 0.4);
+	--black-alpha-1: rgba(0, 0, 0, 0.1);
+	--black-alpha-4: rgba(0, 0, 0, 0.4);
 	--white: #ffffff;
-    --white-alpha-6: rgba(255, 255, 255, 0.6);
+	--white-alpha-6: rgba(255, 255, 255, 0.6);
 	--blue: #008bd6;
 	--blue-alpha-7: rgba(0, 139, 214, 0.7);
 	--blue-alpha-2: rgba(0, 139, 214, 0.2);
-    --blue-gray-alpha-2: rgba(223, 244, 255, 0.2);
+	--blue-gray-alpha-2: rgba(223, 244, 255, 0.2);
 	--light-blue: #85cfe7;
 	--light-blue-alpha: rgba(78, 157, 255, 0.1);
 	--lightest-blue: #eef4f7;
 	--lightest-blue-alpha: rgba(163, 196, 212, 0.2);
-	--lightest-blue-alpha2: rgba(198, 228, 253, 0.4)
-    --dark-blue: rgb(32, 14, 132); 
-    --dark-blue-alpha: rgba(31, 14, 132, 0.03%); 
+	--lightest-blue-alpha2: rgba(198, 228, 253, 0.4);
+	--dark-blue: rgb(32, 14, 132);
+	--dark-blue-alpha: rgba(31, 14, 132, 0.05);
 	--green: #60c05d;
 	--purple: #835be5;
 	--purple-alpha: rgba(116, 79, 152, 0.2);
@@ -38,4 +38,11 @@
 	--font-serif-decorative: "Cinzel Decorative";
 	// --font-sans-heading: "Gotham";
 	--grid-width: 900px;
+	--hamburger-width: 30px;
+	--ham-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+	--ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+	--ham-after: bottom 0.1s ease-in 0.25s,
+		transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	--ham-after-active: bottom 0.1s ease-out,
+		transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 }

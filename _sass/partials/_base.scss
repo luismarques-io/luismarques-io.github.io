@@ -22,6 +22,10 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+main {
+	overflow: hidden;
+}
+
 .relative {
 	position: relative;
 }
