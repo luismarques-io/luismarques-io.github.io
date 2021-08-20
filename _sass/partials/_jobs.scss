@@ -220,6 +220,34 @@
 
 @media (max-width: 768px) {
 	.jobs {
+		&__list {
+			margin: 0;
+
+			.job__title__company {
+				.job__company {
+					display: block;
+					line-height: var(--fz-lg);
+
+					& > * {
+						font-size: var(--fz-lg);
+						font-weight: 600;
+					}
+				}
+			}
+
+			.job__description {
+				padding: 20px 0;
+
+				ul {
+					padding-left: 0;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.jobs {
 		&.section {
 			padding-left: 0px;
 			padding-right: 0px;
@@ -268,24 +296,6 @@
 
 			.job__title__company {
 				font-size: var(--fz-lg);
-
-				.job__company {
-					display: block;
-					line-height: var(--fz-lg);
-
-					& > * {
-						font-size: var(--fz-lg);
-						font-weight: 600;
-					}
-				}
-			}
-
-			.job__description {
-				padding: 20px 0;
-
-				ul {
-					padding-left: 0;
-				}
 			}
 		}
 	}
