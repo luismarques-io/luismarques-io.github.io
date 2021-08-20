@@ -1,37 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Luís Marques
 email: euluismarques@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Design-minded software engineer focused on building inovative projects 
-  with tasteful interfaces and rich experiences.
+description: >- 
+  I'm a software developer specializing in building and 
+  designing exceptional digital experiences.
+keywords: >-
+  luís,marques,luís marques,luis,luis marques,luismarques,software developer,software dev,
+  software enginner,software dev,lead software dev,lead software developer,lead software engineer,
+  senior software dev,senior software developer,senior software engineer,junior software dev,
+  junior software developer,junior software engineer,frontend software dev,frontend software developer,
+  frontend software engineer,fullstack software dev,fullstack software developer,fullstack software engineer,
+  full stack software dev,full stack software developer,full stack software engineer,full-stack software dev,
+  full-stack software developer,full-stack software engineer, ux,ui,ux/ui,ux ui,ux designer,ux ui designer,
+  ux/ui designer,ux ui designer,Javascript,html,html5,pug,css,css3,sass,less,php,C,C++,C#,R,Python,Meteor,
+  meteorjs,vue,vuejs,react,blaze,handlebars,jquery,git,bash,mongodb,mongo,sql,mysql,meteor up,meteor-up,
+  meteorup,azure,aws,brainanswer,gametrade,golens,vectis,routrip,eyesee,giftlist,sms server,paperpile,ecovig,
+  e-covig,speaker,explorer,tracher,artist,startups,workshops
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://luismarques.io"
 twitter_username: luismarques_io
 github_username: luismarques-io
+linkedin_username: luismarques-io
 
 # Build settings
 #theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 sass:
   sass_dir: _sass
