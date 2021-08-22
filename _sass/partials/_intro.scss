@@ -22,7 +22,8 @@
 		&__hello {
 			display: block;
 			color: var(--color-text-secondary);
-			font-size: var(--fz-lg);
+			// font-size: var(--fz-lg);
+			font-size: var(--fz-md);
 
 			font-weight: 400;
 			margin-bottom: -10px;
@@ -105,7 +106,7 @@
 			.tooltip-on-hover {
 				color: var(--color-text);
 				font-family: var(--font-serif);
-				font-size: 1.6em;
+				// font-size: 1.6em;
 				position: absolute;
 				bottom: 150%;
 				width: 300px;

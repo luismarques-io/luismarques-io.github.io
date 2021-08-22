@@ -26,14 +26,16 @@
 	--fz-lg: 18px;
 	--fz-xl: 20px;
 	--fz-xxl: 22px;
-	--fz-heading: 48px;
+	// --fz-heading: 48px;
+	--fz-heading: 42px;
 	--fz-heading-md: 28px;
 	--fz-heading-lg: clamp(28px, 6vw, 56px);
 	--fz-heading-xl: clamp(48px, 8vw, 80px);
 	--font-sans: "Encode Sans Semi Expanded", -apple-system, system-ui,
 		sans-serif;
 	--font-mono: "Roboto Mono", monospace;
-	--font-serif: "Bellefair";
+	// --font-serif: "Bellefair";
+	--font-serif: "Cinzel";
 	--font-serif-uppercase: "Cinzel";
 	--font-serif-decorative: "Cinzel Decorative";
 	// --font-sans-heading: "Gotham";
