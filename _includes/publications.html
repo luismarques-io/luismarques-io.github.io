@@ -1,4 +1,4 @@
-<div class="section__title">
+<div class="section__title scrollreveal">
     <div class="section__title__textback">
         <div class="scrollreveal__frombottom scrollreveal__delay025">
             <span class="textback__rotate__left">04</span>
@@ -7,15 +7,20 @@
     <h2>Publications</h2>
 </div>
 
-<div class="section__content scrollreveal__frombottom scrollreveal__delay050">
-    <div>
-        {% for item in site.data.publications %}
-        <div class="publication">
-            <span class="publication__title">{{item.title}}</span>
+<div class="section__content">
+    {% for item in site.data.publications %}
+    <div class="publication scrollreveal">
+        <div class="scrollreveal__frombottom scrollreveal__delay025">
+            <span class="publication__title ">{{item.title}}</span>
             <span class="publication__date">{{item.date}}</span>
-            <p class="publication__description">{{item.description}}</p>
-            <a href="{{item.url}}" class="link" target="_blank">See publication</a>
+            <p class="publication__description">{{item.description}}
+            </p>
         </div>
-        {% endfor %}
+        <div class="scrollreveal__frombottom scrollreveal__delay050">
+            <a href="{{item.url}}" class="link" target="_blank">
+                See publication
+            </a>
+        </div>
     </div>
+    {% endfor %}
 </div>
