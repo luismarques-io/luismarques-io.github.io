@@ -1,0 +1,14 @@
+- name: Hugo Silva
+  title: Chief Innovation Officer at PLUX
+  description: Luis is a top performer and one of the hardest working professionals I ever met, distinguished for his motivation, discipline, and ability to work independently.
+  image: /assets/images/testemonials/Hugo%20Silva.jpeg
+
+- name: João Valente
+  title: Chief Executive Officer at BrainAnswer
+  description: ...a solid background in software architecture and development, going far beyond the state-of-the-art in many impactful solutions.
+  image: /assets/images/testemonials/Joao%20Valente.png
+
+- name: Pedro Duque Vieira
+  title: Owner of Pixel Duke, Expert in UX & Java, Writer, Open Source
+  description: Luís has shown a unique combination of technical know-how and aesthetic intuition, producing modern and robust user experiences.
+  image: /assets/images/testemonials/Pedro%20Duke.png

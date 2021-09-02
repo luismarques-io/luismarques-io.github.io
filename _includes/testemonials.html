@@ -1,44 +1,25 @@
-<div class="section__content inner scrollreveal__frombottom scrollreveal__delay25">
-    <div class="testemonial scrollreveal__fromleft scrollreveal__delay05">
+<div class="section__title scrollreveal">
+    <div class="section__title__textback">
+        <div class="scrollreveal__frombottom scrollreveal__delay025">
+            <span class="textback__rotate__right">05</span>
+        </div>
+    </div>
+    <h2>Expert Testemonials</h2>
+</div>
+
+<div class="section__content inner">
+    {% for item in site.data.testemonials %}
+    <div class="testemonial scrollreveal">
         <div class="testemonial__person">
             <div class="testemonial__person__photo">
-                <img src="http://brainanswer.pt/website/img/team/Hugo%20Silva.jpg" alt="Hugo Silva">
+                <img src="{{item.image}}" alt="{{item.name}}" class="scrollreveal__frombottom scrollreveal__delay025">
             </div>
             <div class="testemonial__person__info">
-                <div class="testemonial__name">Hugo Silva</div>
-                <div class="testemonial__title">Chief Innovation Officer at PLUX</div>
+                <div class="testemonial__name scrollreveal__frombottom scrollreveal__delay025">{{item.name}}</div>
+                <div class="testemonial__title scrollreveal__frombottom scrollreveal__delay050">{{item.title}}</div>
             </div>
         </div>
-        <p class="testemonial__description">
-            "Luis is a top performer and one of the hardest working professionals I ever met."
-        </p>
+        <p class="testemonial__description scrollreveal__frombottom scrollreveal__delay075">{{item.description}}</p>
     </div>
-    <div class="testemonial scrollreveal__fromleft scrollreveal__delay05">
-        <div class="testemonial__person">
-            <div class="testemonial__person__photo">
-                <img src="https://via.placeholder.com/250x250" alt="Placeholder">
-            </div>
-            <div class="testemonial__person__info">
-                <div class="testemonial__name">Placeholder</div>
-                <div class="testemonial__title">Lorem ipsum dolor sit amet</div>
-            </div>
-        </div>
-        <p class="testemonial__description">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
-        </p>
-    </div>
-    <div class="testemonial scrollreveal__fromleft scrollreveal__delay05">
-        <div class="testemonial__person">
-            <div class="testemonial__person__photo">
-                <img src="https://via.placeholder.com/250x250" alt="Placeholder">
-            </div>
-            <div class="testemonial__person__info">
-                <div class="testemonial__name">Placeholder</div>
-                <div class="testemonial__title">Lorem ipsum dolor sit amet</div>
-            </div>
-        </div>
-        <p class="testemonial__description">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
-        </p>
-    </div>
+    {% endfor %}
 </div>
