@@ -1,19 +1,19 @@
-<div class="section__title scrollreveal__frombottom scrollreveal__delay075">
+<div class="section__title scrollreveal">
     <!-- <div class="section__title__textback">
         <span class="textback__rotate__right">06</span>
     </div> -->
-    <h2>Awards</h2>
+    <h2 class="scrollreveal__frombottom scrollreveal__delay075">Awards</h2>
 </div>
 
-<div class="section__content scrollreveal__frombottom scrollreveal__delay1">
-    <div>
-        {% for item in site.data.awards %}
-        <div class="award">
+<div class="section__content">
+    {% for item in site.data.awards %}
+    <div class="award scrollreveal">
+        <div class="scrollreveal__frombottom scrollreveal__delay1">
             <span class="award__title">{{item.title}}</span>
             <span class="award__date">{{item.date}}</span>
             <!-- <span class="award__issuer">{{item.issuer}}</span> -->
             <p class="award__description">{{item.description}}</p>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
