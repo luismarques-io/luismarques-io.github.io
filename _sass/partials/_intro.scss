@@ -165,13 +165,31 @@
 	}
 
 	&__arrow {
-		fill: var(--color-text);
-		width: 42px;
+		border: none;
+		background: transparent;
 		position: absolute;
-		bottom: 60px;
+		height: 68px;
+		bottom: 30px;
 		left: 50%;
-		margin-left: -21px;
-		animation: updown 2s ease infinite;
+		width: 100px;
+		margin-left: -50px;
+		cursor: pointer;
+		transition: 0.3s transform;
+
+		&:hover {
+			transform: scale(1.2);
+		}
+
+		&:active {
+			transform: scale(0.9);
+			transition: 0.2s transform;
+		}
+
+		svg {
+			fill: var(--color-text);
+			width: 42px;
+			animation: updown 2s ease infinite;
+		}
 	}
 }
 
@@ -199,7 +217,7 @@
 	}
 
 	.intro__arrow {
-		bottom: 38px;
+		bottom: 8px;
 	}
 
 	.intro__content__email:hover {

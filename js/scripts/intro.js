@@ -10,6 +10,12 @@ $(function () {
 		}, 1000);
 	});
 
+	$(".intro__arrow").click(function (e) {
+		$("html, body")
+			.stop()
+			.animate({ scrollTop: $("#about").offset().top }, 1200, "swing");
+	});
+
 	// Birds - https://www.vantajs.com/#(alignment:20,backgroundAlpha:0,backgroundColor:16777215,birdSize:2,cohesion:23,color1:5515963,color2:53759,colorMode:lerp,gyroControls:!f,minHeight:200,minWidth:200,mouseControls:!t,quantity:1,scale:1,scaleMobile:1,separation:19,speedLimit:5,touchControls:!t,wingSpan:30)
 	VANTA.BIRDS({
 		el: ".background__birds",

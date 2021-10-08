@@ -28,11 +28,18 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 $(function () {
-	// Don't hide navbar on click
-	$(".navbar__link").on("click", function () {
-		setTimeout(() => {
-			$(".autohide").removeClass("scrolled-down").addClass("scrolled-up");
-		}, 20);
+	$(".navbar__link").on("click", function (e) {
+		// Don't hide navbar on click
+		// setTimeout(() => {
+		// 	$(".autohide").removeClass("scrolled-down").addClass("scrolled-up");
+		// }, 20);
+
+		var id = $(this).attr("href").slice(1);
+		$("html, body")
+			.stop()
+			.animate({ scrollTop: $(id).offset().top }, 1200, "swing", function () {
+				$(".autohide").removeClass("scrolled-down").addClass("scrolled-up");
+			});
 	});
 
 	// Hide mobile nav on click
