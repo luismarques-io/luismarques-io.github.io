@@ -18,6 +18,8 @@ frameworks:
     link: http://blazejs.org
   - name: Handlebars
     link: https://handlebarsjs.com
+  - name: Node.js
+    link: https://nodejs.org/
   - name: jQuery
 
 tools:
@@ -28,6 +30,8 @@ tools:
   - name: Meteor Up
     link: http://meteor-up.com
   - name: Azure/AWS
+  - name: Gigya/SAP CDC
+    link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
 
 design:
   - name: Sketch

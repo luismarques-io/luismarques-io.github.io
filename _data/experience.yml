@@ -1,7 +1,19 @@
+- company: SAP
+  url: https://sap.com/
+  range: Jan 2022 - Present
+  title: Senior Development Consultant
+  description:
+    - Project Manager in a cross-platform project
+    - Architect, developing unique technical solutions for catering to special client requisites
+    - Team lead, providing mentorship, technical expertise and guidance
+    - Pioneered an innovative automation project for Gigya/SAP CDC in order to remove repetitive tasks, saving time and increasing revenue 
+    - Created an internal course to certify SAP Web Developers and upgrade the skillset of the team
+    - Collaborated in the development of Gigya/SAP CDC, SAP CPI projects for some of the best companies on the globe
+
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
-  title: Lead Software Dev / UX
+  title: Lead Software Developer
   description:
     - Lead the neuroscience platform development, testing and launch
     # - Architected a multi-server system to manage large amounts of data transfer and processing
@@ -23,10 +35,21 @@
     - C++
     - C#
 
+- company: Golens
+  url: https://www.golens.com/
+  range: Nov 2020 - Dec 2021
+  title: Strategy & Operations Lead
+  description:
+    - Lead the operation from conception to a multi-country expansion
+    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
+    - Established and implemented the design language and branding
+    - Designed an innovative and interactive homepage widget menu to engage costumers
+    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
+
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
-  title: Full Stack Software Dev / UX
+  title: Full Stack Software Developer
   description:
     - Built and shipped the marketplace as an MVP, continuing the development based on community suggestions
     - Developed the design language and user experience
@@ -36,21 +59,10 @@
     - Implemented a user transaction feedback system
     - Created a back-office to manage user badges, reviews, videos
 
-- company: Golens
-  url: https://www.golens.com/
-  range: Nov 2020 - Present
-  title: IT Specialist / UX
-  description:
-    - Lead the operation from conception to a multi-country expansion
-    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
-    - Established and implemented the design language and branding
-    - Designed an innovative and interactive homepage widget menu to engage costumers
-    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
-    
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
   range: Feb 2013 - Apr 2015
-  title: Software Developer / UX
+  title: Software Developer
   description:
     - Built uniquely innovative website and e-commerce experiences
     - Co-created a Web-Documentary with 3D navigation to raise awareness for the ecology in Portugal
@@ -59,7 +71,7 @@
 
 - company: Routrip
   range: Dec 2013 - Nov 2014
-  title: Full Stack Software Dev / UX
+  title: Full Stack Software Developer
   description:
     - Designed and built a smartphone app using Cordova with integrated QR codes and maps
     - Implemented a gamified touristic routes interface with points of interest and prizes for completion
@@ -68,7 +80,7 @@
 - company: EyeSee
   url: https://www.linkedin.com/company/eyesee-lda/
   range: Jun 2013 - Dec 2013
-  title: Front End Software Dev / UX
+  title: Front End Software Developer
   description:
     - Built a jQuery plugin to interact with the proprietary technology on any website
     - Developed a back-office to manage users, clients and contents of the technology
@@ -76,7 +88,7 @@
 
 - company: GiftList
   range: Feb 2012 - Jun 2013
-  title: Full Stack Software Dev / UX
+  title: Full Stack Software Developer
   description:
     - Developed a framework to synchronize data in real-time from the front-end to the database, using JavaScript and PHP
     - Built a crowdfunding system to share the costs of a gift to a friend
