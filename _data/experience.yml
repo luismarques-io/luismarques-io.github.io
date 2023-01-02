@@ -1,14 +1,25 @@
 - company: SAP
   url: https://sap.com/
   range: Jan 2022 - Present
-  title: Senior Development Consultant
+  title: Senior Software Architect
   description:
-    # - Project Manager in a cross-platform project
-    - Architected and developed unique technical solutions, catering to custom client needs and requisites
     - Team lead, providing mentorship, technical expertise and guidance
-    - Pioneered an innovative automation project to extend Gigya/SAP CDC functionalities in order to remove repetitive tasks, saving time and increasing productivity 
-    - Created an internal course to certify SAP Web Developers and upgrade the skill set of the team
-    - Collaborated in the development of Gigya/SAP CDC, SAP CPI projects for some of the best companies on the globe
+    - Pioneered and architected the first innovative internal project (CDC Toolbox) that extends Gigya / SAP CDC functionalities to remove repetitive tasks, saving time (70% to 90%), while drastically increasing productivity and revenue
+    - Architected, restructured and presented internal project initiatives to develop standalone products using BTP to improve SAP Hybris Commerce / SAP Commerce Cloud and Spartacus
+    - Created an internal course to certify SAP Web Developers to improve code quality and upgrade the skill set of the team
+    - Architected and developed unique technical solutions, catering to custom client needs and requisites
+    - Developed Gigya / SAP CDC projects for some of the best companies on the globe
+
+- company: Golens
+  url: https://www.golens.com/
+  range: Nov 2020 - Dec 2021
+  title: Strategy & Operations Lead
+  description:
+    - Lead the operation from conception to a multi-country expansion
+    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
+    - Established and implemented the design language and branding
+    - Designed an innovative and interactive homepage widget menu to engage costumers
+    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
 
 - company: BrainAnswer
   url: https://brainanswer.pt/
@@ -25,26 +36,6 @@
     - Implemented a visualization tool, with synchronized signals, videos, forms, powerful statistics and cross-referencing data analysis
     # - Designed a report creation tool with powerful statistics and cross-referencing data analysis
     # - Worked with video professionals to create guides and tutorials
-  tech:
-    - Meteor
-    - Blaze
-    - MongoDB
-    - PHP
-    - R
-    - Python
-    - C++
-    - C#
-
-- company: Golens
-  url: https://www.golens.com/
-  range: Nov 2020 - Dec 2021
-  title: Strategy & Operations Lead
-  description:
-    - Lead the operation from conception to a multi-country expansion
-    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
-    - Established and implemented the design language and branding
-    - Designed an innovative and interactive homepage widget menu to engage costumers
-    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
 
 - company: GameTrade
   url: https://gametrade.pt/
