@@ -76,6 +76,12 @@
 			}
 		}
 
+		&__page {
+			color: var(--blue);
+			&::before {
+				display: none;
+			}
+		}
 		&__resume {
 			box-shadow: 0 0 0 1px var(--blue);
 			border-radius: 50px;
@@ -118,7 +124,7 @@
 		padding: 10px;
 	}
 	&.scrolled-top-init {
-		.navbar__link:not(.navbar__link__resume) {
+		.navbar__link:not(.navbar__link__resume, .navbar__link__page) {
 			visibility: hidden;
 			opacity: 0;
 		}
