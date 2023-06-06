@@ -61,6 +61,10 @@ a {
 	}
 }
 
+.nobr {
+	white-space: nowrap;
+}
+
 .grid-wrap {
 	max-width: var(--grid-width);
 	margin: auto;

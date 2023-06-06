@@ -1,64 +1,53 @@
 - company: SAP
   url: https://sap.com/
   range: Jan 2022 - Present
-  title: Senior Software Architect
+  title: Senior Software Developer & Architect
   description:
     - Team lead, providing mentorship, technical expertise and guidance
-    - Pioneered and architected the first innovative internal project (CDC Toolbox) that extends Gigya / SAP CDC functionalities to remove repetitive tasks, saving time (70% to 90%), while drastically increasing productivity and revenue
-    - Architected, restructured and presented internal project initiatives to develop standalone products using BTP to improve SAP Hybris Commerce / SAP Commerce Cloud and Spartacus
-    - Created an internal course to certify SAP Web Developers to improve code quality and upgrade the skill set of the team
-    - Architected and developed unique technical solutions, catering to custom client needs and requisites
-    - Developed Gigya / SAP CDC projects for some of the best companies on the globe
+    - Pioneered, architected and developed the first innovative internal project that extends Gigya / SAP CDC, saving over €7,000,000 annually and 70% to 90% of time in some tasks (Customer Data Cloud Toolbox)
+    - Architected and restructured internal project initiatives to develop standalone products using BTP, saving thousands of hours yearly in SAP Commerce Cloud and SAP Spartacus implementations
+    - Created an internal course to certify SAP Web Developers to improve code quality, resulting in the skill set upgrade of 80% of the team
+    - Developed custom Gigya / SAP CDC implementations for some of the best companies and governments on the globe with 0 escalations
 
 - company: Golens
   url: https://www.golens.com/
   range: Nov 2020 - Dec 2021
   title: Strategy & Operations Lead
   description:
-    - Lead the operation from conception to a multi-country expansion
-    - Closely coordinated efforts of designers, programmers, marketeers and logistics experts
-    - Established and implemented the design language and branding
-    - Designed an innovative and interactive homepage widget menu to engage costumers
-    - Optimized the costumer path to minimize steps and distractions in order to maximize sales
+    - Lead the operation from conception to a multi-country expansion in less than 5 months, starting without branding, website, product database, suppliers, delivery partners, payment system or packaging
+    - Developed an internal app to manage product stocks integrated with the invoicing software, enabling the quick management of over 150,000 SKUs
+    - Optimized the user journey by removing 50% of steps in some cases
 
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
-  title: Lead Software Developer
+  title: Lead Software Developer & Architect
   description:
-    - Lead the neuroscience platform development, testing and launch
-    # - Architected a multi-server system to manage large amounts of data transfer and processing
-    - Architected a multi-server system to manage large inflows of data
-    - Built a unified signal processing system capable of running algorithms from multiple programming languages (C++, R, Python, PHP, ImageJ)
-    - Created and documented an API for third party integrations
+    - Architected and built a data collection system to remotely record Webcam, Microphone, Eye-trackers, EEG headsets and sensors simultaneously by the millisecond from dozens of stations totaling more than 100 channels each, storing and organizing gigabytes in a short amount of time
+    - Built a concurrent signal processing system to agnostically run algorithms in 5 different programming languages, such as C++, R, Python, PHP, ImageJ
     - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomization
-    - Architected and built an app for Windows to record Webcam, Microphone, Eye-trackers, EEG headsets and sensors in a unified system
-    - Implemented a visualization tool, with synchronized signals, videos, forms, powerful statistics and cross-referencing data analysis
-    # - Designed a report creation tool with powerful statistics and cross-referencing data analysis
-    # - Worked with video professionals to create guides and tutorials
+    - Created a user management system to support the roles of “tester”, “user”, “organization” and “admin”, including a public API for external integrations
+    - Developed a visualization tool, to see synchronized signals with videos, forms, powerful statistics and cross-referencing data analysis
 
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
-  title: Full Stack Software Developer
+  title: Lead Software Developer & Architect
   description:
-    - Built and shipped the marketplace as an MVP, continuing the development based on community suggestions
-    - Developed the design language and user experience
-    - Designed and built the interactive search feature
-    - Architected an automated database management system that keeps it self-updated, integrating third party APIs
-    - Built an innovative chat with embedded product transactions
-    - Implemented a user transaction feedback system
-    - Created a back-office to manage user badges, reviews, videos
+    - Built and shipped the marketplace as an MVP in less than 4 months, with an innovative chat with embedded product transactions and feedback
+    - Created an automated database system that keeps itself-updated multiple times a day for over 50000 games, integrating third party APIs
+    - Developed the design language, user experience, front-end and back-end
+    - Created a back-office to manage user badges, reviews, videos, statistics
 
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
   range: Feb 2013 - Apr 2015
-  title: Software Developer
+  title: Full Stack Software Developer & Consultant
   description:
     - Built uniquely innovative website and e-commerce experiences
     - Co-created a Web-Documentary with 3D navigation to raise awareness for the ecology in Portugal
+    - Interfaced with clients in a regular basis, providing technological expertise
     - Collaborated with a diverse team organizing workshops and events
-    - Interfaced with clients in a regular basis, providing technological expertise and knowledge
 
 - company: Routrip
   range: Dec 2013 - Nov 2014
@@ -73,29 +62,32 @@
   range: Jun 2013 - Dec 2013
   title: Front End Software Developer
   description:
-    - Built a jQuery plugin to interact with the proprietary technology on any website
     - Developed a back-office to manage users, clients and contents of the technology
+    - Built a jQuery plugin to interact with the proprietary technology on any website
     - Designed and implemented a demo website
 
 - company: GiftList
   range: Feb 2012 - Jun 2013
   title: Full Stack Software Developer
   description:
-    - Developed a framework to synchronize data in real-time from the front-end to the database, using JavaScript and PHP
+    - Developed a framework to synchronize data in real-time between the front-end and the database, using JavaScript and PHP
     - Built a crowdfunding system to share the costs of a gift to a friend
     - Implemented a calendar view for event management and visualization
 
 - company: SMS Server
   range: Apr 2011 - Jan 2013
-  title: Software Developer
+  title: Full Stack Software Developer
   description:
     - Architected (with a Patent Proposal) and built an SMS Proxy system using servers with GSM Modems to reduce costs sending SMS between operators
     - Developed a web based back-office to manage bulk send of SMS, with contact groups and servers management
-    - Created a C++ library to manage GSM Modems, with functions to connect, send SMS, receive SMS, send specific commands, etc
+    - Created a C++ library to manage GSM Modems, with functions to connect, send SMS, receive SMS and send specific commands
     - Built the back-end connection between the user experience and the servers sending and receiving SMS
 
 - company: PaperPile
   range: Sep 2010 - Apr 2011
-  title: Software Developer
+  title: Full Stack Software Developer
   description:
-    - Designed, built and shipped the money management web app to track expenses and establish goals
+    - Built a secure user authentication system with support for sharing tables of expenses between users
+    - Developed and designed en inline editable table with automatic calculations
+    - Created a gamification section for users to manage their goals with progress and statistics
+    - Shipped the money management web app to track expenses, establish goals and share costs

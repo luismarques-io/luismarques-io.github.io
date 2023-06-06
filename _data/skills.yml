@@ -1,26 +1,30 @@
 languages:
-  - name: Javascript
-  - name: HTML/Pug
-  - name: CSS/Sass/Less
-  - name: PHP
+  - name: JavaScript
+  - name: TypeScript
   - name: C++/C#
+  - name: PHP
   - name: R
   - name: Python
+  - name: HTML/Pug
+  - name: CSS/Sass/Less
 
 frameworks:
-  - name: Meteor
-    link: https://www.meteor.com
-  - name: Vue
-    link: https://vuejs.org
   - name: React
     link: https://reactjs.org
+  - name: Angular
+    link: https://https://angular.io/
+  - name: Vue
+    link: https://vuejs.org
+  - name: Meteor
+    link: https://www.meteor.com
   - name: Blaze
     link: http://blazejs.org
   - name: Handlebars
     link: https://handlebarsjs.com
   - name: Node.js
     link: https://nodejs.org/
-  - name: jQuery
+  - name: Express
+    link: https://expressjs.com
 
 tools:
   - name: Git
@@ -32,11 +36,6 @@ tools:
   - name: Azure/AWS
   - name: Gigya/SAP CDC
     link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
+  - name: SAP Spartacus
+    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
 
-design:
-  - name: Sketch
-  - name: Prototyping
-  - name: User Testing
-    link: http://brainanswer.pt/#portfolio
-  - name: Eye Tracking
-    link: http://brainanswer.pt/#portfolio

@@ -18,7 +18,7 @@
 			background: transparent;
 			border: none;
 			border-radius: 0;
-			padding: 24px 28px;
+			padding: 20px 28px;
 			width: 180px;
 			font-family: var(--font-sans);
 			font-weight: 300;
@@ -29,7 +29,7 @@
 			transition: 0.2s all;
 
 			&:before {
-				content: "";
+				content: '';
 				position: absolute;
 				top: 50%;
 				left: -4px;
@@ -136,7 +136,7 @@
 				padding: 50px 0;
 
 				&:before {
-					content: "";
+					content: '';
 					position: absolute;
 					top: -1%;
 					left: -5%;
@@ -162,7 +162,7 @@
 							left: 0px;
 							color: var(--blue);
 							top: 1px;
-							content: "○";
+							content: '○';
 							font-size: 15px;
 						}
 					}
