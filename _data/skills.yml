@@ -17,25 +17,24 @@ frameworks:
     link: https://vuejs.org
   - name: Meteor
     link: https://www.meteor.com
-  - name: Blaze
-    link: http://blazejs.org
-  - name: Handlebars
-    link: https://handlebarsjs.com
   - name: Node.js
     link: https://nodejs.org/
-  - name: Express
-    link: https://expressjs.com
-
-tools:
-  - name: Git
-  - name: Bash
-  - name: MongoDB
-  - name: SQL
-  - name: Meteor Up
-    link: http://meteor-up.com
-  - name: Azure/AWS
-  - name: Gigya/SAP CDC
-    link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
+  - name: Jest
+    link: https://jestjs.io/
+  - name: Cypress
+    link: https://www.cypress.io/
   - name: SAP Spartacus
     link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
+  - name: Blaze
+    link: http://blazejs.org/
+
+tools:
+  - name: MongoDB
+  - name: SQL
+  - name: Gigya/SAP CDC
+    link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
+  - name: Azure
+  - name: AWS
+  - name: Meteor Up
+    link: http://meteor-up.com
 
