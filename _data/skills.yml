@@ -13,6 +13,8 @@ frameworks:
     link: https://reactjs.org
   - name: Angular
     link: https://https://angular.io/
+  - name: SAP Spartacus
+    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
   - name: Vue
     link: https://vuejs.org
   - name: Meteor
@@ -23,12 +25,16 @@ frameworks:
     link: https://jestjs.io/
   - name: Cypress
     link: https://www.cypress.io/
-  - name: SAP Spartacus
-    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
   - name: Blaze
     link: http://blazejs.org/
 
 tools:
+  - name: Jenkins
+    link: https://jenkins.io/
+  - name: Sonar
+    link: https://www.sonarqube.org/
+  - name: Checkmarx
+    link: https://www.checkmarx.com/
   - name: MongoDB
   - name: SQL
   - name: Gigya/SAP CDC
