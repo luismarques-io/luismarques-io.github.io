@@ -4,7 +4,7 @@
   title: Senior Software Developer & Architect
   description:
     - Team lead, providing mentorship, technical expertise and guidance
-    - Pioneered, architected and developed the first innovative internal project that extends SAP CDC / Gigya, saving over €7,000,000 annually and 70% to 90% of the time in some tasks (Customer Data Cloud Toolbox)
+    - Pioneered, architected and developed the first innovative internal project that extends SAP CDC / Gigya, saving over €7,000,000 annually and 70% to 90% of the time in some tasks (<a href="https://github.com/SAP/sap-customer-data-cloud-toolkit" target="_blank">SAP Customer Data Cloud toolkit</a>)
     - Architected and restructured internal project initiatives to develop standalone products using BTP, saving hundreds of hours yearly in SAP Commerce Cloud and SAP Spartacus implementations
     - Created an internal course to certify SAP Web Developers to improve code quality, resulting in the skill set upgrade of 80% of the team
     - Developed custom SAP CDC / Gigya implementations for some of the best companies and governments on the globe with 0 escalations
@@ -25,7 +25,7 @@
   description:
     - Architected and built a data collection system to remotely record Webcam, Microphone, Eye-trackers, EEG headsets and sensors simultaneously by the millisecond from dozens of stations totalling more than 100 channels each, storing and organizing gigabytes in a short amount of time 
     - Built a concurrent signal processing system to agnostically run algorithms in 5 different programming languages, such as C++, R, Python, PHP, ImageJ
-    - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomization
+    - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomisation
     - Created a user management system to support the roles of “tester”, “user”, “organization” and “admin”, including a public API for external integrations
     - Developed a visualization tool, to see synchronized signals with videos, forms, powerful statistics and cross-referencing data analysis
 
@@ -35,7 +35,7 @@
   title: Lead Software Developer & Architect
   description:
     - Built and shipped the marketplace as an MVP in less than 4 months, with an innovative chat with embedded product transactions and feedback
-    - Created an automated database system that keeps itself updated multiple times a day for over 50000 games, integrating third-party APIs
+    - Created an automated database system that keeps itself updated multiple times a day for over 50,000 games, integrating third-party APIs
     - Developed the design language, user experience, front end and back-end
     - Created a back-office to manage user badges, reviews, videos, statistics
 
@@ -79,7 +79,7 @@
   title: Full Stack Software Developer
   description:
     - Architected (with a Patent Proposal) and built an SMS Proxy system using servers with GSM Modems to reduce the costs of SMS between operators
-    - Developed a web-based back-office to manage bulk send of SMS, with contact groups and servers management
+    - Developed a web-based back-office to manage bulk send of SMS, with contact groups and server management
     - Created a C++ library to manage GSM Modems, with functions to connect, send SMS, receive SMS and send specific commands
     - Built the back-end connection between the user experience and the servers sending and receiving SMS
 
