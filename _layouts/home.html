@@ -8,7 +8,6 @@ layout: default
   </section>
 
   <div class="intro__sociallinks">
-    <!-- <a href="mailto:{{ site.email }}" target="_blank" title="E-mail" rel="noreferrer"><span class="icon-mail-dot-ru"></span></a> -->
     <a href="https://github.com/{{site.github_username}}" target="_blank" title="GitHub" rel="noreferrer">
       <span class="icon-github"></span>
     </a>
@@ -52,19 +51,30 @@ layout: default
     </div>
   </section>
 
-  <!-- <section id="projects" class="section">
-        <div class="grid-wrap scrollreveal">
-            {% include projects.html %}
-        </div>
-    </section> -->
-
-  <section id="pub_awards" class="section pub_awards">
+  <section id="open_source_projects" class="section open_source_projects">
+    <div class="open_source_projects__blobs">
+      <div class="grid-wrap relative">
+        <div class="blob detail__blob light"></div>
+        <div class="blob detail__blob light"></div>
+        <div class="blob detail__blob light"></div>
+        <div class="blob detail__blob light"></div>
+        <div class="blob detail__blob light"></div>
+      </div>
+    </div>
     <div class="grid-wrap">
       <div class="inner">
-        <div id="publications">
+        <div id="open_source">
+          {% include open_source.html %}
+        </div>
+      </div>
+      <div class="inner">
+        <div></div>
+        <div id="publications" style="margin-top: -100px;">
           {% include publications.html %}
         </div>
-        <div id="awards">
+      </div>
+      <div class="inner">
+        <div id="awards" style="margin-top: -100px;">
           {% include awards.html %}
         </div>
       </div>

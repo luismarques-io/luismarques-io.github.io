@@ -1,32 +1,32 @@
 <div class="section__title text-center scrollreveal">
-    <div class="section__title__textback">
-        <div class="scrollreveal__frombottom scrollreveal__delay025">
-            <span class="textback__rotate__right">06</span>
-        </div>
+  <div class="section__title__textback">
+    <div class="scrollreveal__frombottom scrollreveal__delay025">
+      <span class="textback__rotate__right">08</span>
     </div>
-    <h2>Other Interests</h2>
+  </div>
+  <h2>Other Interests</h2>
 </div>
 
 <div class="section__content hobbies">
-    {% for item in site.data.hobbies %}
-    <div class="hobbies__item scrollreveal">
-        <div class="hobbies__item__image">
-            {% if item.url %}
-            <a href="{{item.url}}" target="_blank" rel="noreferrer">
-                <img src="{{item.image}}" alt="{{item.title}}" class="scrollreveal__frombottom scrollreveal__delay025">
-            </a>
-            {% else %}
-            <img src="{{item.image}}" alt="{{item.title}}" class="scrollreveal__frombottom scrollreveal__delay025">
-            {% endif %}
-        </div>
-        <div class="hobbies__item__details">
-            <span class="scrollreveal__frombottom scrollreveal__delay050">
-                <h3>{{item.title}}</h3>
-            </span>
-            <span class="scrollreveal__frombottom scrollreveal__delay025">
-                <p>{{item.description}}</p>
-            </span>
-        </div>
+  {% for item in site.data.hobbies %}
+  <div class="hobbies__item scrollreveal">
+    <div class="hobbies__item__image">
+      {% if item.url %}
+      <a href="{{item.url}}" target="_blank" rel="noreferrer">
+        <img src="{{item.image}}" alt="{{item.title}}" class="scrollreveal__frombottom scrollreveal__delay025">
+      </a>
+      {% else %}
+      <img src="{{item.image}}" alt="{{item.title}}" class="scrollreveal__frombottom scrollreveal__delay025">
+      {% endif %}
     </div>
-    {% endfor %}
+    <div class="hobbies__item__details">
+      <span class="scrollreveal__frombottom scrollreveal__delay050">
+        <h3>{{item.title}}</h3>
+      </span>
+      <span class="scrollreveal__frombottom scrollreveal__delay025">
+        <p>{{item.description}}</p>
+      </span>
+    </div>
+  </div>
+  {% endfor %}
 </div>

@@ -1,0 +1,10 @@
+- title: "SAP Customer Data Cloud accelerator"
+  role: "Pioneer, Architect, Product Owner and Lead Developer"
+  date: Feb 2023 - Present
+  url: https://github.com/SAP/sap-customer-data-cloud-accelerator
+  description: Development environment for SAP CDC that enables the use of all modern tools, including modern JavaScript and real source control. Provides code separation, enabling best practices, unit tests and quality checks.
+- title: "SAP Customer Data Cloud toolkit"
+  role: "Pioneer, Architect, Product Owner"
+  date: Apr 2022 - Present
+  url: https://github.com/SAP/sap-customer-data-cloud-toolkit
+  description: SAP Customer Data Cloud toolkit, adds new functionalities and improves existing ones in the SAP Customer Data Cloud product.
