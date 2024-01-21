@@ -1,6 +1,8 @@
 # luismarques.io
 
-This is a Ruby-based project that uses Bundler for dependency management. The project is structured as a static website, with data-driven content powered by YAML files.
+This is a Jekyll-based project that uses Ruby and Bundler for dependency management. The project is structured as a static website, with data-driven content powered by YAML files.
+
+Jekyll is a simple, blog-aware, static site generator that's ideal for personal, project, or organization sites.
 
 ## Project Structure
 
