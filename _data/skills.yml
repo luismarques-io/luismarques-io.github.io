@@ -1,6 +1,6 @@
 languages:
-  - name: JavaScript
   - name: TypeScript
+  - name: JavaScript
   - name: C++/C#
   - name: PHP
   - name: R
@@ -35,6 +35,8 @@ tools:
     link: https://www.sonarqube.org/
   - name: Checkmarx
     link: https://www.checkmarx.com/
+  - name: GitHub Actions
+    link: https://docs.github.com/en/actions
   - name: MongoDB
   - name: SQL
   - name: Gigya/SAP CDC
