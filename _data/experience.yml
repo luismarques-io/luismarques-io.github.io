@@ -4,10 +4,11 @@
   title: Senior Software Developer & Architect
   description:
     - Team lead, providing mentorship, technical expertise and guidance
-    - Pioneered, architected and developed the first innovative internal projects that extend SAP CDC (Gigya), saving over €760,000 in the first year and 70% to 90% of the time in some tasks
-    - Architected and restructured internal project initiatives to develop standalone products, saving hundreds of hours yearly in SAP Commerce Cloud and SAP Composable Storefront (Spartacus) implementations
-    - Created an <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">internal course to certify SAP Web Developers</a> to improve code quality, resulting in the skill set upgrade of 80% of the team
-    - Developed custom SAP CDC (Gigya) implementations for some of the best companies and governments on the globe with 0 escalations
+    - Architected and built <a href="https://github.com/SAP/sap-customer-data-cloud-accelerator" class="link" target="_blank" rel="noreferrer">SAP Customer Data Cloud's front-end dev environment</a> with comprehensive features including source control, CI/CD, code quality and security checks, code separation and testing [<a href="https://github.com/SAP/sap-customer-data-cloud-accelerator/wiki/Technical-Documentation#architecture" class="link" target="_blank" rel="noreferrer">Architecture</a>]
+    - Created and led a <a href="https://github.com/SAP/sap-customer-data-cloud-toolkit/wiki" class="link" target="_blank" rel="noreferrer">React automation initiative</a> that saved €760,000 in the first year and 70% to 90% of the time on some tasks
+    - Architected extensions and products using Angular + Java, saving hundreds of development hours with SAP Commerce and SAP Spartacus projects
+    - Created an <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">course to certify SAP Web Developers</a> to improve code quality, resulting in the skill set upgrade of 80% of the team
+    - Consulted for some of the best companies and governments on the globe
 
 - company: Golens
   url: https://www.golens.com/
@@ -15,7 +16,7 @@
   title: Strategy & Operations Lead
   description:
     - Led the operation from conception to a multi-country expansion in less than 5 months, starting without branding, website, product database, suppliers, delivery partners, payment system or packaging
-    - Developed an internal app to manage product stocks integrated with the invoicing software, enabling the quick management of over 150,000 SKUs
+    - Developed an Vue.js app to manage product stocks integrated with the invoicing software, enabling the quick management of over 150,000 SKUs
     - Optimised the user journey by removing 50% of steps in some cases
 
 - company: BrainAnswer
@@ -23,10 +24,10 @@
   range: Aug 2015 - Oct 2020
   title: Lead Software Developer & Architect
   description:
-    - Architected and built a data collection system to remotely record Webcam, Microphone, Eye-trackers, EEG headsets and sensors simultaneously by the millisecond from dozens of stations totalling more than 100 channels each, storing and organizing gigabytes in a short amount of time 
+    - Architected and built a data collection system to remotely record Webcam, Microphone, Eye-trackers, EEG headsets and sensors simultaneously by the millisecond from dozens of stations totalling more than 100 channels each, storing and organising gigabytes in a short amount of time 
     - Built a concurrent signal processing system to agnostically run algorithms in 5 different programming languages, such as C++, R, Python, PHP, ImageJ
     - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomisation
-    - Created a user management system to support the roles of “tester”, “user”, “organization” and “admin”, including a public API for external integrations
+    - Created a user management system to support the roles of “tester”, “user”, “organisation” and “admin”, including a public API for external integrations
     - Developed a visualization tool, to see synchronized signals with videos, forms, powerful statistics and cross-referencing data analysis
 
 - company: GameTrade
@@ -47,7 +48,7 @@
     - Built uniquely innovative website and e-commerce experiences
     - Co-created a Web-Documentary with 3D navigation to raise awareness for the ecology in Portugal
     - Interfaced with clients regularly, providing technological expertise
-    - Collaborated with a diverse team organizing workshops and events
+    - Collaborated with a diverse team organising workshops and events
 
 - company: Routrip
   range: Dec 2013 - Nov 2014

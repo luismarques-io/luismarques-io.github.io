@@ -11,15 +11,12 @@
   {% for item in site.data.publications %}
   <div class="project scrollreveal">
     <div class="scrollreveal__frombottom scrollreveal__delay025">
-      <span class="project__title ">{{item.title}}</span>
+      <span class="project__title">{{item.title}}</span>
       <span class="project__date">{{item.date}}</span>
-      <p class="project__description">{{item.description}}
-      </p>
+      <p class="project__description">{{item.description}}</p>
     </div>
     <div class="scrollreveal__frombottom scrollreveal__delay050">
-      <a href="{{item.url}}" class="link" target="_blank">
-        See publication
-      </a>
+      <a href="{{item.url}}" class="link" target="_blank"> See publication </a>
     </div>
   </div>
   {% endfor %}

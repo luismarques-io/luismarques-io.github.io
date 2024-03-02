@@ -6,16 +6,13 @@
   {% for item in site.data.projects %}
   <div class="project scrollreveal">
     <div class="scrollreveal__frombottom scrollreveal__delay025">
-      <span class="project__title ">{{item.title}}</span>
+      <span class="project__title">{{item.title}}</span>
       <div class="project__date">{{item.role}}</div>
       <span class="project__date">{{item.date}}</span>
-      <p class="project__description">{{item.description}}
-      </p>
+      <p class="project__description">{{item.description}}</p>
     </div>
     <div class="scrollreveal__frombottom scrollreveal__delay050">
-      <a href="{{item.url}}" class="link" target="_blank">
-        Open project
-      </a>
+      <a href="{{item.url}}" class="link" target="_blank"> Open project </a>
     </div>
   </div>
   {% endfor %}

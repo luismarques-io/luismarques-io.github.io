@@ -1,45 +1,51 @@
 languages:
   - name: TypeScript
   - name: JavaScript
-  - name: C++/C#
-  - name: PHP
-  - name: R
-  - name: Python
   - name: HTML/Pug
   - name: CSS/Sass/Less
+  - name: C++/C#
+  - name: Python
+  - name: PHP
+  - name: R
 
 frameworks:
   - name: React
     link: https://reactjs.org
-  - name: Angular
-    link: https://https://angular.io/
-  - name: SAP Spartacus
-    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
-  - name: Vue
-    link: https://vuejs.org
-  - name: Meteor
-    link: https://www.meteor.com
-  - name: Node.js
-    link: https://nodejs.org/
+  - name: Redux.js
+    link: https://redux.js.org/
+  - name: Next.js
+    link: https://nextjs.org/
+  - name: Tailwind CSS
+    link: https://tailwindcss.com/
+  - name: Bootstrap
+    link: https://getbootstrap.com/
   - name: Jest
     link: https://jestjs.io/
   - name: Cypress
     link: https://www.cypress.io/
-  - name: Blaze
-    link: http://blazejs.org/
+  - name: Angular
+    link: https://https://angular.io/
+  - name: SAP Spartacus
+    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
+  - name: Vue.js
+    link: https://vuejs.org
+  - name: Meteor.js
+    link: https://www.meteor.com
+  - name: Node.js
+    link: https://nodejs.org/
 
 tools:
+  - name: GitHub Actions
+    link: https://docs.github.com/en/actions
   - name: Jenkins
     link: https://jenkins.io/
   - name: Sonar
     link: https://www.sonarqube.org/
   - name: Checkmarx
     link: https://www.checkmarx.com/
-  - name: GitHub Actions
-    link: https://docs.github.com/en/actions
   - name: MongoDB
   - name: SQL
-  - name: Gigya/SAP CDC
+  - name: SAP CDC (Gigya)
     link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
   - name: Azure
   - name: AWS

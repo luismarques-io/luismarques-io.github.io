@@ -1,46 +1,31 @@
 <div class="section__title text-center">
-    <!-- <div class="section__title text-right"> -->
-    <div class="section__title__textback">
-        <div class="scrollreveal__frombottom scrollreveal__delay025">
-            <span class="textback__rotate__right">02</span>
-        </div>
+  <div class="section__title__textback">
+    <div class="scrollreveal__frombottom scrollreveal__delay025">
+      <span class="textback__rotate__right">02</span>
     </div>
-    <h2>Skills</h2>
+  </div>
+  <h2>Skills</h2>
 </div>
 
 <div class="section__content">
-    <div class="skills__list">
-        <div class="skills__category">
-            <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay025">Languages</h3>
-            <ul class="scrollreveal__frombottom scrollreveal__delay05">
-                {% for item in site.data.skills.languages %}
-                {% include skill_item.html item=item %}
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="skills__category">
-            <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay075">Frameworks</h3>
-            <ul class="scrollreveal__frombottom scrollreveal__delay1">
-                {% for item in site.data.skills.frameworks %}
-                {% include skill_item.html item=item %}
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="skills__category">
-            <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay125">Tools</h3>
-            <ul class="scrollreveal__frombottom scrollreveal__delay15">
-                {% for item in site.data.skills.tools %}
-                {% include skill_item.html item=item %}
-                {% endfor %}
-            </ul>
-        </div>
-        <!-- <div class="skills__category">
-            <h3 class="skills__category__title">Design</h3>
-            <ul>
-                {% for item in site.data.skills.design %}
-                {% include skill_item.html item=item %}
-                {% endfor %}
-            </ul>
-        </div> -->
+  <div class="skills__list">
+    <div class="skills__category">
+      <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay025">Languages</h3>
+      <ul class="scrollreveal__frombottom scrollreveal__delay05">
+        {% for item in site.data.skills.languages %} {% include skill_item.html item=item %} {% endfor %}
+      </ul>
     </div>
+    <div class="skills__category">
+      <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay075">Libs & Frameworks</h3>
+      <ul class="scrollreveal__frombottom scrollreveal__delay1">
+        {% for item in site.data.skills.frameworks %} {% include skill_item.html item=item %} {% endfor %}
+      </ul>
+    </div>
+    <div class="skills__category">
+      <h3 class="skills__category__title scrollreveal__frombottom scrollreveal__delay125">Tools & Platforms</h3>
+      <ul class="scrollreveal__frombottom scrollreveal__delay15">
+        {% for item in site.data.skills.tools %} {% include skill_item.html item=item %} {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
