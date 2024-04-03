@@ -11,9 +11,15 @@
   {% for item in site.data.awards %}
   <div class="project scrollreveal">
     <div class="scrollreveal__frombottom scrollreveal__delay025">
-      <span class="project__title">{{item.title}}</span>
+      <span class="project__title">
+        {{item.title}} {% if item.issuer %}
+        <span class="project__subtitle">| {{item.issuer}}</span>
+        {% endif %}
+      </span>
       <span class="project__date">{{item.date}}</span>
+      {% if item.description %}
       <p class="project__description">{{item.description}}</p>
+      {% endif %}
     </div>
   </div>
   {% endfor %}

@@ -3,92 +3,67 @@
   range: Jan 2022 - Present
   title: Senior Software Developer & Architect
   description:
-    - Team lead, providing mentorship, technical expertise and guidance
-    - Architected and built <a href="https://github.com/SAP/sap-customer-data-cloud-accelerator" class="link" target="_blank" rel="noreferrer">SAP Customer Data Cloud's front-end dev environment</a> with comprehensive features including source control, CI/CD, code quality and security checks, code separation and testing
-    - Created and led a <a href="https://github.com/SAP/sap-customer-data-cloud-toolkit/wiki" class="link" target="_blank" rel="noreferrer">React automation initiative</a> that saved €760,000 in the first year and 70% to 90% of the time on some tasks
-    - Architected extensions and products using Angular + Java, saving hundreds of development hours with SAP Commerce and SAP Spartacus projects
-    - Created an <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">course to certify SAP Web Developers</a> to improve code quality, resulting in the skill set upgrade of 80% of the team
-    - Consulted for some of the best companies and governments on the globe
+    - Architected and built <a href="https://github.com/SAP/sap-customer-data-cloud-accelerator" class="link" target="_blank" rel="noreferrer">SAP Customer Data Cloud's front-end dev environment</a> <b>reducing tech debt from 80% to 10% in some governments and large companies</b> by integrating source control, CI/CD, code quality and security checks, code separation and testing
+    - Pioneered and led a <a href="https://github.com/SAP/sap-customer-data-cloud-toolkit/wiki" class="link" target="_blank" rel="noreferrer">React automation initiative</a> that <b>saved  €810,000 in the first year and 70% to 90% of the time</b> on some tasks
+    - Conceptualized extensions and products using Angular + Java, <b>saving hundreds of development hours</b> with SAP Commerce and SAP Spartacus projects
+    - Created a <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">course to certify SAP Web Developers</a>, resulting in the <b>skill set upgrade of 60% of the team</b>
+    - Estimated projects for some of the largest companies and governments, increasing revenue while delivering quality
 
 - company: Golens
   url: https://www.golens.com/
   range: Nov 2020 - Dec 2021
   title: Strategy & Operations Lead
   description:
-    - Led the operation from conception to a multi-country expansion in less than 5 months, starting without branding, website, product database, suppliers, delivery partners, payment system or packaging
-    - Developed an Vue.js app to manage product stocks integrated with the invoicing software, enabling the quick management of over 150,000 SKUs
-    - Optimised the user journey by removing 50% of steps in some cases
+    - Led the operation from conception to a <b>multi-country expansion in less than 5 months</b>, starting without branding, website, product database, suppliers, delivery partners, payment system or packaging
+    - Developed a Vue.js app to manage product stocks integrated with invoicing software, enabling the quick management of over 150,000 SKUs
+    - Optimized the user journey by <b>reducing 50% of steps</b> in some cases
 
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
   title: Lead Software Developer & Architect
   description:
-    - Architected and built a data collection system to remotely record Webcam, Microphone, Eye-trackers, EEG headsets and sensors simultaneously by the millisecond from dozens of stations totalling more than 100 channels each, storing and organising gigabytes in a short amount of time 
-    - Built a concurrent signal processing system to agnostically run algorithms in 5 different programming languages, such as C++, R, Python, PHP, ImageJ
-    - Designed and built a powerful study creator tool with video, forms, interactive games, managing stimuli groups and randomisation
-    - Created a user management system to support the roles of “tester”, “user”, “organisation” and “admin”, including a public API for external integrations
-    - Developed a visualization tool, to see synchronized signals with videos, forms, powerful statistics and cross-referencing data analysis
+    - Architected and implemented a data collection system to <b>remotely record</b> Webcam, Microphone, Eye-trackers, EEG headsets and sensors <b>simultaneously by the millisecond from dozens of stations with more than 100 channels each</b>
+    - Engineered signal processing system to <b>run machine learning algorithms in 5 different programming languages</b>, such as C++, R, Python, PHP, ImageJ
+    - Implemented a scientific study builder tool with video, forms, and interactive games, along with a visualization tool to analyze synchronized signals, statistics and cross-referencing analysis of hundreds of data points
 
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
   title: Lead Software Developer & Architect
   description:
-    - Built and shipped the marketplace as an MVP in less than 4 months, with an innovative chat with embedded product transactions and feedback
-    - Created an automated database system that keeps itself updated multiple times a day for over 50,000 games, integrating third-party APIs
-    - Developed the design language, user experience, front end and back-end
-    - Created a back-office to manage user badges, reviews, videos, statistics
+    - Invented an innovative chat with embedded transactions and feedback, <b>supporting over €110,000 in traded volume</b>
+    - Built and shipped the marketplace <b>in less than 4 months</b>, defining the design system, UX, front-end and back-end
+    - Created an automated database system that keeps itself updated multiple times a day for over 50,000 games
 
 - company: Vectis
   url: https://www.facebook.com/VectisOfficial
-  range: Feb 2013 - Apr 2015
+  range: Jan 2014 - Apr 2015
   title: Full Stack Software Developer & Consultant
   description:
-    - Built uniquely innovative website and e-commerce experiences
-    - Co-created a Web-Documentary with 3D navigation to raise awareness for the ecology in Portugal
-    - Interfaced with clients regularly, providing technological expertise
-    - Collaborated with a diverse team organising workshops and events
-
-- company: Routrip
-  range: Dec 2013 - Nov 2014
-  title: Full Stack Software Developer
-  description:
-    - Designed and built a smartphone app using Cordova with integrated QR codes and maps
-    - Implemented a gamified touristic routes interface with points of interest and prizes for completion
-    - Developed a web-based app to enable business owners to buy locations and ads on the map
+    - Produced uniquely innovative websites, e-commerce stores, and smartphone apps used by thousands of users
+    - Co-authored a Web-Documentary with 3D navigation
 
 - company: EyeSee
-  url: https://www.linkedin.com/company/eyesee-lda/
   range: Jun 2013 - Dec 2013
   title: Front End Software Developer
   description:
-    - Developed a back-office to manage users, clients and contents of the technology
-    - Built a jQuery plugin to interact with the proprietary technology on any website
-    - Designed and implemented a demo website
+    - Developed a back-office to manage contents along with a jQuery plugin for user interaction, in less than 6 months
 
 - company: GiftList
-  range: Feb 2012 - Jun 2013
+  range: Feb 2012 - May 2013
   title: Full Stack Software Developer
   description:
-    - Developed a framework to synchronize data in real-time between the front end and the database, using JavaScript and PHP
-    - Built a crowdfunding system to share the costs of a gift to a friend
-    - Implemented a calendar view for event management and visualization
+    - <b>Engineered a full-stack framework for real-time data synchronization</b> with the database using JavaScript and PHP
 
 - company: SMS Server
-  range: Apr 2011 - Jan 2013
+  range: Apr 2011 - Jan 2012
   title: Full Stack Software Developer
   description:
-    - Architected (with a Patent Proposal) and built an SMS Proxy system using servers with GSM Modems to reduce the costs of SMS between operators
-    - Developed a web-based back-office to manage bulk send of SMS, with contact groups and server management
-    - Created a C++ library to manage GSM Modems, with functions to connect, send SMS, receive SMS and send specific commands
-    - Built the back-end connection between the user experience and the servers sending and receiving SMS
+    - Architected (with Patent Proposal) an SMS Proxy service using servers and GSM Modems to deliver thousands of messages daily
 
 - company: PaperPile
   range: Sep 2010 - Apr 2011
   title: Full Stack Software Developer
   description:
-    - Built a secure user authentication system with support for sharing tables of expenses between users
-    - Developed and designed an inline editable table with automatic calculations
-    - Created a gamification section for users to manage their goals with progress and statistics
-    - Shipped the money management web app to track expenses, establish goals and share costs
+    - Launched an expense-tracking web app with Excel-like expense tables, expense-sharing, and gamification

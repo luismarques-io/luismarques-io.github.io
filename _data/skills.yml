@@ -1,12 +1,14 @@
 languages:
   - name: TypeScript
   - name: JavaScript
-  - name: HTML/Pug
-  - name: CSS/Sass/Less
+  - name: SQL
+  - name: MongoDB
   - name: C++/C#
   - name: Python
   - name: PHP
   - name: R
+  - name: HTML/Pug
+  - name: CSS/Sass/Less
 
 frameworks:
   - name: React
@@ -17,8 +19,6 @@ frameworks:
     link: https://nextjs.org/
   - name: Tailwind CSS
     link: https://tailwindcss.com/
-  - name: Bootstrap
-    link: https://getbootstrap.com/
   - name: Jest
     link: https://jestjs.io/
   - name: Cypress
@@ -33,6 +33,12 @@ frameworks:
     link: https://www.meteor.com
   - name: Node.js
     link: https://nodejs.org/
+  - name: Webpack
+    link: https://webpack.js.org/
+  - name: Babel
+    link: https://babeljs.io/
+  - name: Bootstrap
+    link: https://getbootstrap.com/
 
 tools:
   - name: GitHub Actions
@@ -43,12 +49,15 @@ tools:
     link: https://www.sonarqube.org/
   - name: Checkmarx
     link: https://www.checkmarx.com/
-  - name: MongoDB
-  - name: SQL
   - name: SAP CDC (Gigya)
     link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
+  - name: Docker
+    link: https://www.docker.com/
   - name: Azure
   - name: AWS
-  - name: Meteor Up
-    link: http://meteor-up.com
+  - name: Swagger
+    link: https://swagger.io/
+  - name: Postman
+    link: https://www.postman.com/
+
 
