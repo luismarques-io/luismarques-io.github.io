@@ -1,11 +1,11 @@
 - company: SAP
   url: https://sap.com/
   range: Jan 2022 - Present
-  title: Senior Software Developer & Architect
+  title: Senior Software Architect & Technical Consultant
   description:
-    - Architected and built <a href="https://github.com/SAP/sap-customer-data-cloud-accelerator" class="link" target="_blank" rel="noreferrer">SAP Customer Data Cloud's front-end dev environment</a> <b>reducing tech debt from 80% to 10% in some governments and large companies</b> by integrating source control, CI/CD, code quality and security checks, code separation and testing
-    - Pioneered and led a <a href="https://github.com/SAP/sap-customer-data-cloud-toolkit/wiki" class="link" target="_blank" rel="noreferrer">React automation initiative</a> that <b>saved  €810,000 in the first year and 70% to 90% of the time</b> on some tasks
-    - Conceptualized extensions and products using Angular + Java, <b>saving hundreds of development hours</b> with SAP Commerce and SAP Spartacus projects
+    - Pioneered and led automation initiatives that <b>saved over €1,800,000 and 70% to 90% of the time</b> on some tasks
+    - Architected and built SAP Customer Data Cloud's front-end dev environment <b>reducing tech debt from 80% to 10% in governments and large companies</b> by integrating source control, CI/CD, testing, code quality, and security checks
+    - Conceptualized extensions and products using SAP BTP, React, Angular, Node.js, and Java, <b>saving hundreds of development hours</b> with SAP Commerce and SAP Spartacus projects
     - Created a <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">course to certify SAP Web Developers</a>, resulting in the <b>skill set upgrade of 60% of the team</b>
     - Estimated projects for some of the largest companies and governments, increasing revenue while delivering quality
 
@@ -21,7 +21,7 @@
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
-  title: Lead Software Developer & Architect
+  title: Lead Software Developer & Architect, Co-founder
   description:
     - Architected and implemented a data collection system to <b>remotely record</b> Webcam, Microphone, Eye-trackers, EEG headsets and sensors <b>simultaneously by the millisecond from dozens of stations with more than 100 channels each</b>
     - Engineered signal processing system to <b>run machine learning algorithms in 5 different programming languages</b>, such as C++, R, Python, PHP, ImageJ
@@ -30,16 +30,15 @@
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
-  title: Lead Software Developer & Architect
+  title: Lead Software Developer & Architect, Co-founder
   description:
     - Invented an innovative chat with embedded transactions and feedback, <b>supporting over €110,000 in traded volume</b>
     - Built and shipped the marketplace <b>in less than 4 months</b>, defining the design system, UX, front-end and back-end
     - Created an automated database system that keeps itself updated multiple times a day for over 50,000 games
 
 - company: Vectis
-  url: https://www.facebook.com/VectisOfficial
   range: Jan 2014 - Apr 2015
-  title: Full Stack Software Developer & Consultant
+  title: Full Stack Software Developer & Consultant, Co-founder
   description:
     - Produced uniquely innovative websites, e-commerce stores, and smartphone apps used by thousands of users
     - Co-authored a Web-Documentary with 3D navigation

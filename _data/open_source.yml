@@ -4,7 +4,7 @@
   url: https://github.com/SAP/sap-customer-data-cloud-accelerator
   description: Quality-focused development environment for SAP CDC that enables the use of modern tools, including modern JavaScript, source control, testing, code separation and quality checks.
 - title: "SAP Customer Data Cloud toolkit"
-  role: "Architect and Product Owner"
+  role: "Product Owner"
   date: Apr 2022 - Present
   url: https://github.com/SAP/sap-customer-data-cloud-toolkit
   description: Chrome extension that adds new functionalities and improves existing ones in the SAP Customer Data Cloud product.
