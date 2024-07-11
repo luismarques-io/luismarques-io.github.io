@@ -6,7 +6,7 @@
     - Pioneered and led automation initiatives that <b>saved over €1,800,000 and 70% to 90% of the time</b> on some tasks
     - Architected and built SAP Customer Data Cloud's front-end dev environment <b>reducing tech debt from 80% to 10% in governments and large companies</b> by integrating source control, CI/CD, testing, code quality, and security checks
     - Conceptualized extensions and products using SAP BTP, React, Angular, Node.js, and Java, <b>saving hundreds of development hours</b> with SAP Commerce and SAP Spartacus projects
-    - Created a <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">course to certify SAP Web Developers</a>, resulting in the <b>skill set upgrade of 60% of the team</b>
+    - Created a  <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">JavaScript course to certify SAP Web Developers</a>, resulting in the <b>skill set upgrade of 60% of the team</b>
     - Estimated projects for some of the largest companies and governments, increasing revenue while delivering quality
 
 - company: Golens
@@ -25,7 +25,7 @@
   description:
     - Architected and implemented a data collection system to <b>remotely record</b> Webcam, Microphone, Eye-trackers, EEG headsets and sensors <b>simultaneously by the millisecond from dozens of stations with more than 100 channels each</b>
     - Engineered signal processing system to <b>run machine learning algorithms in 5 different programming languages</b>, such as C++, R, Python, PHP, ImageJ
-    - Implemented a scientific study builder tool with video, forms, and interactive games, along with a visualization tool to analyze synchronized signals, statistics and cross-referencing analysis of hundreds of data points
+    - Implemented a scientific study builder using ReactJS and MeteorJS, featuring video, interactive forms, and games, and integrated an analysis tool for signals, statistics, and cross-referencing hundreds of data points
 
 - company: GameTrade
   url: https://gametrade.pt/
@@ -33,8 +33,8 @@
   title: Lead Software Developer & Architect, Co-founder
   description:
     - Invented an innovative chat with embedded transactions and feedback, <b>supporting over €110,000 in traded volume</b>
-    - Built and shipped the marketplace <b>in less than 4 months</b>, defining the design system, UX, front-end and back-end
-    - Created an automated database system that keeps itself updated multiple times a day for over 50,000 games
+    - Using ReactJS and MeteorJS, built and shipped the marketplace <b>in less than 4 months</b> (front-end, and back-end)
+    - Created an auto-updating database system for over 50,000 games using PHP, SQL and CronJobs
 
 - company: Vectis
   range: Jan 2014 - Apr 2015
@@ -59,7 +59,7 @@
   range: Apr 2011 - Jan 2012
   title: Full Stack Software Developer
   description:
-    - Architected (with Patent Proposal) an SMS Proxy service using servers and GSM Modems to deliver thousands of messages daily
+    - Architected (with Patent Proposal) an SMS Proxy service with servers and GSM Modems to deliver thousands of messages daily using JavaScript, PHP and C++
 
 - company: PaperPile
   range: Sep 2010 - Apr 2011
