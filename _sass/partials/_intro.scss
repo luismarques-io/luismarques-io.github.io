@@ -1,266 +1,263 @@
 .intro {
-	position: relative;
-	display: flex;
-	width: 100%;
-	max-width: 1440px;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 
-	&__content {
-		position: relative;
-		width: var(--grid-width);
-		text-align: center;
-		padding-bottom: 40px;
+  &__content {
+    position: relative;
+    width: var(--grid-width);
+    text-align: center;
+    padding-bottom: 40px;
 
-		h1 {
-			text-align: center;
-			margin-bottom: 3em;
-		}
+    h1 {
+      text-align: center;
+      margin-bottom: 3em;
+    }
 
-		&__hello {
-			display: block;
-			color: var(--color-text-secondary);
-			// font-size: var(--fz-lg);
-			font-size: var(--fz-md);
+    &__hello {
+      display: block;
+      color: var(--color-text-secondary);
+      // font-size: var(--fz-lg);
+      font-size: var(--fz-md);
 
-			font-weight: 400;
-			margin-bottom: -10px;
-			font-family: var(--font-serif);
-		}
+      font-weight: 400;
+      margin-bottom: -10px;
+      font-family: var(--font-serif);
+    }
 
-		&__name {
-			font-family: var(--font-serif-uppercase);
-			font-weight: 400;
-			font-size: var(--fz-heading-xl);
-		}
+    &__name {
+      font-family: var(--font-serif-uppercase);
+      font-weight: 400;
+      font-size: var(--fz-heading-xl);
+    }
 
-		&__title {
-			line-height: 0.4;
-			font-weight: 100;
-			font-size: var(--fz-heading-lg);
-			color: var(--color-text-secondary);
-			//font-family: var(--font-serif);
-		}
+    &__title {
+      line-height: 0.4;
+      font-weight: 100;
+      font-size: var(--fz-heading-lg);
+      color: var(--color-text-secondary);
+      //font-family: var(--font-serif);
+    }
 
-		&__description {
-			max-width: 700px;
-			margin: 0 auto 2em;
-		}
+    &__description {
+      max-width: 710px;
+      margin: 0 auto 2em;
+    }
 
-		&__email {
-			position: relative;
-			display: inline-block;
-			padding: 20px 60px;
-			margin: 20px 0 30px;
-			font-size: var(--fz-lg);
-			font-weight: 300;
-			border-radius: 100px;
-			z-index: 9;
-			box-shadow: 0px 0px 0 1px var(--blue-alpha-7),
-				0px 0px 0 0px var(--blue-alpha-2), 0 0 0 0 var(--black-alpha-4);
-			transition: 0.6s box-shadow ease-out, 0.7s transform ease-out;
+    &__email {
+      position: relative;
+      display: inline-block;
+      padding: 20px 60px;
+      margin: 20px 0 30px;
+      font-size: var(--fz-lg);
+      font-weight: 300;
+      border-radius: 100px;
+      z-index: 9;
+      box-shadow: 0px 0px 0 1px var(--blue-alpha-7), 0px 0px 0 0px var(--blue-alpha-2), 0 0 0 0 var(--black-alpha-4);
+      transition: 0.6s box-shadow ease-out, 0.7s transform ease-out;
 
-			& + .intro__content__email__overlay {
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				backdrop-filter: blur(15px) brightness(98%);
-				transition: 1.1s ease-in;
-				z-index: 8;
-				opacity: 0;
-				visibility: hidden;
-			}
+      & + .intro__content__email__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(15px) brightness(98%);
+        transition: 1.1s ease-in;
+        z-index: 8;
+        opacity: 0;
+        visibility: hidden;
+      }
 
-			.text {
-				transition: 0.3s all;
-			}
+      .text {
+        transition: 0.3s all;
+      }
 
-			.show-on-click,
-			.show-on-hover {
-				overflow: hidden;
-				width: 24px;
-				display: inline-block;
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				line-height: 67px;
-				text-align: center;
-				background-color: #fff;
-				border-radius: 100px;
-				visibility: hidden;
-				opacity: 0;
-				transform: scale(0);
-				transition: 0.6s all;
-				transition-delay: 300ms;
-			}
-			.show-on-click {
-				background: var(--green);
-				color: #fff;
-			}
+      .show-on-click,
+      .show-on-hover {
+        overflow: hidden;
+        width: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        line-height: 67px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 100px;
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0);
+        transition: 0.6s all;
+        transition-delay: 300ms;
+      }
+      .show-on-click {
+        background: var(--green);
+        color: #fff;
+      }
 
-			.tooltip-on-hover {
-				color: var(--color-text);
-				font-family: var(--font-serif);
-				// font-size: 1.6em;
-				position: absolute;
-				bottom: 150%;
-				width: 300px;
-				left: 50%;
-				margin-left: -150px;
-				visibility: hidden;
-				opacity: 0;
-				transform: translateY(10px);
-				transition: 0.1s all;
-				pointer-events: none;
-			}
+      .tooltip-on-hover {
+        color: var(--color-text);
+        font-family: var(--font-serif);
+        // font-size: 1.6em;
+        position: absolute;
+        bottom: 150%;
+        width: 300px;
+        left: 50%;
+        margin-left: -150px;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: 0.1s all;
+        pointer-events: none;
+      }
 
-			&:hover {
-				background-color: #fff;
-				transform: scale(1.5);
-				transition: 1.8s box-shadow, 0.3s transform;
-				box-shadow: 0px 0px 0 0px transparent,
-					0px 26px 0 2000px var(--blue-gray-alpha-2),
-					0 20px 40px -20px var(--black-alpha-4);
+      &:hover {
+        background-color: #fff;
+        transform: scale(1.5);
+        transition: 1.8s box-shadow, 0.3s transform;
+        box-shadow: 0px 0px 0 0px transparent, 0px 26px 0 2000px var(--blue-gray-alpha-2), 0 20px 40px -20px var(--black-alpha-4);
 
-				& + .intro__content__email__overlay {
-					background: rgba(255, 255, 255, 0.1);
-					opacity: 1;
-					visibility: visible;
-					transition: 0.3s all;
-				}
+        & + .intro__content__email__overlay {
+          background: rgba(255, 255, 255, 0.1);
+          opacity: 1;
+          visibility: visible;
+          transition: 0.3s all;
+        }
 
-				.text {
-					padding: 0 30px;
-				}
+        .text {
+          padding: 0 30px;
+        }
 
-				.show-on-hover {
-					visibility: visible;
-					opacity: 1;
-					transform: scale(1);
-					transition: 0.3s all;
-				}
+        .show-on-hover {
+          visibility: visible;
+          opacity: 1;
+          transform: scale(1);
+          transition: 0.3s all;
+        }
 
-				.tooltip-on-hover {
-					visibility: visible;
-					opacity: 1;
-					transition: 0.6s all;
-					transition-delay: 200ms;
-					transform: translateY(0px);
-				}
-			}
+        .tooltip-on-hover {
+          visibility: visible;
+          opacity: 1;
+          transition: 0.6s all;
+          transition-delay: 200ms;
+          transform: translateY(0px);
+        }
+      }
 
-			&.copied {
-				.show-on-click {
-					visibility: visible;
-					opacity: 1;
-					transform: scale(1);
-					transition: 0.3s all;
-				}
-			}
-		}
-	}
+      &.copied {
+        .show-on-click {
+          visibility: visible;
+          opacity: 1;
+          transform: scale(1);
+          transition: 0.3s all;
+        }
+      }
+    }
+  }
 
-	&__sociallinks {
-		// position: fixed;
-		position: absolute;
-		top: 0;
-		right: 0;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		// justify-content: center;
-		justify-content: flex-end;
-		padding: 0 42px 22px 0;
+  &__sociallinks {
+    // position: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    justify-content: flex-end;
+    padding: 0 42px 22px 0;
 
-		a {
-			font-size: 32px;
-			padding: 8px 0;
+    a {
+      font-size: 32px;
+      padding: 8px 0;
 
-			[class^='icon-']::before,
-			[class*=' icon-']::before {
-				transition: 0.3s color ease;
-				color: var(--color-text-secondary);
-				box-shadow: 0 0 0 var(--blue);
-				border-radius: 100%;
-			}
+      [class^='icon-']::before,
+      [class*=' icon-']::before {
+        transition: 0.3s color ease;
+        color: var(--color-text-secondary);
+        box-shadow: 0 0 0 var(--blue);
+        border-radius: 100%;
+      }
 
-			&:hover {
-				[class^='icon-']::before,
-				[class*=' icon-']::before {
-					transition: 0.6s all ease;
-					color: var(--blue);
-					box-shadow: 0 0 100px var(--white);
-				}
-			}
-		}
-	}
+      &:hover {
+        [class^='icon-']::before,
+        [class*=' icon-']::before {
+          transition: 0.6s all ease;
+          color: var(--blue);
+          box-shadow: 0 0 100px var(--white);
+        }
+      }
+    }
+  }
 
-	&__arrow {
-		border: none;
-		background: transparent;
-		position: absolute;
-		height: 68px;
-		bottom: 30px;
-		left: 50%;
-		width: 100px;
-		margin-left: -50px;
-		cursor: pointer;
-		transition: 0.3s transform;
+  &__arrow {
+    border: none;
+    background: transparent;
+    position: absolute;
+    height: 68px;
+    bottom: 30px;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    cursor: pointer;
+    transition: 0.3s transform;
 
-		&:hover {
-			transform: scale(1.2);
-		}
+    &:hover {
+      transform: scale(1.2);
+    }
 
-		&:active {
-			transform: scale(0.9);
-			transition: 0.2s transform;
-		}
+    &:active {
+      transform: scale(0.9);
+      transition: 0.2s transform;
+    }
 
-		svg {
-			fill: var(--color-text);
-			width: 42px;
-			animation: updown 2s ease infinite;
-		}
-	}
+    svg {
+      fill: var(--color-text);
+      width: 42px;
+      animation: updown 2s ease infinite;
+    }
+  }
 }
 
 @keyframes updown {
-	0% {
-		transform: translateY(-100%);
-	}
+  0% {
+    transform: translateY(-100%);
+  }
 
-	50% {
-		transform: translateY(100%);
-	}
+  50% {
+    transform: translateY(100%);
+  }
 
-	100% {
-		transform: translateY(-100%);
-	}
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	.intro__content {
-		padding-bottom: 0;
+  .intro__content {
+    padding-bottom: 0;
 
-		h1 {
-			margin-bottom: 0;
-		}
-	}
+    h1 {
+      margin-bottom: 0;
+    }
+  }
 
-	.intro__sociallinks {
-		display: none;
-	}
+  .intro__sociallinks {
+    display: none;
+  }
 
-	.intro__arrow {
-		bottom: 8px;
-	}
+  .intro__arrow {
+    bottom: 8px;
+  }
 
-	.intro__content__email:hover {
-		transform: scale(1);
-	}
+  .intro__content__email:hover {
+    transform: scale(1);
+  }
 }
