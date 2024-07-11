@@ -11,11 +11,11 @@ languages:
   - name: CSS/Sass/Less
 
 frameworks:
-  - name: React
+  - name: ReactJS
     link: https://reactjs.org
-  - name: Redux.js
+  - name: ReduxJS
     link: https://redux.js.org/
-  - name: Next.js
+  - name: NextJS
     link: https://nextjs.org/
   - name: Tailwind CSS
     link: https://tailwindcss.com/
@@ -27,9 +27,9 @@ frameworks:
     link: https://https://angular.io/
   - name: SAP Spartacus
     link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
-  - name: Vue.js
+  - name: VueJS
     link: https://vuejs.org
-  - name: Meteor.js
+  - name: MeteorJS
     link: https://www.meteor.com
   - name: Node.js
     link: https://nodejs.org/
