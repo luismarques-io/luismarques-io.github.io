@@ -3,12 +3,11 @@ languages:
   - name: JavaScript
   - name: SQL
   - name: MongoDB
-  - name: C++/C#
+  - name: C/C++
+  - name: C#
   - name: Python
   - name: PHP
   - name: R
-  - name: HTML/Pug
-  - name: CSS/Sass/Less
 
 frameworks:
   - name: ReactJS
@@ -17,26 +16,26 @@ frameworks:
     link: https://redux.js.org/
   - name: NextJS
     link: https://nextjs.org/
-  - name: Tailwind CSS
-    link: https://tailwindcss.com/
-  - name: Jest
-    link: https://jestjs.io/
-  - name: Cypress
-    link: https://www.cypress.io/
   - name: Angular
     link: https://https://angular.io/
-  - name: SAP Spartacus
-    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
   - name: VueJS
     link: https://vuejs.org
   - name: MeteorJS
     link: https://www.meteor.com
   - name: Node.js
     link: https://nodejs.org/
+  - name: Jest
+    link: https://jestjs.io/
+  - name: Cypress
+    link: https://www.cypress.io/
+  - name: SAP Spartacus
+    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
   - name: Webpack
     link: https://webpack.js.org/
   - name: Babel
     link: https://babeljs.io/
+  - name: Tailwind CSS
+    link: https://tailwindcss.com/
   - name: Bootstrap
     link: https://getbootstrap.com/
 
