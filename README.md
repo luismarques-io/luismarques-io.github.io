@@ -19,7 +19,8 @@ The project is structured as follows:
 To get started with this project, you need to have Ruby and Bundler installed. Once you have these prerequisites, you can install the project dependencies with:
 
 ```sh
-gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
+gem install bundler
+bundle install
 ```
 
 Then, you can run the project locally with:
