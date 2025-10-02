@@ -1,20 +1,10 @@
-title: Luís Marques - Experienced Software Developer
+title: Luís Marques - AI Solutions Architect
 email: euluismarques@gmail.com
 description: >-
-    I'm a software developer specializing in building and 
-    designing exceptional digital experiences.
+    AI Solutions Architect at SAP BTP AI CoE. I design safe, scalable enterprise AI—agents, RAG, knowledge graphs, and reusable architectures on SAP BTP.
 keywords: >-
-    luís,marques,luís marques,luis,luis marques,luismarques,software developer,software dev,
-    software enginner,software dev,lead software dev,lead software developer,lead software engineer,
-    senior software dev,senior software developer,senior software engineer,junior software dev,
-    junior software developer,junior software engineer,frontend software dev,frontend software developer,
-    frontend software engineer,fullstack software dev,fullstack software developer,fullstack software engineer,
-    full stack software dev,full stack software developer,full stack software engineer,full-stack software dev,
-    full-stack software developer,full-stack software engineer, ux,ui,ux/ui,ux ui,ux designer,ux ui designer,
-    ux/ui designer,ux ui designer,Javascript,html,html5,pug,css,css3,sass,less,php,C,C++,C#,R,Python,Meteor,
-    meteorjs,vue,vuejs,react,blaze,handlebars,jquery,git,bash,mongodb,mongo,sql,mysql,meteor up,meteor-up,
-    meteorup,azure,aws,brainanswer,gametrade,golens,vectis,routrip,eyesee,giftlist,sms server,paperpile,ecovig,
-    e-covig,speaker,explorer,tracher,artist,startups,workshops
+    luís,marques,luís marques,luis,luis marques,luismarques,ai solutions architect,enterprise ai,sap btp,sap business ai,
+    langgraph,langchain,rag,knowledge graphs,generative ai,architecture,python,typescript
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luismarques.io"
 twitter_username: luismarques_io
@@ -23,8 +13,9 @@ linkedin_username: luismarques-io
 
 # Build settings
 #theme: minima
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
     sass_dir: _sass

@@ -1,57 +1,43 @@
 languages:
+  - name: Python
   - name: TypeScript
   - name: JavaScript
   - name: SQL
   - name: MongoDB
   - name: C/C++
-  - name: C#
-  - name: Python
-  - name: PHP
-  - name: R
 
 frameworks:
+frameworks:
+  - name: LangGraph
+  - name: LangChain
   - name: ReactJS
     link: https://reactjs.org
-  - name: ReduxJS
-    link: https://redux.js.org/
   - name: NextJS
     link: https://nextjs.org/
   - name: Angular
-    link: https://https://angular.io/
-  - name: VueJS
-    link: https://vuejs.org
-  - name: MeteorJS
-    link: https://www.meteor.com
+    link: https://angular.io/
   - name: Node.js
     link: https://nodejs.org/
+  - name: SAP UI5
+    link: https://ui5.sap.com
   - name: Jest
     link: https://jestjs.io/
   - name: Cypress
     link: https://www.cypress.io/
-  - name: SAP Spartacus
-    link: https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT
-  - name: Webpack
-    link: https://webpack.js.org/
-  - name: Babel
-    link: https://babeljs.io/
   - name: Tailwind CSS
     link: https://tailwindcss.com/
-  - name: Bootstrap
-    link: https://getbootstrap.com/
 
 tools:
-  - name: GitHub Actions
-    link: https://docs.github.com/en/actions
-  - name: Jenkins
-    link: https://jenkins.io/
-  - name: Sonar
-    link: https://www.sonarqube.org/
-  - name: Checkmarx
-    link: https://www.checkmarx.com/
+  - name: SAP BTP
+  - name: AI Core
+  - name: AI Launchpad
+  - name: SAP Business AI
   - name: SAP CDC (Gigya)
     link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
   - name: Docker
     link: https://www.docker.com/
+  - name: GitHub Actions
+    link: https://docs.github.com/en/actions
   - name: Azure
   - name: AWS
   - name: Swagger

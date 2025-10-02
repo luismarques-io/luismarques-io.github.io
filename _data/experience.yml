@@ -1,13 +1,17 @@
 - company: SAP
   url: https://sap.com/
   range: Jan 2022 - Present
-  title: Senior Software Architect & Technical Consultant
+  title: AI Solutions Architect, BTP AI Center of Excellence
   description:
-    - Pioneered and led automation initiatives that <b>saved over €1,800,000 and 70% to 90% of the time</b> on tasks
-    - Architected and built SAP Customer Data Cloud's front-end dev environment <b>reducing tech debt from 80% to 10% in governments and large companies</b> by integrating source control, CI/CD, testing, code quality, and security checks
-    - Conceptualized extensions and products using AI, SAP BTP, React, Angular, Node.js, and Java, <b>saving hundreds of development hours</b> with SAP Commerce and SAP Spartacus projects
-    - Created a  <a href="https://www.credly.com/org/sap/badge/consulting-skills-2023-web-development-fundamentals" class="link" target="_blank" rel="noreferrer">JavaScript course to certify SAP Web Developers</a>, resulting in the <b>skill set upgrade of 60% of the team</b>
-    - Estimated projects for some of the largest companies and governments, increasing revenue while delivering quality
+    - Co-created SAP’s AI Best Practices platform (81K+ views, 700+ companies, 900+ downloads in 5 months)
+    - Led PoCs for agents, knowledge graphs, RAG, document intelligence, and enterprise chat/analytics
+    - Established the standard AI PoC architecture and reusable component library
+    - Pioneered automation initiatives saving €3.8M+ and 70–90% time on key tasks
+    - Built SAP CDC front-end dev environment, reducing tech debt from 80% to 10%
+    - Designed extensions/products with AI, SAP BTP, React, Angular, Node.js, Java
+    - Led teams with mentorship and technical guidance
+    - Authored a JavaScript certification course; upskilled 60% of the Web Developer team
+    - Delivered for governments and large enterprises with measurable quality
 
 - company: Golens
   url: https://www.golens.com/
