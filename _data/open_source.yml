@@ -1,20 +1,20 @@
 - title: "SAP BTP AI Best Practices"
-  role: "Co-creator and Maintainer"
-  date: Dec 2024 - Present
+  role: "Co-creator, Tech Lead"
+  date: 2025 - 2026
   url: https://btp-ai-bp.docs.sap/
   description: Curated practices and reusable patterns for safe, enterprise AI at SAP scale.
 - title: "Automated Usage Tracking Tool"
   role: "Architect and Product Owner"
-  date: May 2024 - Present
+  date: 2024 - 2025
   url: https://github.com/SAP/automated-usage-tracking-tool
   description: User-focused approach for GDPR-compliant usage data collection.
 - title: "SAP Customer Data Cloud accelerator"
   role: "Architect and Product Owner"
-  date: Feb 2023 - Present
+  date: 2023 - 2024
   url: https://github.com/SAP/sap-customer-data-cloud-accelerator
   description: Quality-focused development environment for SAP CDC that enables the use of modern tools, including modern JavaScript, source control, testing, code separation and quality checks.
 - title: "SAP Customer Data Cloud toolkit"
   role: "Architect and Product Owner"
-  date: Apr 2022 - Present
+  date: 2022 - 2024
   url: https://github.com/SAP/sap-customer-data-cloud-toolkit
   description: Chrome extension that adds new functionalities and improves existing ones in the SAP Customer Data Cloud product.

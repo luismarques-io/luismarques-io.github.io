@@ -7,18 +7,23 @@ languages:
   - name: C/C++
 
 frameworks:
-frameworks:
   - name: LangGraph
+    link: https://langchain-ai.github.io/langgraph/
   - name: LangChain
+    link: https://www.langchain.com/
   - name: ReactJS
     link: https://reactjs.org
   - name: NextJS
     link: https://nextjs.org/
   - name: Angular
     link: https://angular.io/
+  - name: Vue.js
+    link: https://vuejs.org/
   - name: Node.js
     link: https://nodejs.org/
-  - name: SAP UI5
+  - name: MeteorJS
+    link: https://www.meteor.com/
+  - name: UI5
     link: https://ui5.sap.com
   - name: Jest
     link: https://jestjs.io/
@@ -29,20 +34,18 @@ frameworks:
 
 tools:
   - name: SAP BTP
-  - name: AI Core
-  - name: AI Launchpad
-  - name: SAP Business AI
-  - name: SAP CDC (Gigya)
-    link: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD?locale=en-US
+  - name: ML Deployment & Orchestration
+  - name: RAG Pipelines
+  - name: Knowledge Graphs
+  - name: AI Quality & Safety
   - name: Docker
     link: https://www.docker.com/
   - name: GitHub Actions
     link: https://docs.github.com/en/actions
-  - name: Azure
+  - name: CI/CD
   - name: AWS
+  - name: Azure
   - name: Swagger
     link: https://swagger.io/
   - name: Postman
     link: https://www.postman.com/
-
-

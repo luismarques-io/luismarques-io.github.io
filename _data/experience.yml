@@ -1,72 +1,70 @@
 - company: SAP
   url: https://sap.com/
-  range: Jan 2022 - Present
-  title: AI Solutions Architect, BTP AI Center of Excellence
+  range: Dec 2024 - Present
+  title: Lead AI Architect, BTP AI Center of Excellence
   description:
-    - Co-created SAP’s AI Best Practices platform (81K+ views, 700+ companies, 900+ downloads in 5 months)
-    - Led PoCs for agents, knowledge graphs, RAG, document intelligence, and enterprise chat/analytics
-    - Established the standard AI PoC architecture and reusable component library
-    - Pioneered automation initiatives saving €3.8M+ and 70–90% time on key tasks
-    - Built SAP CDC front-end dev environment, reducing tech debt from 80% to 10%
-    - Designed extensions/products with AI, SAP BTP, React, Angular, Node.js, Java
-    - Led teams with mentorship and technical guidance
-    - Authored a JavaScript certification course; upskilled 60% of the Web Developer team
-    - Delivered for governments and large enterprises with measurable quality
+    - Co-created and scaled SAP's AI Best Practices platform (180K+ views, 1600+ companies, 2000+ downloads in 9 months); drove quality across 15+ practices, set SAP-wide standards, and presented to thousands globally
+    - Led high-impact projects delivering AI agents, knowledge-graph solutions, RAG search, document intelligence, and enterprise chat/analytics tools for top-tier financial, governmental, and consumer brand clients
+    - Established the standard AI PoC architecture and built a reusable component library, cutting delivery time and enabling reuse from PoC to productization
+
+- company: SAP
+  url: https://sap.com/
+  range: Jan 2022 - Nov 2024
+  title: Senior Software Architect & Senior Development Consultant
+  description:
+    - Pioneered and led automation initiatives saving €3.8M+ and 70–90% of time on key tasks
+    - Built SAP Customer Data Cloud's front-end development environment, cutting tech debt from 80% to 10%
+    - Authored a JavaScript certification course, upgrading skills for 60% of the Web Developer team
+    - Designed extensions and products using AI, SAP BTP, React, Angular, Node.js, and Java, saving hundreds of development hours
 
 - company: Golens
   url: https://www.golens.com/
   range: Nov 2020 - Dec 2021
   title: Strategy & Operations Lead
   description:
-    - Led the operation from conception to a <b>multi-country expansion in less than 5 months</b>, starting without branding, website, product database, suppliers, delivery partners, payment system or packaging
-    - Developed a Vue.js app to manage product stocks integrated with invoicing software, enabling the quick management of over 150,000 SKUs
-    - Optimized the user journey by <b>reducing 50% of steps</b> in some cases
+    - Scaled operations from zero to <b>multi-country expansion in less than 5 months</b>, building brand, suppliers, payments, and packaging
+    - Developed a Vue.js app integrated with invoicing software to manage over <b>150K+ SKUs</b>
+    - Optimized the user journey, <b>reducing 50% of steps</b> in some cases
 
 - company: BrainAnswer
   url: https://brainanswer.pt/
   range: Aug 2015 - Oct 2020
-  title: Lead Software Developer & Architect, Co-founder
+  title: Lead Software Architect, Co-founder
   description:
-    - Architected and implemented a data collection system to <b>remotely record</b> Webcam, Microphone, Eye-trackers, EEG headsets and sensors <b>simultaneously by the millisecond from dozens of stations with more than 100 channels each</b>
-    - Engineered signal processing system to <b>run machine learning algorithms in 5 different programming languages</b>, such as C++, R, Python, PHP, ImageJ
-    - Implemented a scientific study builder using ReactJS and MeteorJS, featuring video, interactive forms, and games, and integrated an analysis tool for signals, statistics, and cross-referencing hundreds of data points
+    - Architected a multimodal data collection system capturing <b>100+ channels</b> (Webcam, Microphone, Eye-trackers, EEG, sensors)
+    - Engineered a signal processing system to <b>run ML algorithms in C++, R, Python, PHP, ImageJ</b>
+    - Built a scientific study builder in ReactJS & MeteorJS, integrating video, interactive forms, and analysis tools
 
 - company: GameTrade
   url: https://gametrade.pt/
   range: Apr 2014 - Nov 2016
-  title: Lead Software Developer & Architect, Co-founder
+  title: Lead Software Architect, Co-founder
   description:
-    - Invented an innovative chat with embedded transactions and feedback, <b>supporting over €110,000 in traded volume</b>
-    - Using ReactJS and MeteorJS, built and shipped the marketplace <b>in less than 4 months</b> (front-end, and back-end)
-    - Created an auto-updating database system for over 50,000 games using PHP, SQL and CronJobs
+    - Invented an innovative chat with embedded transactions, <b>supporting €110K+ in traded volume</b>
+    - Built and shipped a marketplace <b>in less than 4 months</b> using ReactJS & MeteorJS
+    - Created an auto-updating database for 50K+ games using PHP & SQL
 
 - company: Vectis
   range: Jan 2014 - Apr 2015
-  title: Full Stack Software Developer & Consultant, Co-founder
+  title: Full Stack Developer & Consultant, Co-founder
   description:
-    - Produced uniquely innovative websites, e-commerce stores, and smartphone apps used by thousands of users
+    - Delivered innovative websites, e-commerce stores, and apps used by thousands of users
     - Co-authored a Web-Documentary with 3D navigation
 
 - company: EyeSee
   range: Jun 2013 - Dec 2013
-  title: Front End Software Developer
+  title: Front End Developer
   description:
-    - Developed a back-office to manage contents along with a jQuery plugin for user interaction, in less than 6 months
+    - Built a back-office system and jQuery plugin for user interaction in less than 6 months
 
 - company: GiftList
   range: Feb 2012 - May 2013
-  title: Full Stack Software Developer
+  title: Full Stack Developer
   description:
-    - <b>Engineered a full-stack framework for real-time data synchronization</b> with the database using JavaScript and PHP
+    - <b>Engineered a full-stack framework for real-time DB synchronization</b> using JavaScript & PHP
 
 - company: SMS Server
-  range: Apr 2011 - Jan 2012
-  title: Full Stack Software Developer
+  range: Sep 2010 - Jan 2012
+  title: Full Stack Developer
   description:
-    - Architected (with Patent Proposal) an SMS Proxy service with servers and GSM Modems to deliver thousands of messages daily using JavaScript, PHP and C++
-
-- company: PaperPile
-  range: Sep 2010 - Apr 2011
-  title: Full Stack Software Developer
-  description:
-    - Launched an expense-tracking web app with Excel-like expense tables, expense-sharing, and gamification
+    - Architected (Patent Proposal) an SMS Proxy service with servers & GSM modems, delivering thousands of messages daily via JavaScript, PHP, C++
