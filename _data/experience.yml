@@ -1,4 +1,5 @@
 - company: SAP
+  slug: sap-ai
   url: https://sap.com/
   range: Dec 2024 - Present
   title: Lead AI Architect, BTP AI Center of Excellence
@@ -8,6 +9,7 @@
     - Established the standard AI PoC architecture and built a reusable component library, cutting delivery time and enabling reuse from PoC to productization
 
 - company: SAP
+  slug: sap-cdc
   url: https://sap.com/
   range: Jan 2022 - Nov 2024
   title: Senior Software Architect & Senior Development Consultant
